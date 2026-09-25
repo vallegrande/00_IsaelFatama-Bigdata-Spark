@@ -1,0 +1,10 @@
+curso_id,nombre,semestre_id,creditos,horas_semanales,docente
+APS,Administración de Proyectos de Sistemas,V,3,4,Mg. Carla Rojas Palomino
+TBD,Talleres de Big Data,V,4,6,Ing. Jorge Huamán Salazar
+FIA,Fundamentos de Inteligencia Artificial,V,3,4,Mg. Lucía Paredes Soto
+SDE,Sistemas Distribuidos y Escalables,V,4,5,Ing. Raúl Medina Cárdenas
+FCS,Fundamentos de Calidad de Software,V,3,4,Mg. Patricia Vargas Luna
+EIA,Estadística Inferencial Aplicada,V,3,4,Lic. Martín Chávez Ramos
+CII,Comunicación Interpersonal en Inglés,V,2,3,Lic. Karen Ortiz Aguilar
+EIT,Emprendimiento de Innovación Tecnológica,V,2,3,Mg. Diego Espinoza Cruz
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,V,4,6,Ing. Rosa Castillo Villanueva
