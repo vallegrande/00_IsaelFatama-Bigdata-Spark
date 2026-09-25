@@ -1,3 +1,12 @@
-spring:
-  application:
-    name: spark-worker
+worker:
+  app-name: Vallegrande Academic Pipeline
+  master: local[*]
+  shuffle-partitions: 4
+  driver-host: 127.0.0.1
+  time-zone: UTC
+  ui:
+    enabled: true
+    port: 4040
+  event-log:
+    enabled: true
+    directory: runtime/spark-events
