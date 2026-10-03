@@ -1,0 +1,175 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 580" width="1150" height="580" role="img" aria-labelledby="title desc">
+  <title id="title">Pipeline Medallion del servicio Spark de Vallegrande</title>
+  <desc id="desc">Flujo animado: los CSV de entrada pasan por Bronze, Validation, Quarantine, Silver, Quality Gate, Gold y Export. Las filas rechazadas van a cuarentena y, si el lote supera la tolerancia, Gold y Export quedan bloqueados.</desc>
+
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .frame { fill: none; stroke: #1e293b; stroke-width: 2; }
+      .title { font: 700 22px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f1f5f9; }
+      .subtitle { font: 400 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #94a3b8; }
+      .name { font: 700 14px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f8fafc; letter-spacing: .5px; }
+      .cls { font: 400 11px Consolas, 'Courier New', monospace; fill: #cbd5e1; }
+      .info { font: 400 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #94a3b8; }
+      .note { font: 600 11px 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .legend { font: 400 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+      .pill { font: 700 10px Consolas, 'Courier New', monospace; fill: #0f172a; }
+
+      .flow { fill: none; stroke-width: 3; stroke-dasharray: 8 7; animation: dash 1.2s linear infinite; }
+      .flow.main { stroke: #475569; }
+      .flow.reject { stroke: #ef4444; }
+      .flow.write { stroke: #64748b; }
+      .flow.blocked { stroke: #b91c1c; stroke-dasharray: 3 7; animation-duration: 2.4s; }
+      @keyframes dash { to { stroke-dashoffset: -30; } }
+
+      .glow { fill: none; stroke-width: 7; opacity: 0; animation: glow 12.6s ease-in-out infinite; }
+      @keyframes glow {
+        0% { opacity: 0; }
+        3% { opacity: .95; }
+        11% { opacity: .95; }
+        15% { opacity: 0; }
+        100% { opacity: 0; }
+      }
+      .d0 { animation-delay: 0s; }
+      .d1 { animation-delay: 1.4s; }
+      .d2 { animation-delay: 2.8s; }
+      .d3 { animation-delay: 4.2s; }
+      .d4 { animation-delay: 5.6s; }
+      .d5 { animation-delay: 7.0s; }
+      .d6 { animation-delay: 8.4s; }
+      .d7 { animation-delay: 9.8s; }
+      .d8 { animation-delay: 11.2s; }
+    </style>
+
+    <path id="mainPath" d="M144,220 H992"/>
+    <path id="rejectPath" d="M403,257 V380"/>
+    <path id="silverPath" d="M565,257 V380"/>
+    <path id="exportPath" d="M1057,257 V380"/>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1150" height="580" rx="18"/>
+  <rect class="frame" x="1" y="1" width="1148" height="578" rx="18"/>
+
+  <text class="title" x="32" y="48">Pipeline Medallion · Servicio Spark Vallegrande</text>
+  <text class="subtitle" x="32" y="72">Cada job ejecuta las mismas 7 etapas. La analítica Gold es lo único que cambia entre jobs.</text>
+
+  <!-- Anotaciones superiores -->
+  <text class="note" x="241" y="168" text-anchor="middle" fill="#d6a06a">cache + nº de fila</text>
+  <text class="note" x="403" y="168" text-anchor="middle" fill="#a5b4fc">motivos por fila</text>
+  <text class="note" x="730" y="168" text-anchor="middle" fill="#fbbf24">escribe quality.json</text>
+  <text class="note" x="895" y="168" text-anchor="middle" fill="#fde047">GoldAnalytics del job</text>
+
+  <!-- Conectores -->
+  <path class="flow main" d="M144,220 H992"/>
+  <path class="flow reject" d="M403,257 V380"/>
+  <path class="flow write" d="M565,257 V380"/>
+  <path class="flow blocked" d="M730,262 V380"/>
+  <path class="flow write" d="M1057,257 V380"/>
+
+  <text class="note" x="411" y="325" fill="#f87171">rechazadas</text>
+  <text class="note" x="573" y="325" fill="#94a3b8">válidas</text>
+  <text class="note" x="738" y="318" fill="#f87171">supera la</text>
+  <text class="note" x="738" y="332" fill="#f87171">tolerancia</text>
+  <text class="note" x="1065" y="325" fill="#5eead4">publica</text>
+
+  <!-- Paquetes de datos (válidos) -->
+  <g fill="#4ade80">
+    <circle r="5"><animateMotion dur="6s" repeatCount="indefinite" begin="0s"><mpath href="#mainPath"/></animateMotion></circle>
+    <circle r="5"><animateMotion dur="6s" repeatCount="indefinite" begin="1.5s"><mpath href="#mainPath"/></animateMotion></circle>
+    <circle r="5"><animateMotion dur="6s" repeatCount="indefinite" begin="3s"><mpath href="#mainPath"/></animateMotion></circle>
+    <circle r="5"><animateMotion dur="6s" repeatCount="indefinite" begin="4.5s"><mpath href="#mainPath"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="0.4s"><mpath href="#silverPath"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.2s" repeatCount="indefinite" begin="1.1s"><mpath href="#exportPath"/></animateMotion></circle>
+  </g>
+  <!-- Paquetes rechazados -->
+  <g fill="#f87171">
+    <circle r="4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="0s"><mpath href="#rejectPath"/></animateMotion></circle>
+    <circle r="4"><animateMotion dur="2.4s" repeatCount="indefinite" begin="1.2s"><mpath href="#rejectPath"/></animateMotion></circle>
+  </g>
+
+  <!-- ENTRADA -->
+  <rect class="glow d0" x="24" y="183" width="120" height="74" rx="12" stroke="#94a3b8"/>
+  <rect x="24" y="183" width="120" height="74" rx="12" fill="#1e293b" stroke="#64748b" stroke-width="2" stroke-dasharray="5 4"/>
+  <text class="name" x="84" y="210" text-anchor="middle">ENTRADA</text>
+  <text class="cls" x="84" y="228" text-anchor="middle">&lt;input&gt;/*.csv</text>
+  <text class="info" x="84" y="245" text-anchor="middle">5 tablas</text>
+
+  <!-- BRONZE -->
+  <rect class="glow d1" x="176" y="183" width="130" height="74" rx="12" stroke="#cd7f32"/>
+  <rect x="176" y="183" width="130" height="74" rx="12" fill="#2a1d12" stroke="#cd7f32" stroke-width="2"/>
+  <text class="name" x="241" y="210" text-anchor="middle">BRONZE</text>
+  <text class="cls" x="241" y="228" text-anchor="middle">BronzeStep</text>
+  <text class="info" x="241" y="245" text-anchor="middle">CSV leído como texto</text>
+
+  <!-- VALIDATION -->
+  <rect class="glow d2" x="338" y="183" width="130" height="74" rx="12" stroke="#818cf8"/>
+  <rect x="338" y="183" width="130" height="74" rx="12" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+  <text class="name" x="403" y="210" text-anchor="middle">VALIDATION</text>
+  <text class="cls" x="403" y="228" text-anchor="middle">ValidationStep</text>
+  <text class="info" x="403" y="245" text-anchor="middle">15 reglas de calidad</text>
+
+  <!-- QUARANTINE -->
+  <rect class="glow d3" x="338" y="380" width="130" height="74" rx="12" stroke="#ef4444"/>
+  <rect x="338" y="380" width="130" height="74" rx="12" fill="#2a1215" stroke="#ef4444" stroke-width="2"/>
+  <text class="name" x="403" y="407" text-anchor="middle">QUARANTINE</text>
+  <text class="cls" x="403" y="425" text-anchor="middle">QuarantineStep</text>
+  <text class="info" x="403" y="442" text-anchor="middle">quarantine/rechazados</text>
+
+  <!-- SILVER -->
+  <rect class="glow d4" x="500" y="183" width="130" height="74" rx="12" stroke="#e2e8f0"/>
+  <rect x="500" y="183" width="130" height="74" rx="12" fill="#1f2937" stroke="#c0c7d1" stroke-width="2"/>
+  <text class="name" x="565" y="210" text-anchor="middle">SILVER</text>
+  <text class="cls" x="565" y="228" text-anchor="middle">SilverStep</text>
+  <text class="info" x="565" y="245" text-anchor="middle">filas válidas tipadas</text>
+
+  <rect x="500" y="380" width="130" height="74" rx="12" fill="#111827" stroke="#64748b" stroke-width="1.5"/>
+  <text class="name" x="565" y="407" text-anchor="middle">silver/</text>
+  <text class="cls" x="565" y="425" text-anchor="middle">5 tablas</text>
+  <text class="info" x="565" y="442" text-anchor="middle">CSV + Parquet</text>
+
+  <!-- QUALITY GATE (hexagono) -->
+  <polygon class="glow d5" points="655,220 680,183 780,183 805,220 780,257 680,257" stroke="#f59e0b"/>
+  <polygon points="655,220 680,183 780,183 805,220 780,257 680,257" fill="#2a1f0a" stroke="#f59e0b" stroke-width="2"/>
+  <text class="name" x="730" y="210" text-anchor="middle">QUALITY GATE</text>
+  <text class="cls" x="730" y="228" text-anchor="middle">QualityGateStep</text>
+  <text class="info" x="730" y="245" text-anchor="middle">rechazo ≤ tolerancia</text>
+
+  <rect x="665" y="380" width="130" height="74" rx="12" fill="#1c0f10" stroke="#b91c1c" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text class="name" x="730" y="407" text-anchor="middle" fill="#fca5a5">BLOQUEADO</text>
+  <text class="cls" x="730" y="425" text-anchor="middle">Gold/Export SKIPPED</text>
+  <text class="info" x="730" y="442" text-anchor="middle">exit code 2</text>
+
+  <!-- GOLD -->
+  <rect class="glow d6" x="830" y="183" width="130" height="74" rx="12" stroke="#facc15"/>
+  <rect x="830" y="183" width="130" height="74" rx="12" fill="#2a2405" stroke="#eab308" stroke-width="2"/>
+  <text class="name" x="895" y="210" text-anchor="middle">GOLD</text>
+  <text class="cls" x="895" y="228" text-anchor="middle">GoldStep</text>
+  <text class="info" x="895" y="245" text-anchor="middle">joins y agregaciones</text>
+
+  <!-- EXPORT -->
+  <rect class="glow d7" x="992" y="183" width="130" height="74" rx="12" stroke="#4ade80"/>
+  <rect x="992" y="183" width="130" height="74" rx="12" fill="#0b2a17" stroke="#22c55e" stroke-width="2"/>
+  <text class="name" x="1057" y="210" text-anchor="middle">EXPORT</text>
+  <text class="cls" x="1057" y="228" text-anchor="middle">ExportStep</text>
+  <text class="info" x="1057" y="245" text-anchor="middle">publicación atómica</text>
+
+  <rect class="glow d8" x="992" y="380" width="130" height="74" rx="12" stroke="#2dd4bf"/>
+  <rect x="992" y="380" width="130" height="74" rx="12" fill="#062a27" stroke="#14b8a6" stroke-width="2"/>
+  <text class="name" x="1057" y="407" text-anchor="middle">gold/</text>
+  <text class="cls" x="1057" y="425" text-anchor="middle">tablas del job</text>
+  <text class="info" x="1057" y="442" text-anchor="middle">CSV, Parquet, resumen.json</text>
+
+  <!-- Pie: protocolo de eventos -->
+  <line x1="32" y1="490" x2="1118" y2="490" stroke="#1e293b" stroke-width="2"/>
+  <text class="legend" x="32" y="520">PipelineTracker registra cada transición en events.jsonl:</text>
+  <rect x="368" y="507" width="70" height="18" rx="9" fill="#38bdf8"/><text class="pill" x="403" y="520" text-anchor="middle">RUNNING</text>
+  <rect x="446" y="507" width="84" height="18" rx="9" fill="#4ade80"/><text class="pill" x="488" y="520" text-anchor="middle">COMPLETED</text>
+  <rect x="538" y="507" width="70" height="18" rx="9" fill="#fbbf24"/><text class="pill" x="573" y="520" text-anchor="middle">BLOCKED</text>
+  <rect x="616" y="507" width="70" height="18" rx="9" fill="#94a3b8"/><text class="pill" x="651" y="520" text-anchor="middle">SKIPPED</text>
+  <rect x="694" y="507" width="62" height="18" rx="9" fill="#f87171"/><text class="pill" x="725" y="520" text-anchor="middle">FAILED</text>
+  <text class="legend" x="32" y="552">Códigos de salida del worker:  0 = publicado   ·   1 = error de ejecución   ·   2 = bloqueado por la puerta de calidad</text>
+  <g>
+    <circle cx="890" cy="548" r="5" fill="#4ade80"/><text class="legend" x="902" y="552">fila válida</text>
+    <circle cx="990" cy="548" r="5" fill="#f87171"/><text class="legend" x="1002" y="552">fila rechazada</text>
+  </g>
+</svg>

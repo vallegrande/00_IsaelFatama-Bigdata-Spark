@@ -1,0 +1,234 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1150 660" width="1150" height="660" role="img" aria-labelledby="title desc">
+  <title id="title">Flujo de punta a punta: frontend, backend-api, worker Spark y resultados</title>
+  <desc id="desc">El frontend envía los CSV al backend-api, que valida, prepara directorios y lanza el job Spark según el JobType. El worker ejecuta el pipeline Medallion, escribe silver, cuarentena, calidad y gold en disco, y el backend lee esa salida para devolver progreso, indicadores y datos limpios al frontend.</desc>
+  <defs>
+    <style>
+      .bg { fill: #0f172a; }
+      .lane { fill: #111c33; stroke: #1e293b; stroke-width: 1.5; }
+      .title { font: 700 22px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f1f5f9; }
+      .subtitle { font: 400 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #94a3b8; }
+      .lanehead { font: 700 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #94a3b8; letter-spacing: 1.5px; }
+      .lanesub { font: 400 11px Consolas, 'Courier New', monospace; fill: #64748b; }
+      .name { font: 700 13px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f8fafc; }
+      .cls { font: 400 10.5px Consolas, 'Courier New', monospace; fill: #cbd5e1; }
+      .info { font: 400 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #94a3b8; }
+      .chip { font: 700 11.5px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #f8fafc; letter-spacing: .5px; }
+      .chipinfo { font: 400 10.5px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+      .note { font: 600 11px 'Segoe UI', Helvetica, Arial, sans-serif; }
+      .status { font: 700 13px Consolas, 'Courier New', monospace; fill: #fbbf24; }
+      .legend { font: 400 12px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #cbd5e1; }
+      .badge { font: 700 11px 'Segoe UI', Helvetica, Arial, sans-serif; fill: #0f172a; }
+      .flow { fill: none; stroke: #334155; stroke-width: 2.5; stroke-dasharray: 7 6; animation: dash 1.4s linear infinite; }
+      @keyframes dash { to { stroke-dashoffset: -26; } }
+    </style>
+    <path id="pA" d="M190,175 H232"/>
+    <path id="pB" d="M330,210 V236"/>
+    <path id="pC" d="M330,290 V316"/>
+    <path id="pD1" d="M428,346 H450 V182 H470"/>
+    <path id="pD2" d="M428,346 H450 V312 H470"/>
+    <path id="pE1" d="M640,182 H666 V167 H692"/>
+    <path id="pE2" d="M640,312 H666 V167 H692"/>
+    <path id="pF0" d="M876,167 H924"/>
+    <path id="pF1" d="M876,255 H924"/>
+    <path id="pF2" d="M876,299 H924"/>
+    <path id="pF3" d="M876,343 H924"/>
+    <path id="pF4" d="M876,431 H924"/>
+    <path id="pF5" d="M784,448 V498 H924"/>
+    <path id="pG" d="M1021,516 V572 H330 V546"/>
+    <path id="pH1" d="M232,490 H212 V335 H190"/>
+    <path id="pH2" d="M232,526 H190"/>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="1150" height="660" rx="18"/>
+  <text class="title" x="28" y="44">Flujo de punta a punta · Frontend, Backend API y Spark</text>
+  <text class="subtitle" x="28" y="68">Cómo entra un lote, cómo se elige el job y cómo vuelven los datos limpios. Se alternan dos ejecuciones, una por cada JobType.</text>
+  <text class="status" x="1126" y="68" text-anchor="end" opacity="0">Ejecución A · JobType = RENDIMIENTO_ACADEMICO<animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.0005;0.4995;0.5000;1.0000" values="0;0;1;1;0;0"/></text>
+  <text class="status" x="1126" y="68" text-anchor="end" opacity="0" fill="#a78bfa" style="fill:#c4b5fd">Ejecución B · JobType = ALERTA_ASISTENCIA<animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5000;0.5005;0.9995;1.0000;1.0000" values="0;0;1;1;0;0"/></text>
+  <rect class="lane" x="16" y="92" width="188" height="500" rx="14"/>
+  <text class="lanehead" x="110.0" y="116" text-anchor="middle">FRONTEND</text>
+  <text class="lanesub" x="110.0" y="132" text-anchor="middle">cliente web</text>
+  <rect class="lane" x="216" y="92" width="228" height="500" rx="14"/>
+  <text class="lanehead" x="330.0" y="116" text-anchor="middle">BACKEND-API</text>
+  <text class="lanesub" x="330.0" y="132" text-anchor="middle">Spring Boot WebFlux</text>
+  <rect class="lane" x="456" y="92" width="440" height="500" rx="14"/>
+  <text class="lanehead" x="676.0" y="116" text-anchor="middle">WORKER SPARK</text>
+  <text class="lanesub" x="676.0" y="132" text-anchor="middle">proceso java -jar</text>
+  <rect class="lane" x="908" y="92" width="226" height="500" rx="14"/>
+  <text class="lanehead" x="1021.0" y="116" text-anchor="middle">ALMACENAMIENTO</text>
+  <text class="lanesub" x="1021.0" y="132" text-anchor="middle">output/jobId/</text>
+  <path class="flow" d="M190,175 H232"/>
+  <path class="flow" d="M330,210 V236"/>
+  <path class="flow" d="M330,290 V316"/>
+  <path class="flow" d="M428,346 H450 V182 H470"/>
+  <path class="flow" d="M428,346 H450 V312 H470"/>
+  <path class="flow" d="M640,182 H666 V167 H692"/>
+  <path class="flow" d="M640,312 H666 V167 H692"/>
+  <path class="flow" d="M876,167 H924"/>
+  <path class="flow" d="M876,255 H924"/>
+  <path class="flow" d="M876,299 H924"/>
+  <path class="flow" d="M876,343 H924"/>
+  <path class="flow" d="M876,431 H924"/>
+  <path class="flow" d="M784,448 V498 H924"/>
+  <path class="flow" d="M1021,516 V572 H330 V546"/>
+  <path class="flow" d="M232,490 H212 V335 H190"/>
+  <path class="flow" d="M232,526 H190"/>
+  <text class="note" x="555" y="252" text-anchor="middle" fill="#c4b5fd">según JobType</text>
+  <text class="note" x="784" y="470" text-anchor="middle" fill="#94a3b8">mismo pipeline, distinta analítica Gold</text>
+  <text class="note" x="660" y="566" text-anchor="middle" fill="#5eead4">lee events.jsonl, quality.json, result.json, gold/ y el exit code</text>
+  <rect x="30" y="140" width="160" height="70" rx="12" fill="none" stroke="#38bdf8" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.0054;0.0375;0.0482;0.5000;0.5054;0.5375;0.5482;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="232" y="140" width="196" height="70" rx="12" fill="none" stroke="#38bdf8" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0286;0.0339;0.0661;0.0768;0.5286;0.5339;0.5661;0.5768;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="232" y="236" width="196" height="54" rx="12" fill="none" stroke="#38bdf8" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0571;0.0625;0.0946;0.1054;0.5571;0.5625;0.5946;0.6054;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="232" y="316" width="196" height="60" rx="12" fill="none" stroke="#a78bfa" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0857;0.0911;0.1232;0.1339;0.5857;0.5911;0.6232;0.6339;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="470" y="150" width="170" height="64" rx="12" fill="none" stroke="#a78bfa" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.1143;0.1196;0.1518;0.1625;1.0000" values="0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="470" y="280" width="170" height="64" rx="12" fill="none" stroke="#a78bfa" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.6143;0.6196;0.6518;0.6625;1.0000" values="0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="150" width="184" height="34" rx="8" fill="none" stroke="#cd7f32" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.1429;0.1482;0.1804;0.1911;0.6429;0.6482;0.6804;0.6911;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="194" width="184" height="34" rx="8" fill="none" stroke="#6366f1" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.1714;0.1768;0.2089;0.2196;0.6714;0.6768;0.7089;0.7196;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="238" width="184" height="34" rx="8" fill="none" stroke="#ef4444" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2000;0.2054;0.2375;0.2482;0.7000;0.7054;0.7375;0.7482;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="282" width="184" height="34" rx="8" fill="none" stroke="#c0c7d1" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2286;0.2339;0.2661;0.2768;0.7286;0.7339;0.7661;0.7768;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="326" width="184" height="34" rx="8" fill="none" stroke="#f59e0b" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2571;0.2625;0.2946;0.3054;0.7571;0.7625;0.7946;0.8054;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="370" width="184" height="34" rx="8" fill="none" stroke="#eab308" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2857;0.2911;0.3232;0.3339;0.7857;0.7911;0.8232;0.8339;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="692" y="414" width="184" height="34" rx="8" fill="none" stroke="#22c55e" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3143;0.3196;0.3518;0.3625;0.8143;0.8196;0.8518;0.8625;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="924" y="149" width="194" height="36" rx="8" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.1589;0.1643;0.1964;0.2071;0.6589;0.6643;0.6964;0.7071;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="924" y="237" width="194" height="36" rx="8" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2161;0.2214;0.2536;0.2643;0.7161;0.7214;0.7536;0.7643;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="924" y="281" width="194" height="36" rx="8" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2446;0.2500;0.2821;0.2929;0.7446;0.7500;0.7821;0.7929;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="924" y="325" width="194" height="36" rx="8" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2732;0.2786;0.3107;0.3214;0.7732;0.7786;0.8107;0.8214;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="924" y="413" width="194" height="36" rx="8" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3304;0.3357;0.3679;0.3786;0.8304;0.8357;0.8679;0.8786;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="924" y="480" width="194" height="36" rx="8" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3589;0.3643;0.3964;0.4071;0.8589;0.8643;0.8964;0.9071;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="232" y="470" width="196" height="76" rx="12" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3714;0.3768;0.4089;0.4196;0.8714;0.8768;0.9089;0.9196;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="30" y="300" width="160" height="70" rx="12" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.4000;0.4054;0.4375;0.4482;0.9000;0.9054;0.9375;0.9482;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <rect x="30" y="470" width="160" height="76" rx="12" fill="none" stroke="#2dd4bf" stroke-width="7" opacity="0"><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.4286;0.4339;0.4661;0.4768;0.9286;0.9339;0.9661;0.9768;1.0000" values="0;0;0.9500;0.9500;0;0;0.9500;0.9500;0;0"/></rect>
+  <g>
+    <circle r="5" fill="#38bdf8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0071;0.0286;1"><mpath href="#pA"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0071;0.0076;0.0286;0.0291;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#38bdf8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5071;0.5286;1"><mpath href="#pA"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5071;0.5076;0.5286;0.5291;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#38bdf8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0357;0.0571;1"><mpath href="#pB"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0357;0.0362;0.0571;0.0576;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#38bdf8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5357;0.5571;1"><mpath href="#pB"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5357;0.5362;0.5571;0.5576;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#38bdf8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0643;0.0857;1"><mpath href="#pC"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0643;0.0648;0.0857;0.0862;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#38bdf8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5643;0.5857;1"><mpath href="#pC"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5643;0.5648;0.5857;0.5862;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#a78bfa" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.0893;0.1143;1"><mpath href="#pD1"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0893;0.0898;0.1143;0.1148;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#a78bfa" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.5893;0.6143;1"><mpath href="#pD2"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5893;0.5898;0.6143;0.6148;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#a78bfa" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1214;0.1429;1"><mpath href="#pE1"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.1214;0.1219;0.1429;0.1434;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#a78bfa" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6214;0.6429;1"><mpath href="#pE2"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.6214;0.6219;0.6429;0.6434;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#94a3b8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.1446;0.1589;1"><mpath href="#pF0"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.1446;0.1451;0.1589;0.1594;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#94a3b8" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.6446;0.6589;1"><mpath href="#pF0"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.6446;0.6451;0.6589;0.6594;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#f87171" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2018;0.2161;1"><mpath href="#pF1"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2018;0.2023;0.2161;0.2166;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#f87171" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7018;0.7161;1"><mpath href="#pF1"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.7018;0.7023;0.7161;0.7166;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2304;0.2446;1"><mpath href="#pF2"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2304;0.2309;0.2446;0.2451;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7304;0.7446;1"><mpath href="#pF2"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.7304;0.7309;0.7446;0.7451;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#fbbf24" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.2589;0.2732;1"><mpath href="#pF3"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.2589;0.2594;0.2732;0.2737;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#fbbf24" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.7589;0.7732;1"><mpath href="#pF3"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.7589;0.7594;0.7732;0.7737;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3161;0.3304;1"><mpath href="#pF4"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3161;0.3166;0.3304;0.3309;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8161;0.8304;1"><mpath href="#pF4"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.8161;0.8166;0.8304;0.8309;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3179;0.3571;1"><mpath href="#pF5"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3179;0.3184;0.3571;0.3576;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="4" fill="#4ade80" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8179;0.8571;1"><mpath href="#pF5"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.8179;0.8184;0.8571;0.8576;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#2dd4bf" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3536;0.3750;1"><mpath href="#pG"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3536;0.3541;0.3750;0.3755;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#2dd4bf" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8536;0.8750;1"><mpath href="#pG"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.8536;0.8541;0.8750;0.8755;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#2dd4bf" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.3821;0.4000;1"><mpath href="#pH1"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.3821;0.3826;0.4000;0.4005;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#2dd4bf" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.8821;0.9000;1"><mpath href="#pH1"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.8821;0.8826;0.9000;0.9005;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#2dd4bf" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.4071;0.4286;1"><mpath href="#pH2"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.4071;0.4076;0.4286;0.4291;1.0000" values="0;0;1;1;0;0"/></circle>
+    <circle r="5" fill="#2dd4bf" opacity="0"><animateMotion dur="28.0s" repeatCount="indefinite" calcMode="linear" keyPoints="0;0;1;1" keyTimes="0;0.9071;0.9286;1"><mpath href="#pH2"/></animateMotion><animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.9071;0.9076;0.9286;0.9291;1.0000" values="0;0;1;1;0;0"/></circle>
+  </g>
+  <rect x="30" y="140" width="160" height="70" rx="12" fill="#0c2233" stroke="#38bdf8" stroke-width="2"/>
+  <text class="name" x="110.0" y="162.0" text-anchor="middle">Carga del lote</text>
+  <text class="cls" x="110.0" y="179.0" text-anchor="middle">5 CSV + JobType</text>
+  <text class="info" x="110.0" y="196.0" text-anchor="middle">y tolerancia (0.05)</text>
+  <rect x="30" y="300" width="160" height="70" rx="12" fill="#062a27" stroke="#14b8a6" stroke-width="2"/>
+  <text class="name" x="110.0" y="322.0" text-anchor="middle">Progreso en vivo</text>
+  <text class="cls" x="110.0" y="339.0" text-anchor="middle">RUNNING · COMPLETED</text>
+  <text class="info" x="110.0" y="356.0" text-anchor="middle">etapa actual del lote</text>
+  <rect x="30" y="470" width="160" height="76" rx="12" fill="#062a27" stroke="#14b8a6" stroke-width="2"/>
+  <text class="name" x="110.0" y="495.0" text-anchor="middle">Resultados</text>
+  <text class="info" x="110.0" y="512.0" text-anchor="middle">indicadores y calidad</text>
+  <text class="info" x="110.0" y="529.0" text-anchor="middle">descarga de datos limpios</text>
+  <rect x="232" y="140" width="196" height="70" rx="12" fill="#0c2233" stroke="#38bdf8" stroke-width="2"/>
+  <text class="name" x="330.0" y="162.0" text-anchor="middle">Recibe y valida</text>
+  <text class="cls" x="330.0" y="179.0" text-anchor="middle">límites AcademicSchema</text>
+  <text class="info" x="330.0" y="196.0" text-anchor="middle">200 000 filas · 20 MB</text>
+  <rect x="232" y="236" width="196" height="54" rx="12" fill="#0c2233" stroke="#38bdf8" stroke-width="2"/>
+  <text class="name" x="330.0" y="258.5" text-anchor="middle">Prepara el lote</text>
+  <text class="cls" x="330.0" y="275.5" text-anchor="middle">input/ y output/jobId/</text>
+  <rect x="232" y="316" width="196" height="60" rx="12" fill="#1e1b3a" stroke="#a78bfa" stroke-width="2"/>
+  <text class="name" x="330.0" y="341.5" text-anchor="middle">Lanza el worker</text>
+  <text class="cls" x="330.0" y="358.5" text-anchor="middle">java -jar JobType.jar()</text>
+  <rect x="232" y="470" width="196" height="76" rx="12" fill="#062a27" stroke="#14b8a6" stroke-width="2"/>
+  <text class="name" x="330.0" y="495.0" text-anchor="middle">Lee la salida</text>
+  <text class="cls" x="330.0" y="512.0" text-anchor="middle">WorkerProtocol</text>
+  <text class="info" x="330.0" y="529.0" text-anchor="middle">sirve gold/, silver/, quarantine/</text>
+  <rect x="470" y="150" width="170" height="64" rx="12" fill="#1e1b3a" stroke="#a78bfa" stroke-width="2"/>
+  <text class="name" x="555.0" y="169.0" text-anchor="middle">Rendimiento académico</text>
+  <text class="cls" x="555.0" y="186.0" text-anchor="middle">RENDIMIENTO_ACADEMICO</text>
+  <text class="info" x="555.0" y="203.0" text-anchor="middle">7 tablas Gold</text>
+  <rect x="470" y="280" width="170" height="64" rx="12" fill="#1e1b3a" stroke="#a78bfa" stroke-width="2"/>
+  <text class="name" x="555.0" y="299.0" text-anchor="middle">Alerta de asistencia</text>
+  <text class="cls" x="555.0" y="316.0" text-anchor="middle">ALERTA_ASISTENCIA</text>
+  <text class="info" x="555.0" y="333.0" text-anchor="middle">2 tablas Gold</text>
+  <rect x="692" y="150" width="184" height="34" rx="8" fill="#2a1d12" stroke="#cd7f32" stroke-width="2"/>
+  <text class="chip" x="704" y="171">BRONZE</text>
+  <text class="chipinfo" x="866" y="171" text-anchor="end">lee 5 CSV</text>
+  <rect x="692" y="194" width="184" height="34" rx="8" fill="#1e1b4b" stroke="#6366f1" stroke-width="2"/>
+  <text class="chip" x="704" y="215">VALIDATION</text>
+  <text class="chipinfo" x="866" y="215" text-anchor="end">15 reglas</text>
+  <rect x="692" y="238" width="184" height="34" rx="8" fill="#2a1215" stroke="#ef4444" stroke-width="2"/>
+  <text class="chip" x="704" y="259">QUARANTINE</text>
+  <text class="chipinfo" x="866" y="259" text-anchor="end">rechazadas</text>
+  <rect x="692" y="282" width="184" height="34" rx="8" fill="#1f2937" stroke="#c0c7d1" stroke-width="2"/>
+  <text class="chip" x="704" y="303">SILVER</text>
+  <text class="chipinfo" x="866" y="303" text-anchor="end">válidas tipadas</text>
+  <rect x="692" y="326" width="184" height="34" rx="8" fill="#2a1f0a" stroke="#f59e0b" stroke-width="2"/>
+  <text class="chip" x="704" y="347">QUALITY GATE</text>
+  <text class="chipinfo" x="866" y="347" text-anchor="end">decide</text>
+  <rect x="692" y="370" width="184" height="34" rx="8" fill="#2a2405" stroke="#eab308" stroke-width="2"/>
+  <text class="chip" x="704" y="391">GOLD</text>
+  <text class="chipinfo" x="866" y="391" text-anchor="end" opacity="0">rendimiento<animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.0005;0.4995;0.5000;1.0000" values="0;0;1;1;0;0"/></text>
+  <text class="chipinfo" x="866" y="391" text-anchor="end" opacity="0">alertas<animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5000;0.5005;0.9995;1.0000;1.0000" values="0;0;1;1;0;0"/></text>
+  <rect x="692" y="414" width="184" height="34" rx="8" fill="#0b2a17" stroke="#22c55e" stroke-width="2"/>
+  <text class="chip" x="704" y="435">EXPORT</text>
+  <text class="chipinfo" x="866" y="435" text-anchor="end">CSV + Parquet</text>
+  <rect x="924" y="149" width="194" height="36" rx="8" fill="#0b1324" stroke="#14b8a6" stroke-width="1.5"/>
+  <text class="cls" x="1021" y="164" text-anchor="middle">events.jsonl · spark.json</text>
+  <text class="info" x="1021" y="178" text-anchor="middle">progreso por etapa</text>
+  <rect x="924" y="237" width="194" height="36" rx="8" fill="#0b1324" stroke="#14b8a6" stroke-width="1.5"/>
+  <text class="cls" x="1021" y="252" text-anchor="middle">quarantine/rechazados</text>
+  <text class="info" x="1021" y="266" text-anchor="middle">filas con sus motivos</text>
+  <rect x="924" y="281" width="194" height="36" rx="8" fill="#0b1324" stroke="#14b8a6" stroke-width="1.5"/>
+  <text class="cls" x="1021" y="296" text-anchor="middle">silver/ (5 tablas)</text>
+  <text class="info" x="1021" y="310" text-anchor="middle">datos limpios y tipados</text>
+  <rect x="924" y="325" width="194" height="36" rx="8" fill="#0b1324" stroke="#14b8a6" stroke-width="1.5"/>
+  <text class="cls" x="1021" y="340" text-anchor="middle">quality.json</text>
+  <text class="info" x="1021" y="354" text-anchor="middle">decisión de la puerta</text>
+  <rect x="924" y="413" width="194" height="36" rx="8" fill="#0b1324" stroke="#14b8a6" stroke-width="1.5"/>
+  <text class="cls" x="1021" y="428" text-anchor="middle">gold/ + resumen.json</text>
+  <text class="info" x="1021" y="442" text-anchor="middle" opacity="0">7 tablas · si se publica<animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.0000;0.0005;0.4995;0.5000;1.0000" values="0;0;1;1;0;0"/></text>
+  <text class="info" x="1021" y="442" text-anchor="middle" opacity="0">2 tablas · si se publica<animate attributeName="opacity" dur="28.0s" repeatCount="indefinite" keyTimes="0.0000;0.5000;0.5005;0.9995;1.0000;1.0000" values="0;0;1;1;0;0"/></text>
+  <rect x="924" y="480" width="194" height="36" rx="8" fill="#0b1324" stroke="#14b8a6" stroke-width="1.5"/>
+  <text class="cls" x="1021" y="495" text-anchor="middle">result.json + exit code</text>
+  <text class="info" x="1021" y="509" text-anchor="middle">0 ok · 1 error · 2 bloqueado</text>
+  <circle cx="32" cy="142" r="10" fill="#fbbf24"/>
+  <text class="badge" x="32" y="146" text-anchor="middle">1</text>
+  <circle cx="234" cy="142" r="10" fill="#fbbf24"/>
+  <text class="badge" x="234" y="146" text-anchor="middle">2</text>
+  <circle cx="234" cy="238" r="10" fill="#fbbf24"/>
+  <text class="badge" x="234" y="242" text-anchor="middle">3</text>
+  <circle cx="234" cy="318" r="10" fill="#fbbf24"/>
+  <text class="badge" x="234" y="322" text-anchor="middle">4</text>
+  <circle cx="458" cy="94" r="10" fill="#fbbf24"/>
+  <text class="badge" x="458" y="98" text-anchor="middle">5</text>
+  <circle cx="234" cy="472" r="10" fill="#fbbf24"/>
+  <text class="badge" x="234" y="476" text-anchor="middle">6</text>
+  <circle cx="32" cy="302" r="10" fill="#fbbf24"/>
+  <text class="badge" x="32" y="306" text-anchor="middle">7</text>
+  <circle cx="32" cy="472" r="10" fill="#fbbf24"/>
+  <text class="badge" x="32" y="476" text-anchor="middle">8</text>
+  <text class="legend" x="28" y="628">Leyenda:</text>
+  <circle cx="92" cy="624" r="5" fill="#38bdf8"/>
+  <text class="legend" x="102" y="628">archivos del usuario</text>
+  <circle cx="260.0" cy="624" r="5" fill="#a78bfa"/>
+  <text class="legend" x="270.0" y="628">lanzamiento del job</text>
+  <circle cx="421.4" cy="624" r="5" fill="#4ade80"/>
+  <text class="legend" x="431.4" y="628">datos limpios</text>
+  <circle cx="543.1999999999999" cy="624" r="5" fill="#f87171"/>
+  <text class="legend" x="553.1999999999999" y="628">rechazados</text>
+  <circle cx="645.1999999999999" cy="624" r="5" fill="#fbbf24"/>
+  <text class="legend" x="655.1999999999999" y="628">calidad</text>
+  <circle cx="727.3999999999999" cy="624" r="5" fill="#2dd4bf"/>
+  <text class="legend" x="737.3999999999999" y="628">resultados de vuelta</text>
+</svg>
