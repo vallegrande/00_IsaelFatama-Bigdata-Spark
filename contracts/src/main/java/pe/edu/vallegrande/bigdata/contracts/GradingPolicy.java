@@ -10,6 +10,8 @@ public final class GradingPolicy {
 
     public static final double MAX_ABSENCE_RATIO = 0.30;
 
+    public static final double RISK_ABSENCE_RATIO = 0.20;
+
     public static final double DEFAULT_MAX_REJECTED_RATIO = 0.05;
 
     public static final String APROBADO = "APROBADO";
@@ -19,6 +21,10 @@ public final class GradingPolicy {
     public static final String INHABILITADO  = "INHABILITADO";
 
     public static final String PENDIENTE = "PENDIENTE";
+
+    public static final String EN_RIESGO = "EN_RIESGO";
+
+    public static final String NORMAL = "NORMAL";
 
     private GradingPolicy() {
 
