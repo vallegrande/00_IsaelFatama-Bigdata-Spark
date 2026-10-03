@@ -185,6 +185,7 @@ Cómo vuelve a salir la data limpia, según el resultado del lote:
 
 ```text
 00_IsaelFatama-Bigdata-Spark/
+├── CHANGELOG.md                    # Historial de versiones
 ├── pom.xml                         # POM raíz: versiones, módulos y opciones JVM de Spark
 ├── mvnw / mvnw.cmd                 # Maven Wrapper
 ├── contracts/                      # Contratos compartidos (sin dependencias)
