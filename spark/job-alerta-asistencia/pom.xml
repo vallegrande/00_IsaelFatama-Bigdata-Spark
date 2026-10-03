@@ -1,0 +1,42 @@
+<project xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns="http://maven.apache.org/POM/4.0.0"
+         xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 https://maven.apache.org/xsd/maven-4.0.0.xsd">
+    <modelVersion>4.0.0</modelVersion>
+    <parent>
+        <groupId>pe.edu.vallegrande</groupId>
+        <artifactId>spark</artifactId>
+        <version>1.0.0</version>
+    </parent>
+    <artifactId>job-alerta-asistencia</artifactId>
+    <name>Job - Alerta de asistencia</name>
+
+    <properties>
+        <job.main-class>pe.edu.vallegrande.bigdata.job.asistencia.AlertaAsistenciaJob</job.main-class>
+    </properties>
+
+    <dependencies>
+        <dependency>
+            <groupId>pe.edu.vallegrande</groupId>
+            <artifactId>spark-academico</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.junit.jupiter</groupId>
+            <artifactId>junit-jupiter</artifactId>
+            <scope>test</scope>
+        </dependency>
+    </dependencies>
+
+    <build>
+        <finalName>${project.artifactId}</finalName>
+        <plugins>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-dependency-plugin</artifactId>
+            </plugin>
+        </plugins>
+    </build>
+
+</project>
