@@ -34,6 +34,18 @@ public final class QualityGateStep implements PipelineStep {
         context.quality(report);
         JsonPublisher.write(context.output().resolve(WorkerProtocol.QUALITY_FILE), report);
         long rows = context.validation().received();
-        return report.published() ? StepResult.completed(rows, report.decision()) : StepResult.blocked(rows, report.decision());
+        var metrics = java.util.Map.<String, Object>of(
+                "published", report.published(),
+                "received", report.received(),
+                "accepted", report.accepted(),
+                "rejected", report.rejected(),
+                "rejectedRatio", report.rejectedRatio(),
+                "maxRejectedRatio", report.maxRejectedRatio(),
+                "tables", report.tables(),
+                "dimensions", report.dimensions(),
+                "reasons", report.reasons(),
+                "checks", report.checks());
+        return report.published() ? StepResult.completed(rows, report.decision(), metrics)
+                : StepResult.blocked(rows, report.decision(), metrics);
     }
 }

@@ -7,6 +7,9 @@ import pe.edu.vallegrande.bigdata.spark.core.pipeline.PipelineContext;
 import pe.edu.vallegrande.bigdata.spark.core.pipeline.PipelineStep;
 import pe.edu.vallegrande.bigdata.spark.core.pipeline.StepResult;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public final class BronzeStep implements PipelineStep {
     private final CsvExtractor extractor;
 
@@ -28,6 +31,11 @@ public final class BronzeStep implements PipelineStep {
     public StepResult execute(PipelineContext context) {
         BronzeTables bronze = extractor.read(context.spark(), context.input());
         context.bronze(bronze);
-        return StepResult.completed(bronze.totalRows(), "Filas leídas: " + bronze.describe());
+        Map<String, Object> metrics = new LinkedHashMap<>();
+        metrics.put("inputFiles", bronze.tables().keySet().stream().map(table -> table + ".csv").toList());
+        metrics.put("tableCount", bronze.tables().size());
+        metrics.put("rowsByTable", bronze.rows());
+        metrics.put("totalRows", bronze.totalRows());
+        return StepResult.completed(bronze.totalRows(), "Filas leídas: " + bronze.describe(), metrics);
     }
 }

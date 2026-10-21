@@ -6,6 +6,7 @@ import pe.edu.vallegrande.bigdata.spark.core.config.SparkSessionFactory;
 import pe.edu.vallegrande.bigdata.spark.core.config.WorkerConfig;
 import pe.edu.vallegrande.bigdata.spark.core.pipeline.PipelineResult;
 import pe.edu.vallegrande.bigdata.spark.core.publication.JsonPublisher;
+import pe.edu.vallegrande.bigdata.spark.core.publication.S3RunPublisher;
 
 import java.nio.file.Path;
 import java.util.Map;
@@ -34,19 +35,25 @@ public final class JobLauncher {
 
     public static int run(JobDefinition job, Path input, Path output, double threshold, int uiSeconds, WorkerConfig config)
             throws Exception {
-        SparkSession spark = SparkSessionFactory.create(config.forJob(job.type().label(), output.getFileName().toString()));
+        S3RunPublisher s3Publisher = S3RunPublisher.fromEnvironment().orElse(null);
+        SparkSession spark = null;
         try {
+            spark = SparkSessionFactory.create(config.forJob(job.type().label(), output.getFileName().toString()));
             Map<String, Object> info = SparkSessionFactory.describe(spark, output);
             System.out.println(job.type().label() + " · Spark " + info.get("sparkVersion") + " en " + info.get("master")
                     + " · UI: " + info.get("uiUrl"));
             PipelineResult result = job.pipeline().run(spark, input, output, threshold);
             JsonPublisher.write(output.resolve(WorkerProtocol.RESULT_FILE), result);
+            if (s3Publisher != null) {
+                System.out.println("Artefactos publicados en " + s3Publisher.publish(job.type(), input, output, result));
+            }
             System.out.println("Resultado: " + (result.published() ? "PUBLICADO" : "BLOQUEADO POR CALIDAD")
                     + " · recibidas " + result.received() + " · válidas " + result.accepted() + " · rechazadas " + result.rejected());
             keepUiAlive(info, uiSeconds);
             return result.published() ? WorkerProtocol.EXIT_SUCCEEDED : WorkerProtocol.EXIT_QUALITY_FAILED;
         } finally {
-            spark.stop();
+            if (spark != null) spark.stop();
+            if (s3Publisher != null) s3Publisher.close();
         }
     }
 

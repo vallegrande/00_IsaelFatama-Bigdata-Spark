@@ -39,11 +39,11 @@ public final class Pipeline {
             tracker.start(step.stage(), step.description());
             StepResult result = step.execute(context);
             if (!result.proceed()) {
-                tracker.block(step.stage(), result.rows(), result.detail());
+                tracker.block(step.stage(), result);
                 skipRemaining(tracker, index + 1);
                 return false;
             }
-            tracker.complete(step.stage(), result.rows(), result.detail());
+            tracker.complete(step.stage(), result);
         }
         return true;
     }

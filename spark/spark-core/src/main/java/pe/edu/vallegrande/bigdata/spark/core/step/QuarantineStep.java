@@ -7,6 +7,8 @@ import pe.edu.vallegrande.bigdata.spark.core.pipeline.PipelineStep;
 import pe.edu.vallegrande.bigdata.spark.core.pipeline.StepResult;
 
 import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.Map;
 
 public final class QuarantineStep implements PipelineStep {
 
@@ -24,6 +26,13 @@ public final class QuarantineStep implements PipelineStep {
     public StepResult execute(PipelineContext context) throws IOException {
         long rejected = context.publisher().publish(WorkerProtocol.QUARANTINE, WorkerProtocol.REJECTED_TABLE,
                 context.validation().rejected());
-        return StepResult.completed(rejected, rejected == 0 ? "Sin filas observadas" : rejected + " filas en cuarentena");
+        Map<String, Object> metrics = new LinkedHashMap<>();
+        metrics.put("rejectedRows", rejected);
+        metrics.put("rowsByTable", context.validation().counts().entrySet().stream()
+                .collect(java.util.stream.Collectors.toMap(Map.Entry::getKey,
+                        entry -> entry.getValue().rejected(), (left, right) -> left, LinkedHashMap::new)));
+        metrics.put("outputTable", WorkerProtocol.REJECTED_TABLE);
+        metrics.put("formats", java.util.List.of("csv", "parquet"));
+        return StepResult.completed(rejected, rejected == 0 ? "Sin filas observadas" : rejected + " filas en cuarentena", metrics);
     }
 }
