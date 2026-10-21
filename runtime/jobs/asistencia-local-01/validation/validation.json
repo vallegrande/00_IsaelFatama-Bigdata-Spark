@@ -1,0 +1,33 @@
+{
+  "received" : 21735,
+  "accepted" : 21735,
+  "rejected" : 0,
+  "tables" : {
+    "semestres" : {
+      "received" : 6,
+      "accepted" : 6,
+      "rejected" : 0
+    },
+    "cursos" : {
+      "received" : 9,
+      "accepted" : 9,
+      "rejected" : 0
+    },
+    "estudiantes" : {
+      "received" : 120,
+      "accepted" : 120,
+      "rejected" : 0
+    },
+    "notas" : {
+      "received" : 4320,
+      "accepted" : 4320,
+      "rejected" : 0
+    },
+    "asistencia" : {
+      "received" : 17280,
+      "accepted" : 17280,
+      "rejected" : 0
+    }
+  },
+  "reasons" : [ ]
+}

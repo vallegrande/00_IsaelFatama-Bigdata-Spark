@@ -1,0 +1,101 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "rendimiento-local-01",
+  "stage" : "VALIDATION",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:58:21.019207900Z",
+  "completedAt" : "2026-10-21T22:58:33.129290Z",
+  "durationMs" : 12110,
+  "sparkJobs" : 21,
+  "rows" : 21759,
+  "detail" : "21514 filas válidas y 245 observadas",
+  "metrics" : {
+    "reasons" : [ {
+      "table" : "estudiantes",
+      "reason" : "REGISTRO_DUPLICADO",
+      "rows" : 2
+    }, {
+      "table" : "estudiantes",
+      "reason" : "CAMPO_REQUERIDO",
+      "rows" : 1
+    }, {
+      "table" : "estudiantes",
+      "reason" : "SEMESTRE_INEXISTENTE",
+      "rows" : 1
+    }, {
+      "table" : "notas",
+      "reason" : "ESTUDIANTE_INEXISTENTE",
+      "rows" : 40
+    }, {
+      "table" : "notas",
+      "reason" : "NOTA_FUERA_DE_RANGO",
+      "rows" : 11
+    }, {
+      "table" : "notas",
+      "reason" : "NOTA_NO_NUMERICA",
+      "rows" : 5
+    }, {
+      "table" : "notas",
+      "reason" : "REGISTRO_DUPLICADO",
+      "rows" : 5
+    }, {
+      "table" : "notas",
+      "reason" : "PESO_INVALIDO",
+      "rows" : 3
+    }, {
+      "table" : "notas",
+      "reason" : "CURSO_INEXISTENTE",
+      "rows" : 2
+    }, {
+      "table" : "asistencia",
+      "reason" : "ESTUDIANTE_INEXISTENTE",
+      "rows" : 148
+    }, {
+      "table" : "asistencia",
+      "reason" : "ESTADO_INVALIDO",
+      "rows" : 10
+    }, {
+      "table" : "asistencia",
+      "reason" : "FECHA_INVALIDA",
+      "rows" : 6
+    }, {
+      "table" : "asistencia",
+      "reason" : "REGISTRO_DUPLICADO",
+      "rows" : 6
+    }, {
+      "table" : "asistencia",
+      "reason" : "FECHA_FUERA_DE_PERIODO",
+      "rows" : 5
+    } ],
+    "tables" : {
+      "semestres" : {
+        "received" : 6,
+        "accepted" : 6,
+        "rejected" : 0
+      },
+      "cursos" : {
+        "received" : 9,
+        "accepted" : 9,
+        "rejected" : 0
+      },
+      "estudiantes" : {
+        "received" : 123,
+        "accepted" : 119,
+        "rejected" : 4
+      },
+      "notas" : {
+        "received" : 4331,
+        "accepted" : 4265,
+        "rejected" : 66
+      },
+      "asistencia" : {
+        "received" : 17290,
+        "accepted" : 17115,
+        "rejected" : 175
+      }
+    },
+    "accepted" : 21514,
+    "received" : 21759,
+    "rejected" : 245
+  }
+}

@@ -1,0 +1,28 @@
+﻿seccion,curso_id,curso,estudiantes,promedio,aprobados,desaprobados,inhabilitados,asistencia_promedio,tasa_aprobacion
+A,APS,Administración de Proyectos de Sistemas,40,14.93,32,8,0,0.9378,0.8
+A,CII,Comunicación Interpersonal en Inglés,40,15.8,36,3,1,0.9304,0.9
+A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,40,15.63,0,0,2,0.9273,
+A,EIA,Estadística Inferencial Aplicada,40,13.91,25,12,1,0.9211,0.6579
+A,EIT,Emprendimiento de Innovación Tecnológica,40,15.05,0,0,0,0.9358,
+A,FCS,Fundamentos de Calidad de Software,40,15.1,30,7,0,0.9366,0.8108
+A,FIA,Fundamentos de Inteligencia Artificial,40,14.29,31,8,0,0.9381,0.7949
+A,SDE,Sistemas Distribuidos y Escalables,40,13.92,29,9,1,0.9308,0.7436
+A,TBD,Talleres de Big Data,40,14.51,28,8,2,0.9121,0.7368
+B,APS,Administración de Proyectos de Sistemas,40,15.51,34,6,0,0.9168,0.85
+B,CII,Comunicación Interpersonal en Inglés,40,15.86,34,4,0,0.9317,0.8947
+B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,40,16.03,0,0,2,0.9045,
+B,EIA,Estadística Inferencial Aplicada,40,14.08,31,8,1,0.9138,0.775
+B,EIT,Emprendimiento de Innovación Tecnológica,40,15.58,0,0,0,0.9019,
+B,FCS,Fundamentos de Calidad de Software,40,15.4,33,4,3,0.9164,0.825
+B,FIA,Fundamentos de Inteligencia Artificial,40,14.77,32,7,1,0.9281,0.8
+B,SDE,Sistemas Distribuidos y Escalables,40,14.19,30,9,1,0.911,0.75
+B,TBD,Talleres de Big Data,40,14.5,31,8,1,0.9403,0.775
+C,APS,Administración de Proyectos de Sistemas,39,15.34,34,5,0,0.9445,0.8718
+C,CII,Comunicación Interpersonal en Inglés,39,15.7,36,1,1,0.931,0.9474
+C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,39,15.67,0,0,0,0.9306,
+C,EIA,Estadística Inferencial Aplicada,39,13.91,23,15,0,0.9311,0.6053
+C,EIT,Emprendimiento de Innovación Tecnológica,39,15.51,0,0,0,0.9311,
+C,FCS,Fundamentos de Calidad de Software,39,15.13,31,5,2,0.9393,0.8158
+C,FIA,Fundamentos de Inteligencia Artificial,39,14.3,32,7,0,0.9352,0.8205
+C,SDE,Sistemas Distribuidos y Escalables,39,13.85,22,14,3,0.9254,0.5641
+C,TBD,Talleres de Big Data,39,14.78,31,6,0,0.9403,0.8378

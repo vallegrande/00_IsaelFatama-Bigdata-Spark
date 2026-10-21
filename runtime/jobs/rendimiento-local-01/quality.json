@@ -1,0 +1,175 @@
+{
+  "rulesVersion" : "2.0.0",
+  "received" : 21759,
+  "accepted" : 21514,
+  "rejected" : 245,
+  "rejectedRatio" : 0.01126,
+  "maxRejectedRatio" : 0.5,
+  "published" : true,
+  "decision" : "Publicado: las filas válidas pasan a Gold y las observadas quedan en cuarentena",
+  "tables" : [ {
+    "table" : "semestres",
+    "received" : 6,
+    "accepted" : 6,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  }, {
+    "table" : "cursos",
+    "received" : 9,
+    "accepted" : 9,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  }, {
+    "table" : "estudiantes",
+    "received" : 123,
+    "accepted" : 119,
+    "rejected" : 4,
+    "rejectedRatio" : 0.03252,
+    "withinTolerance" : true
+  }, {
+    "table" : "notas",
+    "received" : 4331,
+    "accepted" : 4265,
+    "rejected" : 66,
+    "rejectedRatio" : 0.015239,
+    "withinTolerance" : true
+  }, {
+    "table" : "asistencia",
+    "received" : 17290,
+    "accepted" : 17115,
+    "rejected" : 175,
+    "rejectedRatio" : 0.010121,
+    "withinTolerance" : true
+  } ],
+  "dimensions" : {
+    "COMPLETITUD" : 1,
+    "VALIDEZ" : 35,
+    "UNICIDAD" : 13,
+    "INTEGRIDAD" : 191,
+    "CONSISTENCIA" : 5
+  },
+  "reasons" : [ {
+    "table" : "estudiantes",
+    "rule" : "REGISTRO_DUPLICADO",
+    "dimension" : "UNICIDAD",
+    "description" : "La clave del registro ya existe",
+    "rows" : 2
+  }, {
+    "table" : "estudiantes",
+    "rule" : "CAMPO_REQUERIDO",
+    "dimension" : "COMPLETITUD",
+    "description" : "Falta un valor obligatorio",
+    "rows" : 1
+  }, {
+    "table" : "estudiantes",
+    "rule" : "SEMESTRE_INEXISTENTE",
+    "dimension" : "INTEGRIDAD",
+    "description" : "El semestre no existe en la tabla de semestres",
+    "rows" : 1
+  }, {
+    "table" : "notas",
+    "rule" : "ESTUDIANTE_INEXISTENTE",
+    "dimension" : "INTEGRIDAD",
+    "description" : "El estudiante no existe en el registro",
+    "rows" : 40
+  }, {
+    "table" : "notas",
+    "rule" : "NOTA_FUERA_DE_RANGO",
+    "dimension" : "VALIDEZ",
+    "description" : "La nota esta fuera de la escala 0 a 20",
+    "rows" : 11
+  }, {
+    "table" : "notas",
+    "rule" : "NOTA_NO_NUMERICA",
+    "dimension" : "VALIDEZ",
+    "description" : "La nota no es un número",
+    "rows" : 5
+  }, {
+    "table" : "notas",
+    "rule" : "REGISTRO_DUPLICADO",
+    "dimension" : "UNICIDAD",
+    "description" : "La clave del registro ya existe",
+    "rows" : 5
+  }, {
+    "table" : "notas",
+    "rule" : "PESO_INVALIDO",
+    "dimension" : "VALIDEZ",
+    "description" : "El peso de la evaluacion debe de ser mayor a 0 y menor o igual a 1",
+    "rows" : 3
+  }, {
+    "table" : "notas",
+    "rule" : "CURSO_INEXISTENTE",
+    "dimension" : "INTEGRIDAD",
+    "description" : "El curso no existe en el registro",
+    "rows" : 2
+  }, {
+    "table" : "asistencia",
+    "rule" : "ESTUDIANTE_INEXISTENTE",
+    "dimension" : "INTEGRIDAD",
+    "description" : "El estudiante no existe en el registro",
+    "rows" : 148
+  }, {
+    "table" : "asistencia",
+    "rule" : "ESTADO_INVALIDO",
+    "dimension" : "VALIDEZ",
+    "description" : "El estado de asistencia debe de ser P, T, F o J",
+    "rows" : 10
+  }, {
+    "table" : "asistencia",
+    "rule" : "FECHA_INVALIDA",
+    "dimension" : "VALIDEZ",
+    "description" : "La fecha no tiene el formato AAAA-MM-DD válido",
+    "rows" : 6
+  }, {
+    "table" : "asistencia",
+    "rule" : "REGISTRO_DUPLICADO",
+    "dimension" : "UNICIDAD",
+    "description" : "La clave del registro ya existe",
+    "rows" : 6
+  }, {
+    "table" : "asistencia",
+    "rule" : "FECHA_FUERA_DE_PERIODO",
+    "dimension" : "CONSISTENCIA",
+    "description" : "La fechja esta fuera del inicio y fin del semestre",
+    "rows" : 5
+  } ],
+  "checks" : [ {
+    "name" : "Rechazo en semestres",
+    "passed" : true,
+    "detail" : "0 de 6 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en cursos",
+    "passed" : true,
+    "detail" : "0 de 9 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en estudiantes",
+    "passed" : true,
+    "detail" : "4 de 123 filas rechazadas (3.25 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en notas",
+    "passed" : true,
+    "detail" : "66 de 4331 filas rechazadas (1.52 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en asistencia",
+    "passed" : true,
+    "detail" : "175 de 17290 filas rechazadas (1.01 %); máximo 50.00 %"
+  }, {
+    "name" : "Tabla maestra semestres con datos válidos",
+    "passed" : true,
+    "detail" : "6 filas válidas"
+  }, {
+    "name" : "Tabla maestra cursos con datos válidos",
+    "passed" : true,
+    "detail" : "9 filas válidas"
+  }, {
+    "name" : "Tabla maestra estudiantes con datos válidos",
+    "passed" : true,
+    "detail" : "119 filas válidas"
+  }, {
+    "name" : "Conservación de filas",
+    "passed" : true,
+    "detail" : "recibidas = aceptadas + rechazadas (21759 = 21514 + 245)"
+  } ]
+}

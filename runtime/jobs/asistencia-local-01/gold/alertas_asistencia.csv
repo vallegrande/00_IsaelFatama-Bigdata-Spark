@@ -1,0 +1,1081 @@
+﻿estudiante_id,nombres,apellidos,seccion,curso_id,curso,periodo,sesiones,faltas,justificadas,inasistencia_pct,faltas_permitidas,faltas_restantes,nivel
+VG260002,Ximena,Castillo Cárdenas,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,6,0,0.375,4,0,INHABILITADO
+VG260012,Mariela,Paredes Torres,A,EIA,Estadística Inferencial Aplicada,2026-II,16,5,1,0.3125,4,0,INHABILITADO
+VG260027,Renzo,García Salazar,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,5,1,0.3125,4,0,INHABILITADO
+VG260028,Miguel,Córdova Aguilar,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260034,Valeria,Ccahuana Villanueva,A,TBD,Talleres de Big Data,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260040,Luciana,Villanueva Mamani,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260040,Luciana,Villanueva Mamani,A,TBD,Talleres de Big Data,2026-II,16,5,2,0.3125,4,0,INHABILITADO
+VG260046,Renzo,Huamán García,B,EIA,Estadística Inferencial Aplicada,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260046,Renzo,Huamán García,B,TBD,Talleres de Big Data,2026-II,16,5,2,0.3125,4,0,INHABILITADO
+VG260049,Carlos,Mamani Medina,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,5,2,0.3125,4,0,INHABILITADO
+VG260051,Fabricio,Medina Ramos,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,5,3,0.3125,4,0,INHABILITADO
+VG260053,Sofía,Córdova García,B,FCS,Fundamentos de Calidad de Software,2026-II,16,5,1,0.3125,4,0,INHABILITADO
+VG260053,Sofía,Córdova García,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,5,2,0.3125,4,0,INHABILITADO
+VG260059,Estefany,Palomino Luna,B,FCS,Fundamentos de Calidad de Software,2026-II,16,5,1,0.3125,4,0,INHABILITADO
+VG260060,Gonzalo,Villanueva Medina,B,FCS,Fundamentos de Calidad de Software,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260065,Pamela,Vargas Gutiérrez,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260091,Ximena,Mendoza Flores,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,5,1,0.3125,4,0,INHABILITADO
+VG260092,Gonzalo,Mamani Aguilar,C,FCS,Fundamentos de Calidad de Software,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260103,Nicole,Ramos Ramos,C,FCS,Fundamentos de Calidad de Software,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260106,Jhon,Aguilar Paredes,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260108,Renzo,Paredes Soto,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,5,1,0.3125,4,0,INHABILITADO
+VG260116,Camila,Cruz Salazar,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,5,0,0.3125,4,0,INHABILITADO
+VG260002,Ximena,Castillo Cárdenas,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260003,Kevin,Cárdenas Villanueva,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260006,Ricardo,Medina Cruz,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,4,3,0.25,4,0,EN_RIESGO
+VG260006,Ricardo,Medina Cruz,A,TBD,Talleres de Big Data,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260016,María,Vargas Quispe,A,APS,Administración de Proyectos de Sistemas,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260018,Rosa,Villanueva Villanueva,A,APS,Administración de Proyectos de Sistemas,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260018,Rosa,Villanueva Villanueva,A,FCS,Fundamentos de Calidad de Software,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260018,Rosa,Villanueva Villanueva,A,TBD,Talleres de Big Data,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260028,Miguel,Córdova Aguilar,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260028,Miguel,Córdova Aguilar,A,TBD,Talleres de Big Data,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260039,Mariela,Gutiérrez Villanueva,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260040,Luciana,Villanueva Mamani,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260040,Luciana,Villanueva Mamani,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260046,Renzo,Huamán García,B,APS,Administración de Proyectos de Sistemas,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260046,Renzo,Huamán García,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260046,Renzo,Huamán García,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260046,Renzo,Huamán García,B,FCS,Fundamentos de Calidad de Software,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260046,Renzo,Huamán García,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260049,Carlos,Mamani Medina,B,TBD,Talleres de Big Data,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260051,Fabricio,Medina Ramos,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,4,2,0.25,4,0,EN_RIESGO
+VG260053,Sofía,Córdova García,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,4,2,0.25,4,0,EN_RIESGO
+VG260053,Sofía,Córdova García,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,4,2,0.25,4,0,EN_RIESGO
+VG260053,Sofía,Córdova García,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260059,Estefany,Palomino Luna,B,EIA,Estadística Inferencial Aplicada,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260059,Estefany,Palomino Luna,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260063,Alessandra,Castillo Aguilar,B,FCS,Fundamentos de Calidad de Software,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260064,Miguel,Espinoza Cruz,B,EIA,Estadística Inferencial Aplicada,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260065,Pamela,Vargas Gutiérrez,B,APS,Administración de Proyectos de Sistemas,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260067,Kevin,Rojas Castillo,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260069,Gabriela,Cruz Salazar,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260074,Gabriela,Cruz Rojas,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,2,0.25,4,0,EN_RIESGO
+VG260074,Gabriela,Cruz Rojas,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260076,Fabricio,Castillo Palomino,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260079,Marco,Flores Córdova,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260089,Diego,Torres Luna,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260091,Ximena,Mendoza Flores,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260092,Gonzalo,Mamani Aguilar,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260105,Fabricio,Díaz Torres,C,TBD,Talleres de Big Data,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260106,Jhon,Aguilar Paredes,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260117,Renzo,Paredes Aguilar,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,4,0,0.25,4,0,EN_RIESGO
+VG260118,Milagros,Palomino García,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260119,Andrés,Vargas Rodríguez,C,APS,Administración de Proyectos de Sistemas,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260120,Gabriela,Gutiérrez Quispe,C,EIA,Estadística Inferencial Aplicada,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260120,Gabriela,Gutiérrez Quispe,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,4,1,0.25,4,0,EN_RIESGO
+VG260002,Ximena,Castillo Cárdenas,A,FCS,Fundamentos de Calidad de Software,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260002,Ximena,Castillo Cárdenas,A,TBD,Talleres de Big Data,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,TBD,Talleres de Big Data,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260006,Ricardo,Medina Cruz,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,EIA,Estadística Inferencial Aplicada,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,EIA,Estadística Inferencial Aplicada,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260012,Mariela,Paredes Torres,A,APS,Administración de Proyectos de Sistemas,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260012,Mariela,Paredes Torres,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260012,Mariela,Paredes Torres,A,FCS,Fundamentos de Calidad de Software,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260012,Mariela,Paredes Torres,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260016,María,Vargas Quispe,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260016,María,Vargas Quispe,A,EIA,Estadística Inferencial Aplicada,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260016,María,Vargas Quispe,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260018,Rosa,Villanueva Villanueva,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260018,Rosa,Villanueva Villanueva,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260023,Luis,García Ccahuana,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260027,Renzo,García Salazar,A,FCS,Fundamentos de Calidad de Software,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260028,Miguel,Córdova Aguilar,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260028,Miguel,Córdova Aguilar,A,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260036,Alessandra,Flores Vargas,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260040,Luciana,Villanueva Mamani,A,APS,Administración de Proyectos de Sistemas,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260044,Renzo,Luna Salazar,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260044,Renzo,Luna Salazar,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260045,Mariela,Palomino García,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260048,Nicole,García Paredes,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260049,Carlos,Mamani Medina,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260051,Fabricio,Medina Ramos,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260051,Fabricio,Medina Ramos,B,FCS,Fundamentos de Calidad de Software,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260051,Fabricio,Medina Ramos,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,3,0.1875,4,1,NORMAL
+VG260053,Sofía,Córdova García,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260053,Sofía,Córdova García,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260053,Sofía,Córdova García,B,TBD,Talleres de Big Data,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260054,Andrés,Chávez Torres,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260059,Estefany,Palomino Luna,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260059,Estefany,Palomino Luna,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260066,Marco,Sánchez Chávez,B,APS,Administración de Proyectos de Sistemas,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260066,Marco,Sánchez Chávez,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260066,Marco,Sánchez Chávez,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260067,Kevin,Rojas Castillo,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260067,Kevin,Rojas Castillo,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260073,Sebastián,Quispe Soto,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260073,Sebastián,Quispe Soto,B,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260073,Sebastián,Quispe Soto,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260079,Marco,Flores Córdova,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,FCS,Fundamentos de Calidad de Software,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,FCS,Fundamentos de Calidad de Software,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260089,Diego,Torres Luna,C,FCS,Fundamentos de Calidad de Software,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260089,Diego,Torres Luna,C,TBD,Talleres de Big Data,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260091,Ximena,Mendoza Flores,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260095,Nicole,Chávez Castillo,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260101,Renzo,Castillo Huertas,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260101,Renzo,Castillo Huertas,C,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260103,Nicole,Ramos Ramos,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260103,Nicole,Ramos Ramos,C,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260108,Renzo,Paredes Soto,C,APS,Administración de Proyectos de Sistemas,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260108,Renzo,Paredes Soto,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260108,Renzo,Paredes Soto,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,2,0.1875,4,1,NORMAL
+VG260108,Renzo,Paredes Soto,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,3,3,0.1875,4,1,NORMAL
+VG260116,Camila,Cruz Salazar,C,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,TBD,Talleres de Big Data,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260118,Milagros,Palomino García,C,EIA,Estadística Inferencial Aplicada,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260118,Milagros,Palomino García,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,3,0,0.1875,4,1,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,EIA,Estadística Inferencial Aplicada,2026-II,16,3,1,0.1875,4,1,NORMAL
+VG260002,Ximena,Castillo Cárdenas,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260002,Ximena,Castillo Cárdenas,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260004,Gabriela,Torres Castillo,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260004,Gabriela,Torres Castillo,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260006,Ricardo,Medina Cruz,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260009,Milagros,Palomino García,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260012,Mariela,Paredes Torres,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260012,Mariela,Paredes Torres,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260012,Mariela,Paredes Torres,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260012,Mariela,Paredes Torres,A,TBD,Talleres de Big Data,2026-II,16,2,3,0.125,4,2,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260016,María,Vargas Quispe,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260016,María,Vargas Quispe,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260016,María,Vargas Quispe,A,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260018,Rosa,Villanueva Villanueva,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260023,Luis,García Ccahuana,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260028,Miguel,Córdova Aguilar,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260028,Miguel,Córdova Aguilar,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260028,Miguel,Córdova Aguilar,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,3,0.125,4,2,NORMAL
+VG260035,Luis,Córdova Cruz,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260035,Luis,Córdova Cruz,A,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260036,Alessandra,Flores Vargas,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260040,Luciana,Villanueva Mamani,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260040,Luciana,Villanueva Mamani,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260044,Renzo,Luna Salazar,B,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260045,Mariela,Palomino García,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260045,Mariela,Palomino García,B,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260045,Mariela,Palomino García,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260045,Mariela,Palomino García,B,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260045,Mariela,Palomino García,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260046,Renzo,Huamán García,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260048,Nicole,García Paredes,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260049,Carlos,Mamani Medina,B,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260049,Carlos,Mamani Medina,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260049,Carlos,Mamani Medina,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260051,Fabricio,Medina Ramos,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260051,Fabricio,Medina Ramos,B,TBD,Talleres de Big Data,2026-II,16,2,3,0.125,4,2,NORMAL
+VG260052,Miguel,Cruz Castillo,B,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260053,Sofía,Córdova García,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260054,Andrés,Chávez Torres,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260054,Andrés,Chávez Torres,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260059,Estefany,Palomino Luna,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260059,Estefany,Palomino Luna,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260059,Estefany,Palomino Luna,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260061,Andrés,Castillo Medina,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260061,Andrés,Castillo Medina,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260066,Marco,Sánchez Chávez,B,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260067,Kevin,Rojas Castillo,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260067,Kevin,Rojas Castillo,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260067,Kevin,Rojas Castillo,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260067,Kevin,Rojas Castillo,B,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260072,Marco,Mendoza Paredes,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260073,Sebastián,Quispe Soto,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260073,Sebastián,Quispe Soto,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260073,Sebastián,Quispe Soto,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,APS,Administración de Proyectos de Sistemas,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260079,Marco,Flores Córdova,B,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260079,Marco,Flores Córdova,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260079,Marco,Flores Córdova,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,3,0.125,4,2,NORMAL
+VG260079,Marco,Flores Córdova,B,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260081,José,Espinoza Huamán,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260081,José,Espinoza Huamán,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260083,Mariela,Palomino Díaz,C,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260086,Fabricio,Córdova Torres,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260086,Fabricio,Córdova Torres,C,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260089,Diego,Torres Luna,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260089,Diego,Torres Luna,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260089,Diego,Torres Luna,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260091,Ximena,Mendoza Flores,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260091,Ximena,Mendoza Flores,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260091,Ximena,Mendoza Flores,C,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260095,Nicole,Chávez Castillo,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260095,Nicole,Chávez Castillo,C,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260095,Nicole,Chávez Castillo,C,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260100,Joaquín,Huertas García,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260101,Renzo,Castillo Huertas,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260101,Renzo,Castillo Huertas,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260101,Renzo,Castillo Huertas,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260101,Renzo,Castillo Huertas,C,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260101,Renzo,Castillo Huertas,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260103,Nicole,Ramos Ramos,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260103,Nicole,Ramos Ramos,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260105,Fabricio,Díaz Torres,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260105,Fabricio,Díaz Torres,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,FCS,Fundamentos de Calidad de Software,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260108,Renzo,Paredes Soto,C,EIA,Estadística Inferencial Aplicada,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260108,Renzo,Paredes Soto,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260108,Renzo,Paredes Soto,C,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260108,Renzo,Paredes Soto,C,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260113,María,Mendoza Díaz,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260113,María,Mendoza Díaz,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260116,Camila,Cruz Salazar,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,FCS,Fundamentos de Calidad de Software,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260118,Milagros,Palomino García,C,APS,Administración de Proyectos de Sistemas,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260118,Milagros,Palomino García,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,2,2,0.125,4,2,NORMAL
+VG260118,Milagros,Palomino García,C,TBD,Talleres de Big Data,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,2,1,0.125,4,2,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,TBD,Talleres de Big Data,2026-II,16,2,3,0.125,4,2,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,TBD,Talleres de Big Data,2026-II,16,2,0,0.125,4,2,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260002,Ximena,Castillo Cárdenas,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260002,Ximena,Castillo Cárdenas,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260004,Gabriela,Torres Castillo,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260004,Gabriela,Torres Castillo,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260004,Gabriela,Torres Castillo,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260004,Gabriela,Torres Castillo,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260005,Iván,Huertas Rojas,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260005,Iván,Huertas Rojas,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260005,Iván,Huertas Rojas,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260005,Iván,Huertas Rojas,A,TBD,Talleres de Big Data,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260006,Ricardo,Medina Cruz,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260006,Ricardo,Medina Cruz,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260006,Ricardo,Medina Cruz,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260006,Ricardo,Medina Cruz,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260013,Jhon,Rojas Chávez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260013,Jhon,Rojas Chávez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260013,Jhon,Rojas Chávez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260013,Jhon,Rojas Chávez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260016,María,Vargas Quispe,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260018,Rosa,Villanueva Villanueva,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260018,Rosa,Villanueva Villanueva,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260018,Rosa,Villanueva Villanueva,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260023,Luis,García Ccahuana,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260023,Luis,García Ccahuana,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260023,Luis,García Ccahuana,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260023,Luis,García Ccahuana,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260023,Luis,García Ccahuana,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260023,Luis,García Ccahuana,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260027,Renzo,García Salazar,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260027,Renzo,García Salazar,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260027,Renzo,García Salazar,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260027,Renzo,García Salazar,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260027,Renzo,García Salazar,A,TBD,Talleres de Big Data,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260033,Daniela,Quispe Salazar,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260033,Daniela,Quispe Salazar,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260033,Daniela,Quispe Salazar,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260033,Daniela,Quispe Salazar,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260034,Valeria,Ccahuana Villanueva,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260036,Alessandra,Flores Vargas,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260036,Alessandra,Flores Vargas,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260036,Alessandra,Flores Vargas,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260036,Alessandra,Flores Vargas,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260036,Alessandra,Flores Vargas,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260040,Luciana,Villanueva Mamani,A,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260040,Luciana,Villanueva Mamani,A,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260044,Renzo,Luna Salazar,B,APS,Administración de Proyectos de Sistemas,2026-II,16,1,2,0.0625,4,3,NORMAL
+VG260044,Renzo,Luna Salazar,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260044,Renzo,Luna Salazar,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260044,Renzo,Luna Salazar,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260044,Renzo,Luna Salazar,B,TBD,Talleres de Big Data,2026-II,16,1,2,0.0625,4,3,NORMAL
+VG260045,Mariela,Palomino García,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260046,Renzo,Huamán García,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260047,Renzo,García Soto,B,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260047,Renzo,García Soto,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260047,Renzo,García Soto,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260047,Renzo,García Soto,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260047,Renzo,García Soto,B,TBD,Talleres de Big Data,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260048,Nicole,García Paredes,B,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260048,Nicole,García Paredes,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260048,Nicole,García Paredes,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260048,Nicole,García Paredes,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260049,Carlos,Mamani Medina,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260049,Carlos,Mamani Medina,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260051,Fabricio,Medina Ramos,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260051,Fabricio,Medina Ramos,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260052,Miguel,Cruz Castillo,B,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260052,Miguel,Cruz Castillo,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260052,Miguel,Cruz Castillo,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260052,Miguel,Cruz Castillo,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260055,Miguel,Espinoza Huamán,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260059,Estefany,Palomino Luna,B,TBD,Talleres de Big Data,2026-II,16,1,2,0.0625,4,3,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260061,Andrés,Castillo Medina,B,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260061,Andrés,Castillo Medina,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,2,0.0625,4,3,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,TBD,Talleres de Big Data,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260066,Marco,Sánchez Chávez,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260066,Marco,Sánchez Chávez,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260066,Marco,Sánchez Chávez,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260067,Kevin,Rojas Castillo,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260070,Estefany,Salazar García,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260070,Estefany,Salazar García,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260070,Estefany,Salazar García,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260070,Estefany,Salazar García,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260070,Estefany,Salazar García,B,TBD,Talleres de Big Data,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260072,Marco,Mendoza Paredes,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260072,Marco,Mendoza Paredes,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260072,Marco,Mendoza Paredes,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260072,Marco,Mendoza Paredes,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260072,Marco,Mendoza Paredes,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260073,Sebastián,Quispe Soto,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260073,Sebastián,Quispe Soto,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260073,Sebastián,Quispe Soto,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260079,Marco,Flores Córdova,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260081,José,Espinoza Huamán,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260081,José,Espinoza Huamán,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260081,José,Espinoza Huamán,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260082,Joaquín,Rojas Cruz,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260084,Renzo,Huertas Paredes,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260084,Renzo,Huertas Paredes,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260084,Renzo,Huertas Paredes,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260084,Renzo,Huertas Paredes,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260085,Piero,Ramos Mendoza,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260086,Fabricio,Córdova Torres,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260086,Fabricio,Córdova Torres,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260086,Fabricio,Córdova Torres,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260089,Diego,Torres Luna,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260089,Diego,Torres Luna,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260090,Pamela,Mendoza Huamán,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260091,Ximena,Mendoza Flores,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260091,Ximena,Mendoza Flores,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,3,0.0625,4,3,NORMAL
+VG260091,Ximena,Mendoza Flores,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,4,0.0625,4,3,NORMAL
+VG260092,Gonzalo,Mamani Aguilar,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260093,Jorge,Rojas Quispe,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260093,Jorge,Rojas Quispe,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260093,Jorge,Rojas Quispe,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260093,Jorge,Rojas Quispe,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260095,Nicole,Chávez Castillo,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260095,Nicole,Chávez Castillo,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260100,Joaquín,Huertas García,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260100,Joaquín,Huertas García,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260100,Joaquín,Huertas García,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260100,Joaquín,Huertas García,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260103,Nicole,Ramos Ramos,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260103,Nicole,Ramos Ramos,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260103,Nicole,Ramos Ramos,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,2,0.0625,4,3,NORMAL
+VG260103,Nicole,Ramos Ramos,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260105,Fabricio,Díaz Torres,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260105,Fabricio,Díaz Torres,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260105,Fabricio,Díaz Torres,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260105,Fabricio,Díaz Torres,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260105,Fabricio,Díaz Torres,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,2,0.0625,4,3,NORMAL
+VG260106,Jhon,Aguilar Paredes,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260113,María,Mendoza Díaz,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260113,María,Mendoza Díaz,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260113,María,Mendoza Díaz,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260113,María,Mendoza Díaz,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260113,María,Mendoza Díaz,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260115,Sofía,Córdova Torres,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260115,Sofía,Córdova Torres,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260115,Sofía,Córdova Torres,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260115,Sofía,Córdova Torres,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260116,Camila,Cruz Salazar,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260116,Camila,Cruz Salazar,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260116,Camila,Cruz Salazar,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260116,Camila,Cruz Salazar,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260116,Camila,Cruz Salazar,C,TBD,Talleres de Big Data,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,EIA,Estadística Inferencial Aplicada,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260118,Milagros,Palomino García,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,FCS,Fundamentos de Calidad de Software,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,APS,Administración de Proyectos de Sistemas,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,1,1,0.0625,4,3,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,1,0,0.0625,4,3,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260001,Diego,Castillo Gutiérrez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260002,Ximena,Castillo Cárdenas,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260003,Kevin,Cárdenas Villanueva,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260004,Gabriela,Torres Castillo,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,1,0,4,4,NORMAL
+VG260004,Gabriela,Torres Castillo,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260004,Gabriela,Torres Castillo,A,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260005,Iván,Huertas Rojas,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260005,Iván,Huertas Rojas,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260005,Iván,Huertas Rojas,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260005,Iván,Huertas Rojas,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260005,Iván,Huertas Rojas,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260006,Ricardo,Medina Cruz,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260007,Joaquín,Díaz Villanueva,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260008,Jorge,Mendoza Quispe,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,2,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260009,Milagros,Palomino García,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260010,Mariela,Gutiérrez Díaz,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,1,0,4,4,NORMAL
+VG260011,Miguel,Mendoza Huamán,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260013,Jhon,Rojas Chávez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260013,Jhon,Rojas Chávez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260013,Jhon,Rojas Chávez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260013,Jhon,Rojas Chávez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260013,Jhon,Rojas Chávez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260014,Luis,Gutiérrez Ramos,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260015,Rosa,Cruz Rodríguez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260016,María,Vargas Quispe,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260017,Miguel,Soto Huertas,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260019,Fiorella,Huertas Huamán,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260020,Daniela,Ramos Rodríguez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260021,Joaquín,Espinoza Chávez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260022,Lucía,Ccahuana Espinoza,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260023,Luis,García Ccahuana,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,1,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260024,Andrés,Flores Rodríguez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260025,Miguel,Salazar Sánchez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260026,Joaquín,Villanueva Ccahuana,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260027,Renzo,García Salazar,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260027,Renzo,García Salazar,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260028,Miguel,Córdova Aguilar,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260029,Renzo,Palomino Sánchez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260030,Fiorella,Villanueva Espinoza,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260031,Sofía,Cárdenas Palomino,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260032,Andrés,Huamán Sánchez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260033,Daniela,Quispe Salazar,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,1,0,4,4,NORMAL
+VG260033,Daniela,Quispe Salazar,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260033,Daniela,Quispe Salazar,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260033,Daniela,Quispe Salazar,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260033,Daniela,Quispe Salazar,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260035,Luis,Córdova Cruz,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260036,Alessandra,Flores Vargas,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,2,0,4,4,NORMAL
+VG260036,Alessandra,Flores Vargas,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260037,Gabriela,Rodríguez Gutiérrez,A,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260038,Yessenia,Vargas Rojas,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,1,0,4,4,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260039,Mariela,Gutiérrez Villanueva,A,FCS,Fundamentos de Calidad de Software,2026-II,16,0,1,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260041,Fabricio,Aguilar Huertas,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260042,Ximena,Gutiérrez Sánchez,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260043,Miguel,Paredes Villanueva,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260044,Renzo,Luna Salazar,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260045,Mariela,Palomino García,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260045,Mariela,Palomino García,B,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260047,Renzo,García Soto,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260047,Renzo,García Soto,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260047,Renzo,García Soto,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260047,Renzo,García Soto,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260048,Nicole,García Paredes,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260048,Nicole,García Paredes,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260048,Nicole,García Paredes,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260049,Carlos,Mamani Medina,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260050,Jhon,Vargas Córdova,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260052,Miguel,Cruz Castillo,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260052,Miguel,Cruz Castillo,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,1,0,4,4,NORMAL
+VG260052,Miguel,Cruz Castillo,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260052,Miguel,Cruz Castillo,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260054,Andrés,Chávez Torres,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260054,Andrés,Chávez Torres,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260054,Andrés,Chávez Torres,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260054,Andrés,Chávez Torres,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260054,Andrés,Chávez Torres,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260054,Andrés,Chávez Torres,B,TBD,Talleres de Big Data,2026-II,16,0,2,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260056,Renzo,Espinoza Soto,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260057,Álvaro,Rodríguez Mamani,B,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,1,0,4,4,NORMAL
+VG260058,Nicole,Sánchez Díaz,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260060,Gonzalo,Villanueva Medina,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260061,Andrés,Castillo Medina,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260061,Andrés,Castillo Medina,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260061,Andrés,Castillo Medina,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,1,0,4,4,NORMAL
+VG260061,Andrés,Castillo Medina,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260061,Andrés,Castillo Medina,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260062,Estefany,Gutiérrez Gutiérrez,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260063,Alessandra,Castillo Aguilar,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260064,Miguel,Espinoza Cruz,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260065,Pamela,Vargas Gutiérrez,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,2,0,4,4,NORMAL
+VG260066,Marco,Sánchez Chávez,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260066,Marco,Sánchez Chávez,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260067,Kevin,Rojas Castillo,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260068,Renzo,Villanueva Vargas,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260069,Gabriela,Cruz Salazar,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260070,Estefany,Salazar García,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260070,Estefany,Salazar García,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260070,Estefany,Salazar García,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260070,Estefany,Salazar García,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260071,Lucía,Mamani Flores,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260072,Marco,Mendoza Paredes,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260072,Marco,Mendoza Paredes,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260072,Marco,Mendoza Paredes,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260074,Gabriela,Cruz Rojas,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,1,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260075,Sofía,Quispe Aguilar,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,2,0,4,4,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260076,Fabricio,Castillo Palomino,B,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260077,Yessenia,Gutiérrez Paredes,B,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260078,Milagros,Palomino Villanueva,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260079,Marco,Flores Córdova,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,1,0,4,4,NORMAL
+VG260079,Marco,Flores Córdova,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,2,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260080,Miguel,Mamani Espinoza,B,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260081,José,Espinoza Huamán,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260081,José,Espinoza Huamán,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260081,José,Espinoza Huamán,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260081,José,Espinoza Huamán,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260083,Mariela,Palomino Díaz,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,1,0,4,4,NORMAL
+VG260083,Mariela,Palomino Díaz,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260084,Renzo,Huertas Paredes,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260084,Renzo,Huertas Paredes,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260084,Renzo,Huertas Paredes,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260084,Renzo,Huertas Paredes,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260084,Renzo,Huertas Paredes,C,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,1,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260085,Piero,Ramos Mendoza,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260086,Fabricio,Córdova Torres,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260086,Fabricio,Córdova Torres,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260086,Fabricio,Córdova Torres,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260086,Fabricio,Córdova Torres,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260087,Nicole,Huertas Ccahuana,C,TBD,Talleres de Big Data,2026-II,16,0,1,0,4,4,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260088,Gonzalo,Cruz Medina,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260089,Diego,Torres Luna,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,1,0,4,4,NORMAL
+VG260093,Jorge,Rojas Quispe,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260093,Jorge,Rojas Quispe,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260093,Jorge,Rojas Quispe,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260093,Jorge,Rojas Quispe,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260093,Jorge,Rojas Quispe,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260094,Joaquín,Gutiérrez Cruz,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260095,Nicole,Chávez Castillo,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260095,Nicole,Chávez Castillo,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,1,0,4,4,NORMAL
+VG260095,Nicole,Chávez Castillo,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,1,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260096,Ximena,Ramos Medina,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260097,Andrés,Ramos Mamani,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260098,Lucía,Córdova Luna,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,1,0,4,4,NORMAL
+VG260099,Bruno,Cárdenas Córdova,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260100,Joaquín,Huertas García,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260100,Joaquín,Huertas García,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260100,Joaquín,Huertas García,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260100,Joaquín,Huertas García,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260101,Renzo,Castillo Huertas,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260101,Renzo,Castillo Huertas,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260102,Renzo,Mendoza Huamán,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260104,Milagros,Quispe Chávez,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260105,Fabricio,Díaz Torres,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260107,Estefany,Gutiérrez Villanueva,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260109,Álvaro,Paredes Rojas,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260110,Marco,Torres Ramos,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260111,Estefany,Ramos Rodríguez,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL
+VG260112,Diego,Cárdenas Palomino,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260113,María,Mendoza Díaz,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,1,0,4,4,NORMAL
+VG260113,María,Mendoza Díaz,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,2,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,0,0,4,4,NORMAL
+VG260114,Pamela,Soto García,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260115,Sofía,Córdova Torres,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260115,Sofía,Córdova Torres,C,EIA,Estadística Inferencial Aplicada,2026-II,16,0,0,0,4,4,NORMAL
+VG260115,Sofía,Córdova Torres,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,1,0,4,4,NORMAL
+VG260115,Sofía,Córdova Torres,C,FIA,Fundamentos de Inteligencia Artificial,2026-II,16,0,0,0,4,4,NORMAL
+VG260115,Sofía,Córdova Torres,C,TBD,Talleres de Big Data,2026-II,16,0,0,0,4,4,NORMAL
+VG260116,Camila,Cruz Salazar,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,APS,Administración de Proyectos de Sistemas,2026-II,16,0,1,0,4,4,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260117,Renzo,Paredes Aguilar,C,EIT,Emprendimiento de Innovación Tecnológica,2026-II,16,0,2,0,4,4,NORMAL
+VG260118,Milagros,Palomino García,C,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2026-II,16,0,0,0,4,4,NORMAL
+VG260118,Milagros,Palomino García,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260119,Andrés,Vargas Rodríguez,C,CII,Comunicación Interpersonal en Inglés,2026-II,16,0,0,0,4,4,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,FCS,Fundamentos de Calidad de Software,2026-II,16,0,0,0,4,4,NORMAL
+VG260120,Gabriela,Gutiérrez Quispe,C,SDE,Sistemas Distribuidos y Escalables,2026-II,16,0,1,0,4,4,NORMAL

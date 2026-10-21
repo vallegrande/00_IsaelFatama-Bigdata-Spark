@@ -1,0 +1,37 @@
+﻿curso_id,curso,evaluacion,peso,programadas,registradas,pendientes,promedio,aprobados,tasa_aprobacion,fecha
+APS,Administración de Proyectos de Sistemas,EC1,0.2,119,119,0,15.1,97,0.8151,2026-09-14
+APS,Administración de Proyectos de Sistemas,EP,0.25,119,119,0,15.32,96,0.8067,2026-10-12
+APS,Administración de Proyectos de Sistemas,EC2,0.2,119,119,0,15.4,101,0.8487,2026-10-19
+APS,Administración de Proyectos de Sistemas,EF,0.35,119,119,0,15.24,98,0.8235,2026-12-07
+CII,Comunicación Interpersonal en Inglés,EC1,0.2,117,117,0,15.67,97,0.8291,2026-09-15
+CII,Comunicación Interpersonal en Inglés,EP,0.25,119,119,0,15.66,105,0.8824,2026-10-13
+CII,Comunicación Interpersonal en Inglés,EC2,0.2,119,119,0,15.76,106,0.8908,2026-10-20
+CII,Comunicación Interpersonal en Inglés,EF,0.35,118,118,0,15.97,105,0.8898,2026-12-08
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,EC1,0.2,118,118,0,15.97,102,0.8644,2026-09-17
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,EP,0.25,119,119,0,15.63,103,0.8655,2026-10-15
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,EC2,0.2,119,119,0,15.81,106,0.8908,2026-10-22
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,EF,0.35,119,0,119,,0,,
+EIA,Estadística Inferencial Aplicada,EC1,0.2,118,118,0,14.06,82,0.6949,2026-09-14
+EIA,Estadística Inferencial Aplicada,EP,0.25,119,119,0,13.87,78,0.6555,2026-10-12
+EIA,Estadística Inferencial Aplicada,EC2,0.2,118,118,0,13.6,77,0.6525,2026-10-19
+EIA,Estadística Inferencial Aplicada,EF,0.35,118,118,0,14.18,89,0.7542,2026-12-07
+EIT,Emprendimiento de Innovación Tecnológica,EC1,0.2,119,119,0,15.41,101,0.8487,2026-09-16
+EIT,Emprendimiento de Innovación Tecnológica,EP,0.25,117,117,0,15.44,100,0.8547,2026-10-14
+EIT,Emprendimiento de Innovación Tecnológica,EC2,0.2,119,119,0,15.3,98,0.8235,2026-10-21
+EIT,Emprendimiento de Innovación Tecnológica,EF,0.35,119,0,119,,0,,
+FCS,Fundamentos de Calidad de Software,EC1,0.2,117,117,0,15.58,104,0.8889,2026-09-18
+FCS,Fundamentos de Calidad de Software,EP,0.25,119,119,0,14.96,96,0.8067,2026-10-16
+FCS,Fundamentos de Calidad de Software,EC2,0.2,118,118,0,15.26,98,0.8305,2026-10-23
+FCS,Fundamentos de Calidad de Software,EF,0.35,118,118,0,15.13,96,0.8136,2026-12-11
+FIA,Fundamentos de Inteligencia Artificial,EC1,0.2,119,119,0,14.45,89,0.7479,2026-09-16
+FIA,Fundamentos de Inteligencia Artificial,EP,0.25,119,119,0,14.54,82,0.6891,2026-10-14
+FIA,Fundamentos de Inteligencia Artificial,EC2,0.2,119,119,0,14.44,83,0.6975,2026-10-21
+FIA,Fundamentos de Inteligencia Artificial,EF,0.35,118,118,0,14.39,87,0.7373,2026-12-09
+SDE,Sistemas Distribuidos y Escalables,EC1,0.2,119,119,0,13.86,83,0.6975,2026-09-17
+SDE,Sistemas Distribuidos y Escalables,EP,0.25,119,119,0,13.97,82,0.6891,2026-10-15
+SDE,Sistemas Distribuidos y Escalables,EC2,0.2,119,119,0,14.18,86,0.7227,2026-10-22
+SDE,Sistemas Distribuidos y Escalables,EF,0.35,118,118,0,13.98,79,0.6695,2026-12-10
+TBD,Talleres de Big Data,EC1,0.2,119,119,0,14.77,89,0.7479,2026-09-15
+TBD,Talleres de Big Data,EP,0.25,118,118,0,14.36,89,0.7542,2026-10-13
+TBD,Talleres de Big Data,EC2,0.2,118,118,0,14.62,91,0.7712,2026-10-20
+TBD,Talleres de Big Data,EF,0.35,117,117,0,14.6,88,0.7521,2026-12-08

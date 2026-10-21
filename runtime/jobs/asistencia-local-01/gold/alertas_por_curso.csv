@@ -1,0 +1,10 @@
+﻿curso_id,curso,matriculas,inhabilitados,en_riesgo,normales,inasistencia_promedio
+SDE,Sistemas Distribuidos y Escalables,120,5,6,109,0.0734
+FCS,Fundamentos de Calidad de Software,120,5,3,112,0.0677
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,120,4,3,113,0.0766
+TBD,Talleres de Big Data,120,3,5,112,0.0661
+CII,Comunicación Interpersonal en Inglés,120,2,5,113,0.0667
+EIA,Estadística Inferencial Aplicada,120,2,3,115,0.076
+FIA,Fundamentos de Inteligencia Artificial,120,1,2,117,0.063
+EIT,Emprendimiento de Innovación Tecnológica,120,0,12,108,0.075
+APS,Administración de Proyectos de Sistemas,120,0,5,115,0.0646

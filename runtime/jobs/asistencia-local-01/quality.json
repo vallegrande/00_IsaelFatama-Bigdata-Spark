@@ -1,0 +1,91 @@
+{
+  "rulesVersion" : "2.0.0",
+  "received" : 21735,
+  "accepted" : 21735,
+  "rejected" : 0,
+  "rejectedRatio" : 0.0,
+  "maxRejectedRatio" : 0.5,
+  "published" : true,
+  "decision" : "Publicado: las filas válidas pasan a Gold y las observadas quedan en cuarentena",
+  "tables" : [ {
+    "table" : "semestres",
+    "received" : 6,
+    "accepted" : 6,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  }, {
+    "table" : "cursos",
+    "received" : 9,
+    "accepted" : 9,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  }, {
+    "table" : "estudiantes",
+    "received" : 120,
+    "accepted" : 120,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  }, {
+    "table" : "notas",
+    "received" : 4320,
+    "accepted" : 4320,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  }, {
+    "table" : "asistencia",
+    "received" : 17280,
+    "accepted" : 17280,
+    "rejected" : 0,
+    "rejectedRatio" : 0.0,
+    "withinTolerance" : true
+  } ],
+  "dimensions" : {
+    "COMPLETITUD" : 0,
+    "VALIDEZ" : 0,
+    "UNICIDAD" : 0,
+    "INTEGRIDAD" : 0,
+    "CONSISTENCIA" : 0
+  },
+  "reasons" : [ ],
+  "checks" : [ {
+    "name" : "Rechazo en semestres",
+    "passed" : true,
+    "detail" : "0 de 6 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en cursos",
+    "passed" : true,
+    "detail" : "0 de 9 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en estudiantes",
+    "passed" : true,
+    "detail" : "0 de 120 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en notas",
+    "passed" : true,
+    "detail" : "0 de 4320 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Rechazo en asistencia",
+    "passed" : true,
+    "detail" : "0 de 17280 filas rechazadas (0.00 %); máximo 50.00 %"
+  }, {
+    "name" : "Tabla maestra semestres con datos válidos",
+    "passed" : true,
+    "detail" : "6 filas válidas"
+  }, {
+    "name" : "Tabla maestra cursos con datos válidos",
+    "passed" : true,
+    "detail" : "9 filas válidas"
+  }, {
+    "name" : "Tabla maestra estudiantes con datos válidos",
+    "passed" : true,
+    "detail" : "120 filas válidas"
+  }, {
+    "name" : "Conservación de filas",
+    "passed" : true,
+    "detail" : "recibidas = aceptadas + rechazadas (21735 = 21735 + 0)"
+  } ]
+}

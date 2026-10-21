@@ -1,0 +1,24 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "rendimiento-local-01",
+  "stage" : "QUARANTINE",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:58:33.144895300Z",
+  "completedAt" : "2026-10-21T22:58:35.973545300Z",
+  "durationMs" : 2829,
+  "sparkJobs" : 1,
+  "rows" : 245,
+  "detail" : "245 filas en cuarentena",
+  "metrics" : {
+    "formats" : [ "csv", "parquet" ],
+    "rejectedRows" : 245,
+    "rowsByTable" : {
+      "semestres" : 0,
+      "cursos" : 0,
+      "estudiantes" : 4,
+      "notas" : 66,
+      "asistencia" : 175
+    },
+    "outputTable" : "rechazados"
+  }
+}

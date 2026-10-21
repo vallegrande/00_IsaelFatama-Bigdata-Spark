@@ -1,0 +1,24 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "asistencia-local-01",
+  "stage" : "BRONZE",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:55:15.854106300Z",
+  "completedAt" : "2026-10-21T22:55:29.091735600Z",
+  "durationMs" : 13231,
+  "sparkJobs" : 15,
+  "rows" : 21735,
+  "detail" : "Filas leídas: semestres 6, cursos 9, estudiantes 120, notas 4320, asistencia 17280",
+  "metrics" : {
+    "rowsByTable" : {
+      "semestres" : 6,
+      "cursos" : 9,
+      "estudiantes" : 120,
+      "notas" : 4320,
+      "asistencia" : 17280
+    },
+    "inputFiles" : [ "semestres.csv", "cursos.csv", "estudiantes.csv", "notas.csv", "asistencia.csv" ],
+    "tableCount" : 5,
+    "totalRows" : 21735
+  }
+}

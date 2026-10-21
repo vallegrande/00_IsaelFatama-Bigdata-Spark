@@ -1,0 +1,24 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "asistencia-local-01",
+  "stage" : "QUARANTINE",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:55:46.135261900Z",
+  "completedAt" : "2026-10-21T22:55:48.987136900Z",
+  "durationMs" : 2852,
+  "sparkJobs" : 1,
+  "rows" : 0,
+  "detail" : "Sin filas observadas",
+  "metrics" : {
+    "rowsByTable" : {
+      "semestres" : 0,
+      "cursos" : 0,
+      "estudiantes" : 0,
+      "notas" : 0,
+      "asistencia" : 0
+    },
+    "outputTable" : "rechazados",
+    "formats" : [ "csv", "parquet" ],
+    "rejectedRows" : 0
+  }
+}

@@ -103,6 +103,11 @@ class RendimientoAcademicoJobTests {
         assertEquals(121, Files.readAllLines(output.resolve("gold/estudiantes_resumen.csv")).size());
         assertTrue(Files.readString(output.resolve("gold/resumen.json")).contains("\"matriculas\" : 1080"));
         assertTrue(Files.readString(output.resolve("events.jsonl")).contains("\"stage\":\"EXPORT\",\"status\":\"COMPLETED\""));
+        String bronzeReport = Files.readString(output.resolve("stage-reports/bronze.json"));
+        assertTrue(bronzeReport.contains("\"rowsByTable\""), bronzeReport);
+        assertTrue(bronzeReport.contains("\"estudiantes\" : 120"), bronzeReport);
+        String exportReport = Files.readString(output.resolve("stage-reports/export.json"));
+        assertTrue(exportReport.contains("\"fileCount\" : 15"), exportReport);
     }
 
     @Test
@@ -131,5 +136,7 @@ class RendimientoAcademicoJobTests {
         assertFalse(Files.exists(output.resolve("gold/rendimiento.csv")));
         assertTrue(Files.isRegularFile(output.resolve("quarantine/rechazados.csv")));
         assertTrue(Files.readString(output.resolve("events.jsonl")).contains("\"stage\":\"QUALITY_GATE\",\"status\":\"BLOCKED\""));
+        assertTrue(Files.readString(output.resolve("stage-reports/quality_gate.json")).contains("\"status\" : \"BLOCKED\""));
+        assertTrue(Files.readString(output.resolve("stage-reports/gold.json")).contains("\"status\" : \"SKIPPED\""));
     }
 }

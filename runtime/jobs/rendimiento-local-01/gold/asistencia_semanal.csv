@@ -1,0 +1,145 @@
+﻿curso_id,curso,semana,fecha,registros,asistieron,faltas,justificadas,asistencia_pct
+APS,Administración de Proyectos de Sistemas,1,2026-08-17,119,110,8,1,0.9322
+APS,Administración de Proyectos de Sistemas,2,2026-08-24,119,111,6,2,0.9487
+APS,Administración de Proyectos de Sistemas,3,2026-08-31,119,110,9,0,0.9244
+APS,Administración de Proyectos de Sistemas,4,2026-09-07,119,104,11,4,0.9043
+APS,Administración de Proyectos de Sistemas,5,2026-09-14,119,108,10,1,0.9153
+APS,Administración de Proyectos de Sistemas,6,2026-09-21,119,101,13,5,0.886
+APS,Administración de Proyectos de Sistemas,7,2026-09-28,119,108,9,2,0.9231
+APS,Administración de Proyectos de Sistemas,8,2026-10-05,119,113,3,3,0.9741
+APS,Administración de Proyectos de Sistemas,9,2026-10-12,119,107,7,5,0.9386
+APS,Administración de Proyectos de Sistemas,10,2026-10-19,119,107,12,0,0.8992
+APS,Administración de Proyectos de Sistemas,11,2026-10-26,119,116,3,0,0.9748
+APS,Administración de Proyectos de Sistemas,12,2026-11-02,119,110,8,1,0.9322
+APS,Administración de Proyectos de Sistemas,13,2026-11-09,119,110,8,1,0.9322
+APS,Administración de Proyectos de Sistemas,14,2026-11-16,119,113,6,0,0.9496
+APS,Administración de Proyectos de Sistemas,15,2026-11-23,119,111,5,3,0.9569
+APS,Administración de Proyectos de Sistemas,16,2026-11-30,119,113,6,0,0.9496
+CII,Comunicación Interpersonal en Inglés,1,2026-08-18,119,109,8,2,0.9316
+CII,Comunicación Interpersonal en Inglés,2,2026-08-25,119,110,9,0,0.9244
+CII,Comunicación Interpersonal en Inglés,3,2026-09-01,119,111,7,1,0.9407
+CII,Comunicación Interpersonal en Inglés,4,2026-09-08,119,107,10,2,0.9145
+CII,Comunicación Interpersonal en Inglés,5,2026-09-15,119,111,8,0,0.9328
+CII,Comunicación Interpersonal en Inglés,6,2026-09-22,119,106,10,3,0.9138
+CII,Comunicación Interpersonal en Inglés,7,2026-09-29,119,107,8,4,0.9304
+CII,Comunicación Interpersonal en Inglés,8,2026-10-06,119,109,7,3,0.9397
+CII,Comunicación Interpersonal en Inglés,9,2026-10-13,119,108,7,4,0.9391
+CII,Comunicación Interpersonal en Inglés,10,2026-10-20,119,112,5,2,0.9573
+CII,Comunicación Interpersonal en Inglés,11,2026-10-27,118,111,5,2,0.9569
+CII,Comunicación Interpersonal en Inglés,12,2026-11-03,119,113,5,1,0.9576
+CII,Comunicación Interpersonal en Inglés,13,2026-11-10,118,109,6,3,0.9478
+CII,Comunicación Interpersonal en Inglés,14,2026-11-17,119,104,15,0,0.8739
+CII,Comunicación Interpersonal en Inglés,15,2026-11-24,119,109,8,2,0.9316
+CII,Comunicación Interpersonal en Inglés,16,2026-12-01,119,105,10,4,0.913
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,1,2026-08-20,119,107,8,4,0.9304
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,2,2026-08-27,118,105,12,1,0.8974
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,3,2026-09-03,119,104,11,4,0.9043
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,4,2026-09-10,119,109,8,2,0.9316
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,5,2026-09-17,119,110,9,0,0.9244
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,6,2026-09-24,119,110,9,0,0.9244
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,7,2026-10-01,119,109,8,2,0.9316
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,8,2026-10-08,119,106,9,4,0.9217
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,9,2026-10-15,118,103,13,2,0.8879
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,10,2026-10-22,119,108,11,0,0.9076
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,11,2026-10-29,118,111,5,2,0.9569
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,12,2026-11-05,119,110,5,4,0.9565
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,13,2026-11-12,119,109,5,5,0.9561
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,14,2026-11-19,119,104,15,0,0.8739
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,15,2026-11-26,119,108,10,1,0.9153
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,16,2026-12-03,119,110,8,1,0.9322
+EIA,Estadística Inferencial Aplicada,1,2026-08-17,119,106,11,2,0.906
+EIA,Estadística Inferencial Aplicada,2,2026-08-24,118,109,8,1,0.9316
+EIA,Estadística Inferencial Aplicada,3,2026-08-31,119,109,8,2,0.9316
+EIA,Estadística Inferencial Aplicada,4,2026-09-07,119,110,8,1,0.9322
+EIA,Estadística Inferencial Aplicada,5,2026-09-14,119,108,11,0,0.9076
+EIA,Estadística Inferencial Aplicada,6,2026-09-21,119,109,6,4,0.9478
+EIA,Estadística Inferencial Aplicada,7,2026-09-28,118,107,10,1,0.9145
+EIA,Estadística Inferencial Aplicada,8,2026-10-05,119,106,12,1,0.8983
+EIA,Estadística Inferencial Aplicada,9,2026-10-12,119,105,12,2,0.8974
+EIA,Estadística Inferencial Aplicada,10,2026-10-19,119,113,6,0,0.9496
+EIA,Estadística Inferencial Aplicada,11,2026-10-26,119,109,9,1,0.9237
+EIA,Estadística Inferencial Aplicada,12,2026-11-02,119,107,11,1,0.9068
+EIA,Estadística Inferencial Aplicada,13,2026-11-09,119,108,8,3,0.931
+EIA,Estadística Inferencial Aplicada,14,2026-11-16,119,115,1,3,0.9914
+EIA,Estadística Inferencial Aplicada,15,2026-11-23,119,104,14,1,0.8814
+EIA,Estadística Inferencial Aplicada,16,2026-11-30,119,108,10,1,0.9153
+EIT,Emprendimiento de Innovación Tecnológica,1,2026-08-19,119,114,5,0,0.958
+EIT,Emprendimiento de Innovación Tecnológica,2,2026-08-26,119,106,12,1,0.8983
+EIT,Emprendimiento de Innovación Tecnológica,3,2026-09-02,119,111,7,1,0.9407
+EIT,Emprendimiento de Innovación Tecnológica,4,2026-09-09,118,106,9,3,0.9217
+EIT,Emprendimiento de Innovación Tecnológica,5,2026-09-16,119,108,7,4,0.9391
+EIT,Emprendimiento de Innovación Tecnológica,6,2026-09-23,119,106,10,3,0.9138
+EIT,Emprendimiento de Innovación Tecnológica,7,2026-09-30,118,106,9,3,0.9217
+EIT,Emprendimiento de Innovación Tecnológica,8,2026-10-07,119,107,11,1,0.9068
+EIT,Emprendimiento de Innovación Tecnológica,9,2026-10-14,119,107,12,0,0.8992
+EIT,Emprendimiento de Innovación Tecnológica,10,2026-10-21,119,107,12,0,0.8992
+EIT,Emprendimiento de Innovación Tecnológica,11,2026-10-28,119,108,8,3,0.931
+EIT,Emprendimiento de Innovación Tecnológica,12,2026-11-04,119,109,9,1,0.9237
+EIT,Emprendimiento de Innovación Tecnológica,13,2026-11-11,118,107,8,3,0.9304
+EIT,Emprendimiento de Innovación Tecnológica,14,2026-11-18,119,105,10,4,0.913
+EIT,Emprendimiento de Innovación Tecnológica,15,2026-11-25,119,109,5,5,0.9561
+EIT,Emprendimiento de Innovación Tecnológica,16,2026-12-02,119,110,9,0,0.9244
+FCS,Fundamentos de Calidad de Software,1,2026-08-21,118,111,6,1,0.9487
+FCS,Fundamentos de Calidad de Software,2,2026-08-28,119,108,9,2,0.9231
+FCS,Fundamentos de Calidad de Software,3,2026-09-04,119,110,8,1,0.9322
+FCS,Fundamentos de Calidad de Software,4,2026-09-11,119,106,8,5,0.9298
+FCS,Fundamentos de Calidad de Software,5,2026-09-18,119,112,6,1,0.9492
+FCS,Fundamentos de Calidad de Software,6,2026-09-25,118,108,8,2,0.931
+FCS,Fundamentos de Calidad de Software,7,2026-10-02,119,108,9,2,0.9231
+FCS,Fundamentos de Calidad de Software,8,2026-10-09,119,111,8,0,0.9328
+FCS,Fundamentos de Calidad de Software,9,2026-10-16,119,111,7,1,0.9407
+FCS,Fundamentos de Calidad de Software,10,2026-10-23,119,114,4,1,0.9661
+FCS,Fundamentos de Calidad de Software,11,2026-10-30,119,108,8,3,0.931
+FCS,Fundamentos de Calidad de Software,12,2026-11-06,119,107,9,3,0.9224
+FCS,Fundamentos de Calidad de Software,13,2026-11-13,119,106,6,7,0.9464
+FCS,Fundamentos de Calidad de Software,14,2026-11-20,119,105,12,2,0.8974
+FCS,Fundamentos de Calidad de Software,15,2026-11-27,119,109,8,2,0.9316
+FCS,Fundamentos de Calidad de Software,16,2026-12-04,119,106,12,1,0.8983
+FIA,Fundamentos de Inteligencia Artificial,1,2026-08-19,119,112,5,2,0.9573
+FIA,Fundamentos de Inteligencia Artificial,2,2026-08-26,119,110,5,4,0.9565
+FIA,Fundamentos de Inteligencia Artificial,3,2026-09-02,119,104,10,5,0.9123
+FIA,Fundamentos de Inteligencia Artificial,4,2026-09-09,119,104,13,2,0.8889
+FIA,Fundamentos de Inteligencia Artificial,5,2026-09-16,119,109,5,5,0.9561
+FIA,Fundamentos de Inteligencia Artificial,6,2026-09-23,119,112,5,2,0.9573
+FIA,Fundamentos de Inteligencia Artificial,7,2026-09-30,119,112,6,1,0.9492
+FIA,Fundamentos de Inteligencia Artificial,8,2026-10-07,119,108,9,2,0.9231
+FIA,Fundamentos de Inteligencia Artificial,9,2026-10-14,118,106,9,3,0.9217
+FIA,Fundamentos de Inteligencia Artificial,10,2026-10-21,118,111,6,1,0.9487
+FIA,Fundamentos de Inteligencia Artificial,11,2026-10-28,119,110,8,1,0.9322
+FIA,Fundamentos de Inteligencia Artificial,12,2026-11-04,117,111,4,2,0.9652
+FIA,Fundamentos de Inteligencia Artificial,13,2026-11-11,119,108,7,4,0.9391
+FIA,Fundamentos de Inteligencia Artificial,14,2026-11-18,119,108,9,2,0.9231
+FIA,Fundamentos de Inteligencia Artificial,15,2026-11-25,119,107,10,2,0.9145
+FIA,Fundamentos de Inteligencia Artificial,16,2026-12-02,119,107,10,2,0.9145
+SDE,Sistemas Distribuidos y Escalables,1,2026-08-20,119,111,6,2,0.9487
+SDE,Sistemas Distribuidos y Escalables,2,2026-08-27,119,110,7,2,0.9402
+SDE,Sistemas Distribuidos y Escalables,3,2026-09-03,119,109,6,4,0.9478
+SDE,Sistemas Distribuidos y Escalables,4,2026-09-10,119,107,7,5,0.9386
+SDE,Sistemas Distribuidos y Escalables,5,2026-09-17,119,106,9,4,0.9217
+SDE,Sistemas Distribuidos y Escalables,6,2026-09-24,119,106,10,3,0.9138
+SDE,Sistemas Distribuidos y Escalables,7,2026-10-01,118,100,12,6,0.8929
+SDE,Sistemas Distribuidos y Escalables,8,2026-10-08,119,109,8,2,0.9316
+SDE,Sistemas Distribuidos y Escalables,9,2026-10-15,119,107,9,3,0.9224
+SDE,Sistemas Distribuidos y Escalables,10,2026-10-22,119,108,7,4,0.9391
+SDE,Sistemas Distribuidos y Escalables,11,2026-10-29,119,106,10,3,0.9138
+SDE,Sistemas Distribuidos y Escalables,12,2026-11-05,119,99,16,4,0.8609
+SDE,Sistemas Distribuidos y Escalables,13,2026-11-12,119,108,8,3,0.931
+SDE,Sistemas Distribuidos y Escalables,14,2026-11-19,119,107,10,2,0.9145
+SDE,Sistemas Distribuidos y Escalables,15,2026-11-26,119,106,9,4,0.9217
+SDE,Sistemas Distribuidos y Escalables,16,2026-12-03,119,108,6,5,0.9474
+TBD,Talleres de Big Data,1,2026-08-18,119,106,11,2,0.906
+TBD,Talleres de Big Data,2,2026-08-25,118,109,6,3,0.9478
+TBD,Talleres de Big Data,3,2026-09-01,118,106,9,3,0.9217
+TBD,Talleres de Big Data,4,2026-09-08,119,109,9,1,0.9237
+TBD,Talleres de Big Data,5,2026-09-15,119,111,6,2,0.9487
+TBD,Talleres de Big Data,6,2026-09-22,119,106,11,2,0.906
+TBD,Talleres de Big Data,7,2026-09-29,119,108,8,3,0.931
+TBD,Talleres de Big Data,8,2026-10-06,119,108,8,3,0.931
+TBD,Talleres de Big Data,9,2026-10-13,118,102,9,7,0.9189
+TBD,Talleres de Big Data,10,2026-10-20,119,105,13,1,0.8898
+TBD,Talleres de Big Data,11,2026-10-27,119,111,8,0,0.9328
+TBD,Talleres de Big Data,12,2026-11-03,119,112,5,2,0.9573
+TBD,Talleres de Big Data,13,2026-11-10,118,109,3,6,0.9732
+TBD,Talleres de Big Data,14,2026-11-17,119,105,10,4,0.913
+TBD,Talleres de Big Data,15,2026-11-24,119,109,7,3,0.9397
+TBD,Talleres de Big Data,16,2026-12-01,119,114,3,2,0.9744

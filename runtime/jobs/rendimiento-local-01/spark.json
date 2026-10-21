@@ -1,0 +1,9 @@
+{
+  "applicationId" : "local-1792623485243",
+  "applicationName" : "Vallegrande Spark · Rendimiento académico · rendimie",
+  "master" : "local[*]",
+  "sparkVersion" : "4.1.2",
+  "defaultParallelism" : 8,
+  "uiUrl" : "http://127.0.0.1:4040",
+  "startedAt" : "2026-10-21T22:58:03.341Z"
+}

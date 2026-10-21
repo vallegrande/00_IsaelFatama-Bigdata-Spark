@@ -699,7 +699,18 @@ java <opciones-jvm> -jar <modulo>.jar <input-directory> <output-directory> <thre
 <output-directory>/
 ├── spark.json                 # Información de la sesión de Spark
 ├── events.jsonl               # Un evento JSON por línea, por cada transición de etapa
+├── stage-reports/              # Un resumen JSON por etapa ejecutada (también FAILED/SKIPPED)
+│   ├── bronze.json
+│   ├── validation.json
+│   ├── quarantine.json
+│   ├── silver.json
+│   ├── quality_gate.json
+│   ├── gold.json
+│   └── export.json
+├── validation/
+│   └── validation.json        # Conteos de entrada, filas válidas/rechazadas y motivos
 ├── quality.json               # Reporte de la puerta de calidad
+├── manifest.json              # Índice de la publicación en S3 (si está habilitada)
 ├── result.json                # Resultado final del pipeline
 ├── quarantine/
 │   ├── rechazados.csv
@@ -970,11 +981,59 @@ Para desactivar la UI y el event log (por ejemplo en servidores o pruebas): `-Dw
 > [!NOTE]
 > El event log se escribe en `runtime/spark-events` relativo al directorio desde el que lanzas `java`. Puedes abrirlo después con un Spark History Server apuntando `spark.history.fs.logDirectory` a esa carpeta.
 
+### 12.5 Publicación opcional en Amazon S3
+
+El job siempre procesa y publica primero en el directorio local indicado. Si `S3_UPLOAD_ENABLED=true`, al terminar copia los artefactos a un prefijo único por tipo de job y corrida:
+
+```text
+s3://<bucket>/<S3_PREFIX>/jobs/<job-type>/<job-id>/
+├── 01-bronze/       # CSV originales del input
+├── 02-validation/   # validation.json con conteos y motivos
+├── 03-quarantine/   # rechazados.csv y rechazados.parquet
+├── 04-silver/       # tablas tipadas CSV/Parquet
+├── 05-quality-gate/ # quality.json
+├── 06-gold/         # tablas analíticas y resumen.json, si se publicó
+├── 07-export/       # manifest.json con las salidas y estados de etapa
+└── metadata/        # events.jsonl, spark.json, result.json y worker.log disponibles
+```
+
+Cada prefijo de etapa contiene `stage.json`, generado por el pipeline, con un esquema común (`runId`, `stage`, estado, marcas de tiempo, duración, jobs Spark, detalle y `metrics`) y métricas específicas. BRONZE incluye conteos por tabla; VALIDATION, conteos y motivos; QUARANTINE, rechazos por tabla; SILVER y GOLD, filas por tabla y formatos; QUALITY_GATE, tolerancia, checks y decisión; EXPORT, tablas, filas, formatos y resumen. Los mismos informes también quedan en `stage-reports/` en la salida local. Si la puerta de calidad bloquea, GOLD y EXPORT aparecen como `SKIPPED` con el motivo, sin salidas analíticas.
+
+El upload es **posterior** a la ejecución local; Spark todavía lee CSV locales y escribe los resultados locales. No requiere modificar el job para usar `s3a://`. La publicación es opt-in: sin `S3_UPLOAD_ENABLED=true`, pruebas y ejecuciones locales no contactan AWS.
+
+Variables esperadas en el proceso Java:
+
+| Variable | Requerida al habilitar upload | Uso |
+|----------|-------------------------------|-----|
+| `S3_UPLOAD_ENABLED` | Sí, valor `true` | Activa la publicación posterior del run. |
+| `S3_BUCKET` | Sí | Bucket existente y privado del lab. |
+| `S3_PREFIX` | No | Prefijo raíz; por defecto `vallegrande`. |
+| `AWS_REGION` o `AWS_DEFAULT_REGION` | Sí | Región del bucket. |
+| `AWS_ACCESS_KEY_ID`, `AWS_SECRET_ACCESS_KEY`, `AWS_SESSION_TOKEN` | Sí para la sesión del lab | Credenciales temporales proporcionadas por el entorno AWS Academy. El AWS SDK usa la cadena estándar de credenciales; no se guardan en el repositorio. |
+
+En PowerShell, define bucket y región en la terminal del lab, luego establece las credenciales temporales vigentes que entrega AWS Academy en esa misma sesión y habilita:
+
+```powershell
+$env:S3_UPLOAD_ENABLED = 'true'
+$env:S3_BUCKET = '<nombre-del-bucket>'
+$env:S3_PREFIX = 'vallegrande'
+$env:AWS_REGION = '<region-del-bucket>'
+```
+
+Compila los jobs y lanza uno de los dos tipos existentes con un ID de corrida nuevo:
+
+```powershell
+.\mvnw.cmd -pl spark/job-rendimiento-academico,spark/job-alerta-asistencia -am package -DskipTests
+java @SparkOpts -jar spark/job-rendimiento-academico/target/job-rendimiento-academico.jar data/limpio runtime/jobs/rendimiento-20261020-01 0.05
+```
+
+Para el otro job, cambia el JAR por `spark/job-alerta-asistencia/target/job-alerta-asistencia.jar`. Los datos deben respetar el contrato académico de las cinco tablas CSV; aún no se aceptan esquemas arbitrarios ni jobs de bases de datos. Las credenciales del lab expiran: vuelve a exportar las vigentes al iniciar una nueva sesión y no las pongas en comandos versionados, `application.yaml` o el frontend.
+
 ---
 
 ## 13. Pruebas
 
-Las pruebas son de **integración**: levantan una `SparkSession` real (sin UI) y ejecutan el pipeline completo sobre archivos.
+Hay dos niveles: cinco pruebas unitarias por job, con JUnit y Mockito para validar tipo, orden de etapas e invocación de la analítica Gold; y pruebas de integración que levantan una `SparkSession` real (sin UI) y ejecutan el pipeline completo sobre archivos.
 
 ```bash
 ./mvnw -pl spark/job-rendimiento-academico,spark/job-alerta-asistencia -am test
@@ -989,6 +1048,8 @@ Las pruebas son de **integración**: levantan una `SparkSession` real (sin UI) y
 | `AlertaAsistenciaJobTests.classifiesEachEnrollmentByAbsenceRatio` | Manual | 0 | Clasificación `INHABILITADO`, `EN_RIESGO`, `NORMAL` y resumen. |
 | `AlertaAsistenciaJobTests.cleanDataPublishesOneAlertRowPerEnrollment` | `data/limpio` | 0.05 | 1 080 alertas, 9 cursos y que no se publiquen tablas de otro job. |
 | `AlertaAsistenciaJobTests.sharesTheQualityGateWithTheAcademicBatch` | `data/con-errores` | 0.01 | Ambos jobs comparten la misma puerta de calidad. |
+
+Las unitarias están en `RendimientoAcademicoJobUnitTest` y `AlertaAsistenciaJobUnitTest`; no requieren Spark ni credenciales AWS.
 
 > [!WARNING]
 > Las pruebas leen `../../data/limpio` y `../../data/con-errores` relativo al módulo. Si modificas esos lotes, actualiza los valores esperados (21 735 filas, 245 rechazos, 1 080 matrículas).

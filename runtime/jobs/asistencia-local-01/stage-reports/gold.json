@@ -1,0 +1,32 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "asistencia-local-01",
+  "stage" : "GOLD",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:55:52.657901700Z",
+  "completedAt" : "2026-10-21T22:55:59.061799900Z",
+  "durationMs" : 6394,
+  "sparkJobs" : 8,
+  "rows" : 1080,
+  "detail" : "1080 matrículas evaluadas por inasistencia",
+  "metrics" : {
+    "rowsByTable" : {
+      "alertas_asistencia" : 1080,
+      "alertas_por_curso" : 9
+    },
+    "primaryTable" : "alertas_asistencia",
+    "tableCount" : 2,
+    "summary" : {
+      "matriculas" : 1080,
+      "estudiantes" : 120,
+      "inhabilitados" : 22,
+      "en_riesgo" : 44,
+      "normales" : 1014,
+      "estudiantes_con_alerta" : 37,
+      "inasistencia_promedio" : 0.0699,
+      "periodo" : "2026-II",
+      "maximo_inasistencia" : 0.3,
+      "umbral_riesgo" : 0.2
+    }
+  }
+}
