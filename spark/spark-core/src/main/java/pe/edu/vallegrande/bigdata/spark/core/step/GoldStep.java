@@ -6,6 +6,9 @@ import pe.edu.vallegrande.bigdata.spark.core.pipeline.PipelineContext;
 import pe.edu.vallegrande.bigdata.spark.core.pipeline.PipelineStep;
 import pe.edu.vallegrande.bigdata.spark.core.pipeline.StepResult;
 
+import java.util.LinkedHashMap;
+import java.util.Map;
+
 public final class GoldStep implements PipelineStep {
     private final GoldAnalytics analytics;
 
@@ -27,7 +30,13 @@ public final class GoldStep implements PipelineStep {
     public StepResult execute(PipelineContext context) {
         GoldTables gold = analytics.analyze(context.validation());
         context.gold(gold);
-        long rows = gold.primaryTable().count();
-        return StepResult.completed(rows, analytics.detail(rows));
+        Map<String, Long> rowsByTable = new LinkedHashMap<>();
+        gold.tables().forEach((name, table) -> rowsByTable.put(name, table.count()));
+        long rows = rowsByTable.get(gold.primary());
+        return StepResult.completed(rows, analytics.detail(rows), Map.of(
+                "primaryTable", gold.primary(),
+                "tableCount", rowsByTable.size(),
+                "rowsByTable", rowsByTable,
+                "summary", gold.summaryValues()));
     }
 }

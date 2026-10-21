@@ -1,0 +1,10 @@
+﻿curso_id,curso,docente,creditos,periodo,matriculados,aprobados,desaprobados,inhabilitados,pendientes,promedio,mediana,promedio_minimo,promedio_maximo,desviacion,asistencia_promedio,correlacion_asistencia_nota,requieren_atencion,tasa_aprobacion
+APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,2026-II,119,100,19,0,0,15.26,15.2,9.4,20,2.46,0.933,0.4256,23,0.8403
+CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,2026-II,119,106,8,2,3,15.79,16.05,8.65,19.8,2.34,0.931,0.5845,13,0.9138
+EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,2026-II,119,0,0,4,115,15.78,16.23,7.92,20,2.43,0.9207,0.4135,22,
+EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,2026-II,119,79,35,2,3,13.97,14.1,6.55,19,2.65,0.9219,0.4684,40,0.681
+EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,2026-II,119,0,0,0,119,15.38,15.31,9.38,20,2.48,0.9229,0.501,26,
+FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,2026-II,119,94,16,5,4,15.21,15.2,10,20,2.4,0.9307,0.4461,23,0.8174
+FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,2026-II,119,95,22,1,1,14.45,14.65,8.45,19.6,2.48,0.9338,0.3514,24,0.8051
+SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,2026-II,119,81,32,5,1,13.99,14.1,8.5,19,2.43,0.9224,0.4896,40,0.6864
+TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,2026-II,119,90,22,3,4,14.6,14.35,9.4,19.56,2.41,0.9308,0.3529,31,0.7826

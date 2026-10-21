@@ -10,6 +10,8 @@ import pe.edu.vallegrande.bigdata.spark.core.pipeline.StepResult;
 import pe.edu.vallegrande.bigdata.spark.core.publication.JsonPublisher;
 
 import java.io.IOException;
+import java.util.LinkedHashMap;
+import java.util.List;
 import java.util.Map;
 
 public final class ExportStep implements PipelineStep {
@@ -27,11 +29,20 @@ public final class ExportStep implements PipelineStep {
     @Override
     public StepResult execute(PipelineContext context) throws IOException {
         long files = 0;
+        Map<String, Long> rowsByTable = new LinkedHashMap<>();
         for (Map.Entry<String, Dataset<Row>> table : context.gold().tables().entrySet()) {
-            context.publisher().publish(WorkerProtocol.GOLD, table.getKey(), table.getValue());
+            long rows = context.publisher().publish(WorkerProtocol.GOLD, table.getKey(), table.getValue());
+            rowsByTable.put(table.getKey(), rows);
             files += context.publisher().formatsPerTable();
         }
-        JsonPublisher.write(context.output().resolve(WorkerProtocol.SUMMARY_FILE), context.gold().summaryValues());
-        return StepResult.completed(files + 1, (files + 1) + " archivos publicados");
+        var summary = context.gold().summaryValues();
+        JsonPublisher.write(context.output().resolve(WorkerProtocol.SUMMARY_FILE), summary);
+        long totalFiles = files + 1;
+        return StepResult.completed(totalFiles, totalFiles + " archivos publicados", Map.of(
+                "tables", rowsByTable.keySet(),
+                "rowsByTable", rowsByTable,
+                "formats", List.of("csv", "parquet", "json"),
+                "fileCount", totalFiles,
+                "summary", summary));
     }
 }

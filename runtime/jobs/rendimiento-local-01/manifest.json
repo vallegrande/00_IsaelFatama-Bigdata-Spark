@@ -1,0 +1,591 @@
+{
+  "jobId" : "rendimiento-local-01",
+  "jobType" : "RENDIMIENTO_ACADEMICO",
+  "createdAt" : "2026-10-21T22:58:59.297421700Z",
+  "published" : true,
+  "received" : 21759,
+  "accepted" : 21514,
+  "rejected" : 245,
+  "rejectedRatio" : 0.01126,
+  "stages" : [ {
+    "schemaVersion" : 1,
+    "stage" : "BRONZE",
+    "folder" : "01-bronze",
+    "status" : "COMPLETED",
+    "detail" : "Filas leídas: semestres 6, cursos 9, estudiantes 123, notas 4331, asistencia 17290",
+    "rows" : 21759,
+    "artifactCount" : 5,
+    "report" : {
+      "tableCount" : 5,
+      "totalRows" : 21759,
+      "rowsByTable" : {
+        "semestres" : 6,
+        "cursos" : 9,
+        "estudiantes" : 123,
+        "notas" : 4331,
+        "asistencia" : 17290
+      },
+      "inputFiles" : [ "semestres.csv", "cursos.csv", "estudiantes.csv", "notas.csv", "asistencia.csv" ]
+    }
+  }, {
+    "schemaVersion" : 1,
+    "stage" : "VALIDATION",
+    "folder" : "02-validation",
+    "status" : "COMPLETED",
+    "detail" : "21514 filas válidas y 245 observadas",
+    "rows" : 21759,
+    "artifactCount" : 1,
+    "report" : {
+      "reasons" : [ {
+        "table" : "estudiantes",
+        "reason" : "REGISTRO_DUPLICADO",
+        "rows" : 2
+      }, {
+        "table" : "estudiantes",
+        "reason" : "CAMPO_REQUERIDO",
+        "rows" : 1
+      }, {
+        "table" : "estudiantes",
+        "reason" : "SEMESTRE_INEXISTENTE",
+        "rows" : 1
+      }, {
+        "table" : "notas",
+        "reason" : "ESTUDIANTE_INEXISTENTE",
+        "rows" : 40
+      }, {
+        "table" : "notas",
+        "reason" : "NOTA_FUERA_DE_RANGO",
+        "rows" : 11
+      }, {
+        "table" : "notas",
+        "reason" : "NOTA_NO_NUMERICA",
+        "rows" : 5
+      }, {
+        "table" : "notas",
+        "reason" : "REGISTRO_DUPLICADO",
+        "rows" : 5
+      }, {
+        "table" : "notas",
+        "reason" : "PESO_INVALIDO",
+        "rows" : 3
+      }, {
+        "table" : "notas",
+        "reason" : "CURSO_INEXISTENTE",
+        "rows" : 2
+      }, {
+        "table" : "asistencia",
+        "reason" : "ESTUDIANTE_INEXISTENTE",
+        "rows" : 148
+      }, {
+        "table" : "asistencia",
+        "reason" : "ESTADO_INVALIDO",
+        "rows" : 10
+      }, {
+        "table" : "asistencia",
+        "reason" : "FECHA_INVALIDA",
+        "rows" : 6
+      }, {
+        "table" : "asistencia",
+        "reason" : "REGISTRO_DUPLICADO",
+        "rows" : 6
+      }, {
+        "table" : "asistencia",
+        "reason" : "FECHA_FUERA_DE_PERIODO",
+        "rows" : 5
+      } ],
+      "tables" : {
+        "semestres" : {
+          "received" : 6,
+          "accepted" : 6,
+          "rejected" : 0
+        },
+        "cursos" : {
+          "received" : 9,
+          "accepted" : 9,
+          "rejected" : 0
+        },
+        "estudiantes" : {
+          "received" : 123,
+          "accepted" : 119,
+          "rejected" : 4
+        },
+        "notas" : {
+          "received" : 4331,
+          "accepted" : 4265,
+          "rejected" : 66
+        },
+        "asistencia" : {
+          "received" : 17290,
+          "accepted" : 17115,
+          "rejected" : 175
+        }
+      },
+      "accepted" : 21514,
+      "received" : 21759,
+      "rejected" : 245
+    }
+  }, {
+    "schemaVersion" : 1,
+    "stage" : "QUARANTINE",
+    "folder" : "03-quarantine",
+    "status" : "COMPLETED",
+    "detail" : "245 filas en cuarentena",
+    "rows" : 245,
+    "artifactCount" : 2,
+    "report" : {
+      "formats" : [ "csv", "parquet" ],
+      "rejectedRows" : 245,
+      "rowsByTable" : {
+        "semestres" : 0,
+        "cursos" : 0,
+        "estudiantes" : 4,
+        "notas" : 66,
+        "asistencia" : 175
+      },
+      "outputTable" : "rechazados"
+    }
+  }, {
+    "schemaVersion" : 1,
+    "stage" : "SILVER",
+    "folder" : "04-silver",
+    "status" : "COMPLETED",
+    "detail" : "21514 filas limpias en 5 tablas",
+    "rows" : 21514,
+    "artifactCount" : 10,
+    "report" : {
+      "formats" : [ "csv", "parquet" ],
+      "totalRowsWritten" : 21514,
+      "tableCount" : 5,
+      "rowsByTable" : {
+        "semestres" : 6,
+        "cursos" : 9,
+        "estudiantes" : 119,
+        "notas" : 4265,
+        "asistencia" : 17115
+      }
+    }
+  }, {
+    "schemaVersion" : 1,
+    "stage" : "QUALITY_GATE",
+    "folder" : "05-quality-gate",
+    "status" : "COMPLETED",
+    "detail" : "Publicado: las filas válidas pasan a Gold y las observadas quedan en cuarentena",
+    "rows" : 21759,
+    "artifactCount" : 1,
+    "report" : {
+      "tables" : [ {
+        "table" : "semestres",
+        "received" : 6,
+        "accepted" : 6,
+        "rejected" : 0,
+        "rejectedRatio" : 0.0,
+        "withinTolerance" : true
+      }, {
+        "table" : "cursos",
+        "received" : 9,
+        "accepted" : 9,
+        "rejected" : 0,
+        "rejectedRatio" : 0.0,
+        "withinTolerance" : true
+      }, {
+        "table" : "estudiantes",
+        "received" : 123,
+        "accepted" : 119,
+        "rejected" : 4,
+        "rejectedRatio" : 0.03252,
+        "withinTolerance" : true
+      }, {
+        "table" : "notas",
+        "received" : 4331,
+        "accepted" : 4265,
+        "rejected" : 66,
+        "rejectedRatio" : 0.015239,
+        "withinTolerance" : true
+      }, {
+        "table" : "asistencia",
+        "received" : 17290,
+        "accepted" : 17115,
+        "rejected" : 175,
+        "rejectedRatio" : 0.010121,
+        "withinTolerance" : true
+      } ],
+      "maxRejectedRatio" : 0.5,
+      "rejectedRatio" : 0.01126,
+      "accepted" : 21514,
+      "rejected" : 245,
+      "dimensions" : {
+        "COMPLETITUD" : 1,
+        "VALIDEZ" : 35,
+        "UNICIDAD" : 13,
+        "INTEGRIDAD" : 191,
+        "CONSISTENCIA" : 5
+      },
+      "checks" : [ {
+        "name" : "Rechazo en semestres",
+        "passed" : true,
+        "detail" : "0 de 6 filas rechazadas (0.00 %); máximo 50.00 %"
+      }, {
+        "name" : "Rechazo en cursos",
+        "passed" : true,
+        "detail" : "0 de 9 filas rechazadas (0.00 %); máximo 50.00 %"
+      }, {
+        "name" : "Rechazo en estudiantes",
+        "passed" : true,
+        "detail" : "4 de 123 filas rechazadas (3.25 %); máximo 50.00 %"
+      }, {
+        "name" : "Rechazo en notas",
+        "passed" : true,
+        "detail" : "66 de 4331 filas rechazadas (1.52 %); máximo 50.00 %"
+      }, {
+        "name" : "Rechazo en asistencia",
+        "passed" : true,
+        "detail" : "175 de 17290 filas rechazadas (1.01 %); máximo 50.00 %"
+      }, {
+        "name" : "Tabla maestra semestres con datos válidos",
+        "passed" : true,
+        "detail" : "6 filas válidas"
+      }, {
+        "name" : "Tabla maestra cursos con datos válidos",
+        "passed" : true,
+        "detail" : "9 filas válidas"
+      }, {
+        "name" : "Tabla maestra estudiantes con datos válidos",
+        "passed" : true,
+        "detail" : "119 filas válidas"
+      }, {
+        "name" : "Conservación de filas",
+        "passed" : true,
+        "detail" : "recibidas = aceptadas + rechazadas (21759 = 21514 + 245)"
+      } ],
+      "reasons" : [ {
+        "table" : "estudiantes",
+        "rule" : "REGISTRO_DUPLICADO",
+        "dimension" : "UNICIDAD",
+        "description" : "La clave del registro ya existe",
+        "rows" : 2
+      }, {
+        "table" : "estudiantes",
+        "rule" : "CAMPO_REQUERIDO",
+        "dimension" : "COMPLETITUD",
+        "description" : "Falta un valor obligatorio",
+        "rows" : 1
+      }, {
+        "table" : "estudiantes",
+        "rule" : "SEMESTRE_INEXISTENTE",
+        "dimension" : "INTEGRIDAD",
+        "description" : "El semestre no existe en la tabla de semestres",
+        "rows" : 1
+      }, {
+        "table" : "notas",
+        "rule" : "ESTUDIANTE_INEXISTENTE",
+        "dimension" : "INTEGRIDAD",
+        "description" : "El estudiante no existe en el registro",
+        "rows" : 40
+      }, {
+        "table" : "notas",
+        "rule" : "NOTA_FUERA_DE_RANGO",
+        "dimension" : "VALIDEZ",
+        "description" : "La nota esta fuera de la escala 0 a 20",
+        "rows" : 11
+      }, {
+        "table" : "notas",
+        "rule" : "NOTA_NO_NUMERICA",
+        "dimension" : "VALIDEZ",
+        "description" : "La nota no es un número",
+        "rows" : 5
+      }, {
+        "table" : "notas",
+        "rule" : "REGISTRO_DUPLICADO",
+        "dimension" : "UNICIDAD",
+        "description" : "La clave del registro ya existe",
+        "rows" : 5
+      }, {
+        "table" : "notas",
+        "rule" : "PESO_INVALIDO",
+        "dimension" : "VALIDEZ",
+        "description" : "El peso de la evaluacion debe de ser mayor a 0 y menor o igual a 1",
+        "rows" : 3
+      }, {
+        "table" : "notas",
+        "rule" : "CURSO_INEXISTENTE",
+        "dimension" : "INTEGRIDAD",
+        "description" : "El curso no existe en el registro",
+        "rows" : 2
+      }, {
+        "table" : "asistencia",
+        "rule" : "ESTUDIANTE_INEXISTENTE",
+        "dimension" : "INTEGRIDAD",
+        "description" : "El estudiante no existe en el registro",
+        "rows" : 148
+      }, {
+        "table" : "asistencia",
+        "rule" : "ESTADO_INVALIDO",
+        "dimension" : "VALIDEZ",
+        "description" : "El estado de asistencia debe de ser P, T, F o J",
+        "rows" : 10
+      }, {
+        "table" : "asistencia",
+        "rule" : "FECHA_INVALIDA",
+        "dimension" : "VALIDEZ",
+        "description" : "La fecha no tiene el formato AAAA-MM-DD válido",
+        "rows" : 6
+      }, {
+        "table" : "asistencia",
+        "rule" : "REGISTRO_DUPLICADO",
+        "dimension" : "UNICIDAD",
+        "description" : "La clave del registro ya existe",
+        "rows" : 6
+      }, {
+        "table" : "asistencia",
+        "rule" : "FECHA_FUERA_DE_PERIODO",
+        "dimension" : "CONSISTENCIA",
+        "description" : "La fechja esta fuera del inicio y fin del semestre",
+        "rows" : 5
+      } ],
+      "received" : 21759,
+      "published" : true
+    }
+  }, {
+    "schemaVersion" : 1,
+    "stage" : "GOLD",
+    "folder" : "06-gold",
+    "status" : "COMPLETED",
+    "detail" : "1071 matrículas estudiante-curso con indicadores",
+    "rows" : 1071,
+    "artifactCount" : 15,
+    "report" : {
+      "primaryTable" : "rendimiento",
+      "tableCount" : 7,
+      "summary" : {
+        "estudiantes" : 119,
+        "cursos" : 9,
+        "matriculas" : 1071,
+        "aprobados" : 645,
+        "desaprobados" : 154,
+        "inhabilitados" : 22,
+        "pendientes" : 250,
+        "promedio_general" : 14.94,
+        "asistencia_promedio" : 0.9275,
+        "requieren_atencion" : 242,
+        "correlacion_asistencia_nota" : 0.4336,
+        "periodo" : "2026-II",
+        "tasa_aprobacion" : 0.7856,
+        "nota_aprobatoria" : 13,
+        "maximo_inasistencia" : 0.3
+      },
+      "rowsByTable" : {
+        "rendimiento" : 1071,
+        "cursos_resumen" : 9,
+        "estudiantes_resumen" : 119,
+        "secciones_resumen" : 27,
+        "evaluaciones_resumen" : 36,
+        "distribucion_notas" : 36,
+        "asistencia_semanal" : 144
+      }
+    }
+  }, {
+    "schemaVersion" : 1,
+    "stage" : "EXPORT",
+    "folder" : "07-export",
+    "status" : "COMPLETED",
+    "detail" : "15 archivos publicados",
+    "rows" : 15,
+    "artifactCount" : 0,
+    "report" : {
+      "rowsByTable" : {
+        "rendimiento" : 1071,
+        "cursos_resumen" : 9,
+        "estudiantes_resumen" : 119,
+        "secciones_resumen" : 27,
+        "evaluaciones_resumen" : 36,
+        "distribucion_notas" : 36,
+        "asistencia_semanal" : 144
+      },
+      "summary" : {
+        "estudiantes" : 119,
+        "cursos" : 9,
+        "matriculas" : 1071,
+        "aprobados" : 645,
+        "desaprobados" : 154,
+        "inhabilitados" : 22,
+        "pendientes" : 250,
+        "promedio_general" : 14.94,
+        "asistencia_promedio" : 0.9275,
+        "requieren_atencion" : 242,
+        "correlacion_asistencia_nota" : 0.4336,
+        "periodo" : "2026-II",
+        "tasa_aprobacion" : 0.7856,
+        "nota_aprobatoria" : 13,
+        "maximo_inasistencia" : 0.3
+      },
+      "formats" : [ "csv", "parquet", "json" ],
+      "fileCount" : 15,
+      "tables" : [ "rendimiento", "cursos_resumen", "estudiantes_resumen", "secciones_resumen", "evaluaciones_resumen", "distribucion_notas", "asistencia_semanal" ]
+    }
+  } ],
+  "artifacts" : [ {
+    "bytes" : 653119,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/01-bronze/asistencia.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 730,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/01-bronze/cursos.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 8845,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/01-bronze/estudiantes.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 191202,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/01-bronze/notas.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 369,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/01-bronze/semestres.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 1861,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/02-validation/validation.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 53558,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/03-quarantine/rechazados.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 42215,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/03-quarantine/rechazados.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 629386,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/asistencia.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 33558,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/asistencia.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 723,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/cursos.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 2184,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/cursos.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 8466,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/estudiantes.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 10094,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/estudiantes.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 181872,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/notas.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 13759,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/notas.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 365,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/semestres.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 1525,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/semestres.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 5064,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/05-quality-gate/quality.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 10705,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/asistencia_semanal.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 4437,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/asistencia_semanal.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 1490,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/cursos_resumen.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 5892,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/cursos_resumen.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 1912,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/distribucion_notas.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 2049,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/distribucion_notas.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 10486,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/estudiantes_resumen.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 10995,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/estudiantes_resumen.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 3171,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/evaluaciones_resumen.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 4052,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/evaluaciones_resumen.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 186513,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/rendimiento.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 22696,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/rendimiento.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 420,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/resumen.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 2031,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/secciones_resumen.csv",
+    "contentType" : "text/csv"
+  }, {
+    "bytes" : 3734,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/secciones_resumen.parquet",
+    "contentType" : "application/vnd.apache.parquet"
+  }, {
+    "bytes" : 715,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/01-bronze/stage.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 2393,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/02-validation/stage.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 596,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/03-quarantine/stage.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 602,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/04-silver/stage.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 5679,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/05-quality-gate/stage.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 1194,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/06-gold/stage.json",
+    "contentType" : "application/json"
+  }, {
+    "bytes" : 1341,
+    "key" : "vallegrande/jobs/rendimiento_academico/rendimiento-local-01/07-export/stage.json",
+    "contentType" : "application/json"
+  } ]
+}

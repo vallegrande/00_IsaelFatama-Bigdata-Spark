@@ -1,0 +1,12 @@
+{
+  "matriculas" : 1080,
+  "estudiantes" : 120,
+  "inhabilitados" : 22,
+  "en_riesgo" : 44,
+  "normales" : 1014,
+  "estudiantes_con_alerta" : 37,
+  "inasistencia_promedio" : 0.0699,
+  "periodo" : "2026-II",
+  "maximo_inasistencia" : 0.3,
+  "umbral_riesgo" : 0.2
+}

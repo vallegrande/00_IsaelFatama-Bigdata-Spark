@@ -1,0 +1,9 @@
+{
+  "applicationId" : "local-1792623314761",
+  "applicationName" : "Vallegrande Spark · Alerta de Asistencia · asistenc",
+  "master" : "local[*]",
+  "sparkVersion" : "4.1.2",
+  "defaultParallelism" : 8,
+  "uiUrl" : "http://127.0.0.1:4040",
+  "startedAt" : "2026-10-21T22:55:13.088Z"
+}

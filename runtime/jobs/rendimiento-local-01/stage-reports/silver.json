@@ -1,0 +1,24 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "rendimiento-local-01",
+  "stage" : "SILVER",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:58:35.994160100Z",
+  "completedAt" : "2026-10-21T22:58:37.688302200Z",
+  "durationMs" : 1693,
+  "sparkJobs" : 5,
+  "rows" : 21514,
+  "detail" : "21514 filas limpias en 5 tablas",
+  "metrics" : {
+    "formats" : [ "csv", "parquet" ],
+    "totalRowsWritten" : 21514,
+    "tableCount" : 5,
+    "rowsByTable" : {
+      "semestres" : 6,
+      "cursos" : 9,
+      "estudiantes" : 119,
+      "notas" : 4265,
+      "asistencia" : 17115
+    }
+  }
+}

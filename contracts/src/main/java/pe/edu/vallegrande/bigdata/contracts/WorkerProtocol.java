@@ -18,6 +18,10 @@ public final class WorkerProtocol {
 
     public static final String QUALITY_FILE = "quality.json";
 
+    public static final String VALIDATION_FILE = "validation/validation.json";
+
+    public static final String STAGE_REPORTS = "stage-reports";
+
     public static final String LOG_FILE = "worker.log";
 
     public static final String SILVER = "silver";

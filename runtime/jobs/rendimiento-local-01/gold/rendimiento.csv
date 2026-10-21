@@ -1,0 +1,1072 @@
+﻿estudiante_id,nombres,apellidos,seccion,semestre_id,periodo,curso_id,curso,docente,creditos,evaluaciones,evaluaciones_pendientes,promedio,nota_final,sesiones,presentes,tardanzas,faltas,justificadas,asistencia_pct,inasistencia_pct,condicion,requiere_atencion,alertas
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.1,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11.4,11,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.35,12,16,10,3,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11.2,11,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.35,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.15,14,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260061,Andrés,Castillo Medina,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.45,13,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.8,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.15,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11.55,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.3,13,16,16,0,0,0,1,0,APROBADO,false,
+VG260054,Andrés,Chávez Torres,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.4,16,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.05,16,16,14,2,0,0,1,0,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.5,16,16,10,2,2,2,0.8571,0.125,APROBADO,false,
+VG260116,Camila,Cruz Salazar,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.5,16,16,11,3,1,1,0.9333,0.0625,APROBADO,false,
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.15,12,16,10,3,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,10.75,11,16,16,0,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.65,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17,17,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,9.4,9,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.3,12,16,11,2,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260035,Luis,Córdova Cruz,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.6,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.05,12,16,9,3,2,2,0.8571,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260098,Lucía,Córdova Luna,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.05,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.8,14,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.4,18,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.85,13,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11.55,12,16,13,1,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.45,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.75,15,16,10,3,3,0,0.8125,0.1875,APROBADO,false,
+VG260081,José,Espinoza Huamán,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.25,18,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.45,15,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.45,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.2,15,16,14,1,0,1,1,0,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.05,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.7,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.2,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.8,15,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.6,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.15,15,16,14,2,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.4,12,16,11,1,2,2,0.8571,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.95,13,16,16,0,0,0,1,0,APROBADO,false,
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.4,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.7,16,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.4,17,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.85,15,16,14,2,0,0,1,0,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.85,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.1,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260046,Renzo,Huamán García,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.75,14,16,11,1,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.75,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.1,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260100,Joaquín,Huertas García,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.45,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,19.6,20,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.5,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260005,Iván,Huertas Rojas,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.75,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.4,17,16,10,3,1,2,0.9286,0.0625,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,10.5,11,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.5,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,19.15,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.6,14,16,10,1,3,2,0.7857,0.1875,APROBADO,false,
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.7,18,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11.2,11,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260113,María,Mendoza Díaz,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.35,15,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14,14,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.6,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.9,17,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.2,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.75,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.1,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15,15,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260045,Mariela,Palomino García,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.85,14,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.6,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.55,15,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260059,Estefany,Palomino Luna,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.65,14,16,11,0,3,2,0.7857,0.1875,APROBADO,false,
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.4,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,20,20,16,15,1,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.5,15,16,13,2,0,1,1,0,APROBADO,false,
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.5,18,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11,11,16,11,2,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260012,Mariela,Paredes Torres,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.2,13,16,11,2,3,0,0.8125,0.1875,APROBADO,false,
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.55,19,16,16,0,0,0,1,0,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,19.25,19,16,16,0,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.8,19,16,13,3,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.65,18,16,15,0,0,1,1,0,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13,13,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.35,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.55,19,16,13,3,0,0,1,0,APROBADO,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,18.05,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.8,14,16,9,4,2,1,0.8667,0.125,APROBADO,false,
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.65,14,16,12,2,1,1,0.9333,0.0625,APROBADO,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,20,20,16,15,1,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.8,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.05,15,16,11,1,3,1,0.8,0.1875,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.25,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.75,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.1,12,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.75,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260070,Estefany,Salazar García,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.75,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.5,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.8,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.65,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.65,18,16,13,0,3,0,0.8125,0.1875,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,19.4,19,16,16,0,0,0,1,0,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,14.25,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.8,14,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260110,Marco,Torres Ramos,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.2,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,20,20,16,14,2,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.1,12,16,9,3,4,0,0.75,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260016,María,Vargas Quispe,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.85,13,16,12,0,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.85,18,16,10,1,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,13.75,14,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.2,17,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,12.55,13,16,13,3,0,0,1,0,APROBADO,false,
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,11.15,11,16,12,1,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,16.4,16,16,11,1,3,1,0.8,0.1875,APROBADO,false,
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,17.05,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,APS,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,3,4,0,15.45,15,16,11,0,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.55,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.9,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.15,13,16,13,2,0,1,1,0,APROBADO,false,
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,10.5,11,16,9,1,6,0,0.625,0.375,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.7,18,16,14,1,0,1,1,0,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.15,13,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260061,Andrés,Castillo Medina,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.85,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.5,13,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.55,18,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.1,13,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.55,15,16,15,0,0,1,1,0,APROBADO,false,
+VG260054,Andrés,Chávez Torres,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.55,17,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.25,17,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.3,16,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,3,0,17.75,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,
+VG260116,Camila,Cruz Salazar,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.3,14,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.8,13,16,10,3,3,0,0.8125,0.1875,APROBADO,false,
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,3,0,13.06,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.2,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,11.5,12,16,14,2,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.5,15,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260035,Luis,Córdova Cruz,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.3,17,16,13,2,0,1,1,0,APROBADO,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,8.65,9,16,10,0,4,2,0.7143,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260098,Lucía,Córdova Luna,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.15,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.75,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.05,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.75,13,16,14,0,1,1,0.9333,0.0625,APROBADO,false,
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.2,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.05,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.55,16,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260081,José,Espinoza Huamán,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.9,18,16,14,1,0,1,1,0,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,3,0,14.92,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.4,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.35,16,16,14,0,0,2,1,0,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.1,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.1,14,16,10,3,3,0,0.8125,0.1875,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.3,17,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.95,18,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.7,19,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19.1,19,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.65,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.65,13,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.35,13,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.55,19,16,16,0,0,0,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.7,16,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.4,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.2,14,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17,17,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.15,14,16,11,1,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260046,Renzo,Huamán García,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.8,15,16,10,1,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.85,18,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.3,15,16,13,0,3,0,0.8125,0.1875,APROBADO,false,
+VG260100,Joaquín,Huertas García,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.3,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19.55,20,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.2,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260005,Iván,Huertas Rojas,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.65,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.6,17,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.1,13,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.85,16,16,15,0,0,1,1,0,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.6,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.35,17,16,15,0,0,1,1,0,APROBADO,false,
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.25,12,16,9,1,4,2,0.7143,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260113,María,Mendoza Díaz,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.25,15,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.85,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.85,16,16,14,2,0,0,1,0,APROBADO,false,
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.7,17,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.65,19,16,13,3,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.95,17,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.85,16,16,15,0,0,1,1,0,APROBADO,false,
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.5,15,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260045,Mariela,Palomino García,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.9,16,16,15,0,0,1,1,0,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.5,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.2,13,16,11,0,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260059,Estefany,Palomino Luna,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.85,16,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19.6,20,16,15,1,0,0,1,0,APROBADO,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.95,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.55,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.9,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.4,12,16,9,1,5,1,0.6667,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260012,Mariela,Paredes Torres,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.75,13,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19.4,19,15,11,4,0,0,1,0,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.6,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.25,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.4,18,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,11.9,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19.3,19,16,14,2,0,0,1,0,APROBADO,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.6,19,15,14,1,0,0,1,0,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.15,15,16,12,0,3,1,0.8,0.1875,APROBADO,false,
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.25,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,19.8,20,16,15,1,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.85,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.65,16,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.9,13,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,14.65,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,15.8,16,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.3,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260070,Estefany,Salazar García,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.85,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.1,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.3,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.75,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16,16,16,13,2,0,1,1,0,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.25,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.05,16,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,12.15,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260110,Marco,Torres Ramos,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.45,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.45,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,11.55,12,16,13,1,0,2,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260016,María,Vargas Quispe,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.8,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,18.45,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.15,13,16,10,3,2,1,0.8667,0.125,APROBADO,false,
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.7,17,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,13.75,14,16,15,0,0,1,1,0,APROBADO,false,
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,11,11,16,11,2,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,16.35,16,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.1,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,CII,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,2,4,0,17.5,18,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.54,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.23,,15,11,1,3,0,0.8,0.2,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.38,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,11,,16,14,2,0,0,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.31,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.46,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260061,Andrés,Castillo Medina,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.46,,16,12,0,2,2,0.8571,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.77,,16,11,1,4,0,0.75,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.62,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.38,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260054,Andrés,Chávez Torres,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.62,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.31,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.38,,16,12,1,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.31,,16,14,1,0,1,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260116,Camila,Cruz Salazar,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.31,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.23,,16,13,0,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,11.69,,16,13,3,0,0,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.69,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.31,,16,14,0,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,7.92,,16,12,1,2,1,0.8667,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.69,,16,12,1,2,1,0.8667,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260035,Luis,Córdova Cruz,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.31,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260053,Sofía,Córdova García,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,10.23,,16,9,1,4,2,0.7143,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260098,Lucía,Córdova Luna,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.46,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.85,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260115,Sofía,Córdova Torres,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.31,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.77,,16,13,0,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,11.92,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.46,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260081,José,Espinoza Huamán,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.69,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.54,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.08,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260079,Marco,Flores Córdova,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.85,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.77,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.38,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260023,Luis,García Ccahuana,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.69,,16,12,0,3,1,0.8,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260048,Nicole,García Paredes,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.92,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260027,Renzo,García Salazar,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18,,16,10,0,5,1,0.6667,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %; Evaluaciones pendientes
+VG260047,Renzo,García Soto,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.62,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.23,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.54,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.23,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.38,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.08,,16,13,1,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.69,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.15,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.69,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.77,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260046,Renzo,Huamán García,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.77,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.69,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.31,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260100,Joaquín,Huertas García,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.85,,16,14,2,0,0,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.31,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.15,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260005,Iván,Huertas Rojas,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.38,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260044,Renzo,Luna Salazar,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.69,,16,13,1,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,11.77,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.92,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260071,Lucía,Mamani Flores,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.46,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260049,Carlos,Mamani Medina,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.92,,16,9,0,5,2,0.6429,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %; Evaluaciones pendientes
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.08,,16,13,1,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,10.77,,16,13,1,1,1,0.9333,0.0625,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260113,María,Mendoza Díaz,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.77,,15,13,1,1,0,0.9333,0.0667,PENDIENTE,false,Evaluaciones pendientes
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.85,,16,11,1,3,1,0.8,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.77,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.46,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.38,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.69,,16,13,0,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260045,Mariela,Palomino García,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.46,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260009,Milagros,Palomino García,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.38,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260118,Milagros,Palomino García,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.54,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260059,Estefany,Palomino Luna,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.38,,16,12,1,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.38,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.23,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.31,,16,11,1,4,0,0.75,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.77,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260108,Renzo,Paredes Soto,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.92,,16,12,0,3,1,0.8,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260012,Mariela,Paredes Torres,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.23,,16,12,0,2,2,0.8571,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,20,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.31,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.69,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.46,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.38,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.08,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260096,Ximena,Ramos Medina,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.77,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.31,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.85,,16,11,3,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.69,,16,11,4,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,20,,16,12,4,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.92,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.38,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.46,,16,13,1,2,0,0.875,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.08,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.15,,16,12,0,3,1,0.8,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260070,Estefany,Salazar García,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.85,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.31,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260114,Pamela,Soto García,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,17.92,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260017,Miguel,Soto Huertas,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.31,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.62,,15,14,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.62,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.38,,16,14,0,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260089,Diego,Torres Luna,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.62,,16,14,1,0,1,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260110,Marco,Torres Ramos,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.15,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,19.69,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.38,,16,11,0,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %; Evaluaciones pendientes
+VG260016,María,Vargas Quispe,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,3,1,12.33,,16,11,1,3,1,0.8,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,15.62,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.08,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.15,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,13.46,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,12.62,,16,11,0,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %; Evaluaciones pendientes
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,16.23,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,18.69,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,EFSRT5,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,4,4,1,14.54,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.2,15,16,11,2,3,0,0.8125,0.1875,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.45,9,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.35,11,16,12,3,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.3,11,16,13,0,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.4,16,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12.75,13,16,10,3,3,0,0.8125,0.1875,APROBADO,false,
+VG260061,Andrés,Castillo Medina,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.1,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12,12,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.65,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.45,9,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12,12,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260054,Andrés,Chávez Torres,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.8,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.95,14,16,15,0,0,1,1,0,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.5,15,16,11,2,3,0,0.8125,0.1875,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.75,15,16,11,2,2,1,0.8667,0.125,APROBADO,false,
+VG260116,Camila,Cruz Salazar,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.75,14,16,13,0,3,0,0.8125,0.1875,APROBADO,false,
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.5,10,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.7,10,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.65,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.7,15,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,8.15,8,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,10.8,11,16,12,1,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260035,Luis,Córdova Cruz,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15,15,16,14,2,0,0,1,0,APROBADO,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,7.85,8,16,10,1,3,2,0.7857,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260098,Lucía,Córdova Luna,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.5,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.7,14,16,14,2,0,0,1,0,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,18,18,16,13,3,0,0,1,0,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.75,12,16,11,3,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.7,12,16,9,3,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,3,0,16.23,,16,13,3,0,0,1,0,PENDIENTE,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.1,13,16,10,2,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260081,José,Espinoza Huamán,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.85,16,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.2,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.7,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.85,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.4,15,16,13,3,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.3,13,16,12,2,1,1,0.9333,0.0625,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.7,16,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.4,15,16,11,1,3,1,0.8,0.1875,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.1,13,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.5,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.15,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.8,10,16,13,0,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.05,13,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.45,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.4,11,16,11,0,4,1,0.7333,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.85,15,15,15,0,0,0,1,0,APROBADO,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.4,13,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.3,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12,12,16,13,3,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260046,Renzo,Huamán García,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,10.7,11,16,11,0,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.85,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.45,14,16,13,3,0,0,1,0,APROBADO,false,
+VG260100,Joaquín,Huertas García,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.2,11,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,18.65,19,16,16,0,0,0,1,0,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.45,11,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260005,Iván,Huertas Rojas,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.45,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.35,16,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,10.35,10,16,8,6,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.8,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.45,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.85,15,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.45,17,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,6.55,7,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260113,María,Mendoza Díaz,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.45,17,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,10.75,11,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.5,15,15,11,0,3,1,0.7857,0.2,APROBADO,true,Inasistencias en riesgo
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.4,14,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,18,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.35,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12.15,12,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12.25,12,16,15,0,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260045,Mariela,Palomino García,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.3,13,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.6,14,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.3,13,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260059,Estefany,Palomino Luna,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13,13,16,11,0,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,18.3,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,18.2,18,16,12,4,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.75,12,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.3,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.95,12,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260012,Mariela,Paredes Torres,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.75,12,16,8,2,5,1,0.6667,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.75,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.3,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.85,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.25,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.45,9,16,13,0,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,3,0,15.38,,16,14,2,0,0,1,0,PENDIENTE,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.55,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.7,18,16,14,1,0,1,1,0,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.25,13,16,10,3,3,0,0.8125,0.1875,APROBADO,false,
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,3,0,13.44,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,18.25,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.65,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.2,13,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,9.75,10,16,12,1,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,10.85,11,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.75,12,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,10.95,11,16,14,2,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260070,Estefany,Salazar García,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.1,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.35,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.6,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.9,15,16,13,0,3,0,0.8125,0.1875,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,17.9,18,16,13,2,0,1,1,0,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,13.95,14,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11.5,12,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260110,Marco,Torres Ramos,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.25,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,19,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11,11,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260016,María,Vargas Quispe,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12.4,12,16,11,1,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,15.05,15,16,10,2,3,1,0.8,0.1875,APROBADO,false,
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12.4,12,16,14,1,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.25,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,12.85,13,16,12,4,0,0,1,0,APROBADO,false,
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,11,11,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.65,15,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,16.7,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,EIA,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,3,4,0,14.15,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.85,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.23,,16,10,1,4,1,0.7333,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.08,,16,9,3,3,1,0.8,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.77,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,20,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.85,,16,14,0,2,0,0.875,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260061,Andrés,Castillo Medina,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.69,,16,14,1,0,1,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13,,16,13,1,0,2,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.85,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.23,,16,10,2,3,1,0.8,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.23,,16,15,0,0,1,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260054,Andrés,Chávez Torres,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.85,,16,14,0,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.54,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.15,,16,9,1,4,2,0.7143,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260116,Camila,Cruz Salazar,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.62,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,10.23,,16,12,0,4,0,0.75,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,11.69,,16,14,0,1,1,0.9333,0.0625,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.08,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.46,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,10.15,,16,11,2,3,0,0.8125,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.38,,16,11,0,4,1,0.7333,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260035,Luis,Córdova Cruz,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.69,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260053,Sofía,Córdova García,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,11.46,,16,10,1,4,1,0.7333,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260098,Lucía,Córdova Luna,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.15,,16,12,4,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.92,,16,11,3,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260115,Sofía,Córdova Torres,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.23,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.23,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,9.69,,16,15,1,0,0,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.23,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.69,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260081,José,Espinoza Huamán,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.69,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.15,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.92,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260079,Marco,Flores Córdova,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.92,,16,10,2,4,0,0.75,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.77,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.77,,16,14,0,0,2,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260023,Luis,García Ccahuana,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.92,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260048,Nicole,García Paredes,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.77,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260027,Renzo,García Salazar,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.85,,15,15,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260047,Renzo,García Soto,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.62,,15,14,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.31,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13,,16,12,2,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.85,,16,11,4,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.46,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.38,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.08,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.23,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.15,,16,13,1,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260046,Renzo,Huamán García,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.08,,16,11,1,4,0,0.75,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.62,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.38,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260100,Joaquín,Huertas García,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.15,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.54,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.62,,16,13,1,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260005,Iván,Huertas Rojas,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.77,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260044,Renzo,Luna Salazar,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.31,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.38,,16,11,1,4,0,0.75,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.54,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260071,Lucía,Mamani Flores,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.31,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260049,Carlos,Mamani Medina,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,3,1,14,,16,11,1,2,2,0.8571,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.54,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,11.69,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260113,María,Mendoza Díaz,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.23,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.92,,16,9,2,4,1,0.7333,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.38,,16,15,0,0,1,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,3,1,13,,16,11,3,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.46,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.62,,16,14,0,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.77,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.69,,16,13,0,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260045,Mariela,Palomino García,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.38,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260009,Milagros,Palomino García,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.31,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260118,Milagros,Palomino García,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.46,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260059,Estefany,Palomino Luna,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.38,,16,11,0,4,1,0.7333,0.25,PENDIENTE,true,Inasistencias en riesgo; Evaluaciones pendientes
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.69,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.38,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.54,,16,12,2,0,2,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.46,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260108,Renzo,Paredes Soto,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13,,16,14,0,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260012,Mariela,Paredes Torres,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.31,,16,13,0,3,0,0.8125,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.69,,16,12,4,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.08,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.77,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.69,,15,12,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.69,,16,10,3,3,0,0.8125,0.1875,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.08,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260096,Ximena,Ramos Medina,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,20,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.85,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.38,,16,11,3,1,1,0.9333,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.08,,16,12,3,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.23,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.08,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.15,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12,,16,12,0,4,0,0.75,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,13.31,,16,14,1,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.08,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.62,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260070,Estefany,Salazar García,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,19.31,,16,15,0,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.69,,16,16,0,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260114,Pamela,Soto García,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.92,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260017,Miguel,Soto Huertas,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.54,,16,13,3,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.15,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.15,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15,,16,13,2,0,1,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260089,Diego,Torres Luna,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14.54,,16,11,3,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260110,Marco,Torres Ramos,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.08,,16,14,2,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,20,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,14,,16,12,0,3,1,0.8,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260016,María,Vargas Quispe,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12,,16,13,1,2,0,0.875,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.08,,16,12,1,2,1,0.8667,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.38,,16,13,0,2,1,0.8667,0.125,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,17.31,,16,13,2,1,0,0.9375,0.0625,PENDIENTE,false,Evaluaciones pendientes
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,12.23,,16,15,1,0,0,1,0,PENDIENTE,true,Promedio menor a 13; Evaluaciones pendientes
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,9.38,,16,11,0,4,1,0.7333,0.25,PENDIENTE,true,Promedio menor a 13; Inasistencias en riesgo; Evaluaciones pendientes
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,15.08,,16,13,1,2,0,0.875,0.125,PENDIENTE,false,Evaluaciones pendientes
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,18.77,,16,15,1,0,0,1,0,PENDIENTE,false,Evaluaciones pendientes
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,EIT,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,2,4,1,16.62,,16,12,1,3,0,0.8125,0.1875,PENDIENTE,false,Evaluaciones pendientes
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.9,18,16,12,4,0,0,1,0,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.85,12,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.95,12,16,9,3,4,0,0.75,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.45,11,16,13,0,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.1,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13,13,16,11,2,2,1,0.8667,0.125,APROBADO,false,
+VG260061,Andrés,Castillo Medina,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.25,13,16,16,0,0,0,1,0,APROBADO,false,
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.85,13,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.05,14,16,14,2,0,0,1,0,APROBADO,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.7,12,16,13,1,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.4,14,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260054,Andrés,Chávez Torres,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.55,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.25,16,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14,14,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.3,16,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260116,Camila,Cruz Salazar,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,3,0,14.87,,16,14,2,0,0,1,0,PENDIENTE,false,
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.65,13,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.1,12,16,13,1,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.55,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.5,18,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.1,12,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.75,14,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260035,Luis,Córdova Cruz,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.95,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,10,10,16,8,2,5,1,0.6667,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260098,Lucía,Córdova Luna,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.95,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.4,14,16,16,0,0,0,1,0,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.65,19,16,14,1,0,1,1,0,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.35,12,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,10.55,11,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,19.4,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.5,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260081,José,Espinoza Huamán,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.15,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15,15,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.85,16,16,14,2,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.4,14,16,10,3,2,1,0.8667,0.125,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.45,17,15,14,1,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.05,15,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.8,16,16,15,0,0,1,1,0,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.05,17,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.45,14,16,12,0,3,1,0.8,0.1875,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.3,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.55,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.6,13,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.65,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.65,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.75,14,16,13,3,0,0,1,0,APROBADO,false,
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,3,0,15.87,,16,16,0,0,0,1,0,PENDIENTE,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.15,15,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.55,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.7,12,16,13,2,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260046,Renzo,Huamán García,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.7,15,16,11,0,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.75,18,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.6,16,16,11,2,3,0,0.8125,0.1875,APROBADO,false,
+VG260100,Joaquín,Huertas García,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.65,14,16,16,0,0,0,1,0,APROBADO,false,
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,19.65,20,16,14,2,0,0,1,0,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,10.4,10,16,14,2,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260005,Iván,Huertas Rojas,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.55,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.75,16,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.3,13,16,10,1,5,0,0.6875,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.8,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.95,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.7,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.3,16,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,10.15,10,16,11,1,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260113,María,Mendoza Díaz,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.2,15,16,14,1,0,1,1,0,APROBADO,false,
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.05,12,16,11,1,1,3,0.9231,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.7,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.4,17,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,20,20,16,16,0,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.1,15,15,14,1,0,0,1,0,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.7,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.45,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260045,Mariela,Palomino García,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.7,15,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,3,0,16.54,,16,11,3,0,2,1,0,PENDIENTE,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.65,14,16,16,0,0,0,1,0,APROBADO,false,
+VG260059,Estefany,Palomino Luna,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.4,14,16,9,1,5,1,0.6667,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,20,20,16,15,1,0,0,1,0,APROBADO,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,19.5,20,16,13,3,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14,14,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.55,17,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.7,14,16,11,2,2,1,0.8667,0.125,APROBADO,false,
+VG260012,Mariela,Paredes Torres,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.9,13,16,11,0,3,2,0.7857,0.1875,APROBADO,false,
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.6,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.9,19,16,13,3,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.3,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.35,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.7,12,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.5,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,19.1,19,16,16,0,0,0,1,0,APROBADO,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.55,18,16,12,4,0,0,1,0,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.35,15,16,10,1,5,0,0.6875,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.75,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.45,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.95,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.5,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.5,13,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.15,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.15,13,16,10,2,3,1,0.8,0.1875,APROBADO,false,
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.95,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260070,Estefany,Salazar García,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.4,17,16,12,2,1,1,0.9333,0.0625,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.45,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.9,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,3,0,18,,16,13,3,0,0,1,0,PENDIENTE,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.25,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.85,18,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.85,16,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13,13,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260110,Marco,Torres Ramos,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.55,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,19.8,20,16,14,2,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.3,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260016,María,Vargas Quispe,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,13.55,14,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,17.3,17,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.25,11,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,16.9,17,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,12.5,13,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,11.75,12,16,12,2,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,14.9,15,16,10,1,5,0,0.6875,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,18.25,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,FCS,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,3,4,0,15.95,16,16,11,0,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.8,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,10.45,10,16,13,0,1,2,0.9286,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.75,13,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,10.25,10,16,13,1,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.55,16,16,14,2,0,0,1,0,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.8,13,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260061,Andrés,Castillo Medina,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.4,12,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11.3,11,16,13,2,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.05,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,9.65,10,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11.25,11,16,10,2,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260054,Andrés,Chávez Torres,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.25,15,16,14,1,0,1,1,0,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.95,17,16,12,2,1,1,0.9333,0.0625,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.7,14,15,13,0,2,0,0.8667,0.1333,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.6,16,16,12,0,2,2,0.8571,0.125,APROBADO,false,
+VG260116,Camila,Cruz Salazar,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.05,14,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,10.1,10,16,13,0,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,9.25,9,16,14,1,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.95,13,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.45,16,15,13,0,2,0,0.8667,0.1333,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,8.45,8,16,13,2,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.7,13,16,14,1,0,1,1,0,APROBADO,false,
+VG260035,Luis,Córdova Cruz,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,3,0,15.08,,16,11,1,2,2,0.8571,0.125,PENDIENTE,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,10.6,11,16,12,0,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260098,Lucía,Córdova Luna,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.4,15,15,14,1,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.3,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.25,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.6,13,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12,12,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.85,17,16,10,3,3,0,0.8125,0.1875,APROBADO,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.8,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260081,José,Espinoza Huamán,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.4,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.95,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,19.25,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.2,15,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.8,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.95,13,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.85,15,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.1,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.7,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.2,14,16,14,2,0,0,1,0,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.55,15,16,12,4,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.8,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.05,13,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.95,15,16,10,1,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.05,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.05,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.55,14,16,11,2,2,1,0.8667,0.125,APROBADO,false,
+VG260046,Renzo,Huamán García,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.95,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.55,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.35,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260100,Joaquín,Huertas García,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.6,14,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.5,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.7,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260005,Iván,Huertas Rojas,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.35,15,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.85,18,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11.35,11,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.45,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,18.45,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14,14,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.85,17,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,10,10,16,8,0,5,3,0.6154,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260113,María,Mendoza Díaz,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.25,14,16,12,2,0,2,1,0,APROBADO,false,
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.25,13,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.4,15,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.95,14,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.15,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.55,15,16,12,3,0,1,1,0,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11,11,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.4,12,15,12,1,2,0,0.8667,0.1333,DESAPROBADO,true,Promedio menor a 13
+VG260045,Mariela,Palomino García,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.3,13,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.9,15,16,14,2,0,0,1,0,APROBADO,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.55,14,16,13,0,3,0,0.8125,0.1875,APROBADO,false,
+VG260059,Estefany,Palomino Luna,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.65,15,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.35,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,19.6,20,16,15,1,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.15,13,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.8,13,16,7,4,3,2,0.7857,0.1875,APROBADO,false,
+VG260012,Mariela,Paredes Torres,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11.65,12,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,19.3,19,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.65,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.6,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.15,17,16,11,4,1,0,0.9375,0.0625,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,9.95,10,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.85,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,18.05,18,16,12,4,0,0,1,0,APROBADO,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.85,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.85,14,16,10,4,1,1,0.9333,0.0625,APROBADO,false,
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.25,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.9,18,16,13,3,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.4,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.85,14,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,9.15,9,16,12,3,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.7,13,16,12,4,0,0,1,0,APROBADO,false,
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,10.4,10,16,12,2,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11.05,11,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260070,Estefany,Salazar García,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.65,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.9,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.95,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,18.05,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.8,16,16,14,0,1,1,0.9333,0.0625,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.35,17,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.2,14,16,13,2,0,1,1,0,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.95,13,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260110,Marco,Torres Ramos,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,17.45,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,19.45,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,9.75,10,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260016,María,Vargas Quispe,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,12.05,12,16,12,1,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.9,17,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.6,14,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.1,16,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,13.65,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,11.8,12,16,10,1,4,1,0.7333,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,16.85,17,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,15.8,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,FIA,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,3,4,0,14.65,15,16,14,0,1,1,0.9333,0.0625,APROBADO,false,
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.05,15,16,15,0,0,1,1,0,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.1,12,16,11,0,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.3,11,16,11,2,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.55,12,16,12,0,4,0,0.75,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,17.25,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.8,12,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260061,Andrés,Castillo Medina,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.1,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.25,13,16,11,3,1,1,0.9333,0.0625,APROBADO,false,
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,3,0,13.31,,16,14,2,0,0,1,0,PENDIENTE,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,9.05,9,16,10,1,2,3,0.8462,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.5,12,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260054,Andrés,Chávez Torres,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.5,15,16,14,2,0,0,1,0,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.15,14,16,14,1,0,1,1,0,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.8,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.2,15,16,12,0,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260116,Camila,Cruz Salazar,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.1,12,16,10,1,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.15,10,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,9.95,10,16,12,3,0,1,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14,14,16,15,0,0,1,1,0,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.4,14,16,14,0,1,1,0.9333,0.0625,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.4,10,16,11,0,4,1,0.7333,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.4,10,16,9,2,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260035,Luis,Córdova Cruz,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.4,14,16,14,1,0,1,1,0,APROBADO,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.45,10,16,9,0,5,2,0.6429,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260098,Lucía,Córdova Luna,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.95,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.65,14,16,12,4,0,0,1,0,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.95,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.3,11,16,14,2,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.3,11,16,12,2,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.2,18,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.25,14,16,13,0,1,2,0.9286,0.0625,APROBADO,false,
+VG260081,José,Espinoza Huamán,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.75,14,16,14,1,0,1,1,0,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.05,14,16,12,1,3,0,0.8125,0.1875,APROBADO,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.2,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.2,13,16,10,1,2,3,0.8462,0.125,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.1,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.85,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.8,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.6,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.6,15,16,11,3,1,1,0.9333,0.0625,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,17.1,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.65,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.65,12,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.7,12,16,11,3,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.7,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.6,15,16,13,2,0,1,1,0,APROBADO,false,
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.65,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.3,14,16,12,0,3,1,0.8,0.1875,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.7,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.7,12,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260046,Renzo,Huamán García,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.8,14,16,10,2,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.8,16,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.85,12,16,12,0,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260100,Joaquín,Huertas García,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.65,12,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,17.95,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.4,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260005,Iván,Huertas Rojas,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.55,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.7,15,16,11,1,3,1,0.8,0.1875,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.4,11,16,11,0,1,4,0.9167,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.65,17,16,15,0,0,1,1,0,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.7,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.4,12,16,13,1,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.5,17,16,8,1,4,3,0.6923,0.25,APROBADO,true,Inasistencias en riesgo
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,8.5,9,16,10,0,3,3,0.7692,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260113,María,Mendoza Díaz,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.05,12,16,11,2,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.8,12,16,10,0,5,1,0.6667,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.8,13,16,16,0,0,0,1,0,APROBADO,false,
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.4,14,16,14,0,1,1,0.9333,0.0625,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.3,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.6,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.3,13,16,15,0,0,1,1,0,APROBADO,false,
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.05,12,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260045,Mariela,Palomino García,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.6,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.05,15,16,13,3,0,0,1,0,APROBADO,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.15,12,16,10,2,2,2,0.8571,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260059,Estefany,Palomino Luna,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.4,12,16,12,1,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.4,15,16,13,3,0,0,1,0,APROBADO,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,17.8,18,16,16,0,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.45,14,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.1,18,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.25,11,16,9,1,3,3,0.7692,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260012,Mariela,Paredes Torres,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.8,13,16,10,2,3,1,0.8,0.1875,APROBADO,false,
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.95,19,16,14,2,0,0,1,0,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.3,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.95,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.1,15,16,13,3,0,0,1,0,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,9.6,10,16,12,2,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.6,16,16,13,3,0,0,1,0,APROBADO,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.1,18,15,14,1,0,0,1,0,APROBADO,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.6,17,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.85,15,16,12,1,1,2,0.9286,0.0625,APROBADO,false,
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.7,14,16,11,2,2,1,0.8667,0.125,APROBADO,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,17.2,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.85,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.15,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.35,10,16,10,1,3,2,0.7857,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.9,11,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.65,12,16,10,2,2,2,0.8571,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.75,11,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260070,Estefany,Salazar García,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.3,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.35,15,16,11,5,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.4,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,12.75,13,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,18.9,19,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.1,14,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,11.4,11,16,11,1,4,0,0.75,0.25,DESAPROBADO,true,Promedio menor a 13; Inasistencias en riesgo
+VG260110,Marco,Torres Ramos,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,17,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,19,19,16,13,3,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.75,11,16,10,4,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260016,María,Vargas Quispe,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.6,14,16,14,1,0,1,1,0,APROBADO,false,
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.2,14,16,11,3,1,1,0.9333,0.0625,APROBADO,false,
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.9,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,16.5,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,10.9,11,16,16,0,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,9.7,10,16,13,1,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,13.5,14,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,15.8,16,16,12,4,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,SDE,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,4,4,0,14.4,14,16,12,0,3,1,0.8,0.1875,APROBADO,false,
+VG260041,Fabricio,Aguilar Huertas,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.95,14,16,14,2,0,0,1,0,APROBADO,false,
+VG260106,Jhon,Aguilar Paredes,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,10.7,11,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260063,Alessandra,Castillo Aguilar,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,10.2,10,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260002,Ximena,Castillo Cárdenas,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,10.15,10,16,12,1,3,0,0.8125,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260001,Diego,Castillo Gutiérrez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.6,18,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260101,Renzo,Castillo Huertas,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.25,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260061,Andrés,Castillo Medina,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.15,12,16,13,3,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260076,Fabricio,Castillo Palomino,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.85,14,16,15,0,0,1,1,0,APROBADO,false,
+VG260022,Lucía,Ccahuana Espinoza,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.2,13,16,13,3,0,0,1,0,APROBADO,false,
+VG260034,Valeria,Ccahuana Villanueva,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.5,12,16,10,1,5,0,0.6875,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260095,Nicole,Chávez Castillo,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.9,12,16,12,2,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260054,Andrés,Chávez Torres,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.95,14,16,13,1,0,2,1,0,APROBADO,false,
+VG260052,Miguel,Cruz Castillo,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.95,16,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260015,Rosa,Cruz Rodríguez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.4,15,16,13,2,1,0,0.9375,0.0625,APROBADO,false,
+VG260074,Gabriela,Cruz Rojas,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.8,16,16,12,3,1,0,0.9375,0.0625,APROBADO,false,
+VG260116,Camila,Cruz Salazar,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.3,15,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260069,Gabriela,Cruz Salazar,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.7,12,16,14,1,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260099,Bruno,Cárdenas Córdova,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,9.4,9,16,13,2,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260112,Diego,Cárdenas Palomino,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.85,15,16,12,4,0,0,1,0,APROBADO,false,
+VG260031,Sofía,Cárdenas Palomino,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.35,13,16,14,2,0,0,1,0,APROBADO,false,
+VG260003,Kevin,Cárdenas Villanueva,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,9.7,10,16,9,3,3,1,0.8,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260028,Miguel,Córdova Aguilar,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.1,13,16,11,0,4,1,0.7333,0.25,APROBADO,true,Inasistencias en riesgo
+VG260035,Luis,Córdova Cruz,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.1,16,16,11,2,2,1,0.8667,0.125,APROBADO,false,
+VG260053,Sofía,Córdova García,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.05,11,16,11,0,3,2,0.7857,0.1875,DESAPROBADO,true,Promedio menor a 13
+VG260098,Lucía,Córdova Luna,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.45,14,16,15,1,0,0,1,0,APROBADO,false,
+VG260086,Fabricio,Córdova Torres,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.1,15,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260115,Sofía,Córdova Torres,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.15,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260105,Fabricio,Díaz Torres,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.35,14,16,11,1,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260007,Joaquín,Díaz Villanueva,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,10.45,10,16,12,3,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260021,Joaquín,Espinoza Chávez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.45,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260064,Miguel,Espinoza Cruz,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.2,14,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260081,José,Espinoza Huamán,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.15,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260055,Miguel,Espinoza Huamán,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.45,16,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260056,Renzo,Espinoza Soto,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.75,16,16,14,2,0,0,1,0,APROBADO,false,
+VG260079,Marco,Flores Córdova,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.55,14,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260024,Andrés,Flores Rodríguez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260036,Alessandra,Flores Vargas,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.1,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260023,Luis,García Ccahuana,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.6,16,15,12,2,1,0,0.9333,0.0667,APROBADO,false,
+VG260048,Nicole,García Paredes,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.15,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260027,Renzo,García Salazar,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.05,15,16,13,1,1,1,0.9333,0.0625,APROBADO,false,
+VG260047,Renzo,García Soto,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.2,14,16,12,2,1,1,0.9333,0.0625,APROBADO,false,
+VG260094,Joaquín,Gutiérrez Cruz,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.95,15,16,15,1,0,0,1,0,APROBADO,false,
+VG260010,Mariela,Gutiérrez Díaz,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,10.4,10,16,13,0,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260062,Estefany,Gutiérrez Gutiérrez,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.65,13,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260077,Yessenia,Gutiérrez Paredes,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.55,14,16,15,0,0,1,1,0,APROBADO,false,
+VG260120,Gabriela,Gutiérrez Quispe,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.35,14,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260014,Luis,Gutiérrez Ramos,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,3,0,16.46,,16,16,0,0,0,1,0,PENDIENTE,false,
+VG260042,Ximena,Gutiérrez Sánchez,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.75,14,15,13,2,0,0,1,0,APROBADO,false,
+VG260107,Estefany,Gutiérrez Villanueva,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.85,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260039,Mariela,Gutiérrez Villanueva,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.65,13,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260046,Renzo,Huamán García,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.35,14,16,7,2,5,2,0.6429,0.3125,INHABILITADO,true,Inasistencias mayores al 30 %
+VG260032,Andrés,Huamán Sánchez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.1,16,16,15,1,0,0,1,0,APROBADO,false,
+VG260087,Nicole,Huertas Ccahuana,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.7,13,16,15,0,0,1,1,0,APROBADO,false,
+VG260100,Joaquín,Huertas García,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.4,11,16,15,1,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260019,Fiorella,Huertas Huamán,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.6,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260084,Renzo,Huertas Paredes,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,3,0,12.69,,16,14,1,0,1,1,0,PENDIENTE,true,Promedio menor a 13
+VG260005,Iván,Huertas Rojas,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.55,18,16,12,2,1,1,0.9333,0.0625,APROBADO,false,
+VG260044,Renzo,Luna Salazar,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.8,16,16,11,2,1,2,0.9286,0.0625,APROBADO,false,
+VG260092,Gonzalo,Mamani Aguilar,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.4,11,16,12,3,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260080,Miguel,Mamani Espinoza,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.05,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260071,Lucía,Mamani Flores,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.55,17,15,14,1,0,0,1,0,APROBADO,false,
+VG260049,Carlos,Mamani Medina,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.8,14,16,10,2,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260006,Ricardo,Medina Cruz,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.7,18,16,10,2,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo
+VG260051,Fabricio,Medina Ramos,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,10.95,11,16,11,0,2,3,0.8462,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260113,María,Mendoza Díaz,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.8,17,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260091,Ximena,Mendoza Flores,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.95,13,16,13,1,2,0,0.875,0.125,APROBADO,false,
+VG260011,Miguel,Mendoza Huamán,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.15,14,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260090,Pamela,Mendoza Huamán,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.3,17,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260102,Renzo,Mendoza Huamán,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.7,19,16,14,2,0,0,1,0,APROBADO,false,
+VG260072,Marco,Mendoza Paredes,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.1,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260008,Jorge,Mendoza Quispe,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.8,14,16,14,0,2,0,0.875,0.125,APROBADO,false,
+VG260083,Mariela,Palomino Díaz,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.6,14,16,13,0,2,1,0.8667,0.125,APROBADO,false,
+VG260045,Mariela,Palomino García,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.4,14,16,15,0,0,1,1,0,APROBADO,false,
+VG260009,Milagros,Palomino García,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.65,15,16,16,0,0,0,1,0,APROBADO,false,
+VG260118,Milagros,Palomino García,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.7,13,16,12,1,2,1,0.8667,0.125,APROBADO,false,
+VG260059,Estefany,Palomino Luna,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.7,14,16,12,1,1,2,0.9286,0.0625,APROBADO,false,
+VG260029,Renzo,Palomino Sánchez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,3,0,18.6,,16,16,0,0,0,1,0,PENDIENTE,false,
+VG260078,Milagros,Palomino Villanueva,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.45,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260117,Renzo,Paredes Aguilar,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.6,14,16,11,1,3,1,0.8,0.1875,APROBADO,false,
+VG260109,Álvaro,Paredes Rojas,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.4,15,16,13,3,0,0,1,0,APROBADO,false,
+VG260108,Renzo,Paredes Soto,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.15,13,16,12,2,2,0,0.875,0.125,APROBADO,false,
+VG260012,Mariela,Paredes Torres,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.3,11,16,11,0,2,3,0.8462,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260043,Miguel,Paredes Villanueva,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.4,17,16,16,0,0,0,1,0,APROBADO,false,
+VG260075,Sofía,Quispe Aguilar,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.7,18,16,15,1,0,0,1,0,APROBADO,false,
+VG260104,Milagros,Quispe Chávez,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.35,17,15,13,2,0,0,1,0,APROBADO,false,
+VG260033,Daniela,Quispe Salazar,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.9,15,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260073,Sebastián,Quispe Soto,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.65,12,16,15,0,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260097,Andrés,Ramos Mamani,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.65,19,16,14,2,0,0,1,0,APROBADO,false,
+VG260096,Ximena,Ramos Medina,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,3,0,19.56,,16,13,3,0,0,1,0,PENDIENTE,false,
+VG260085,Piero,Ramos Mendoza,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.6,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260103,Nicole,Ramos Ramos,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.2,13,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260020,Daniela,Ramos Rodríguez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.6,16,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260111,Estefany,Ramos Rodríguez,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.8,18,16,14,2,0,0,1,0,APROBADO,false,
+VG260037,Gabriela,Rodríguez Gutiérrez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.8,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260057,Álvaro,Rodríguez Mamani,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.95,14,16,13,2,0,1,1,0,APROBADO,false,
+VG260067,Kevin,Rojas Castillo,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.6,12,16,14,0,2,0,0.875,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260013,Jhon,Rojas Chávez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.15,12,16,14,2,0,0,1,0,DESAPROBADO,true,Promedio menor a 13
+VG260082,Joaquín,Rojas Cruz,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.45,12,16,12,1,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260093,Jorge,Rojas Quispe,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.15,13,16,15,1,0,0,1,0,APROBADO,false,
+VG260070,Estefany,Salazar García,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.3,16,16,14,0,1,1,0.9333,0.0625,APROBADO,false,
+VG260025,Miguel,Salazar Sánchez,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.35,17,16,15,1,0,0,1,0,APROBADO,false,
+VG260114,Pamela,Soto García,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.2,17,16,14,2,0,0,1,0,APROBADO,false,
+VG260017,Miguel,Soto Huertas,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.2,16,16,16,0,0,0,1,0,APROBADO,false,
+VG260066,Marco,Sánchez Chávez,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.75,15,16,10,3,2,1,0.8667,0.125,APROBADO,false,
+VG260058,Nicole,Sánchez Díaz,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.85,19,16,15,0,1,0,0.9375,0.0625,APROBADO,false,
+VG260004,Gabriela,Torres Castillo,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.25,16,16,15,0,0,1,1,0,APROBADO,false,
+VG260089,Diego,Torres Luna,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.3,13,16,10,2,3,1,0.8,0.1875,APROBADO,false,
+VG260110,Marco,Torres Ramos,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,17.35,17,16,13,3,0,0,1,0,APROBADO,false,
+VG260050,Jhon,Vargas Córdova,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.75,19,16,13,3,0,0,1,0,APROBADO,false,
+VG260065,Pamela,Vargas Gutiérrez,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.45,11,16,12,2,1,1,0.9333,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260016,María,Vargas Quispe,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.9,12,16,13,0,2,1,0.8667,0.125,DESAPROBADO,true,Promedio menor a 13
+VG260119,Andrés,Vargas Rodríguez,C,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,16.7,17,16,11,0,2,3,0.8462,0.125,APROBADO,false,
+VG260038,Yessenia,Vargas Rojas,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,11.95,12,16,11,4,1,0,0.9375,0.0625,DESAPROBADO,true,Promedio menor a 13
+VG260026,Joaquín,Villanueva Ccahuana,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.8,19,16,11,3,2,0,0.875,0.125,APROBADO,false,
+VG260030,Fiorella,Villanueva Espinoza,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,13.05,13,16,14,1,1,0,0.9375,0.0625,APROBADO,false,
+VG260040,Luciana,Villanueva Mamani,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,12.4,12,16,8,1,5,2,0.6429,0.3125,INHABILITADO,true,Promedio menor a 13; Inasistencias mayores al 30 %
+VG260060,Gonzalo,Villanueva Medina,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,14.05,14,16,14,2,0,0,1,0,APROBADO,false,
+VG260068,Renzo,Villanueva Vargas,B,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,18.55,19,16,15,1,0,0,1,0,APROBADO,false,
+VG260018,Rosa,Villanueva Villanueva,A,V,2026-II,TBD,Talleres de Big Data,Ing. Jorge Huamán Salazar,4,4,0,15.4,15,16,11,1,4,0,0.75,0.25,APROBADO,true,Inasistencias en riesgo

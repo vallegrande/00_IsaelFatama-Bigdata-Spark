@@ -1,0 +1,10 @@
+{
+  "published" : true,
+  "received" : 21759,
+  "accepted" : 21514,
+  "rejected" : 245,
+  "rejectedRatio" : 0.01126,
+  "maxRejectedRatio" : 0.5,
+  "goldRows" : 1071,
+  "durationMs" : 52394
+}

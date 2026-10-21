@@ -1,0 +1,14 @@
+{"stage":"BRONZE","status":"RUNNING","timestamp":"2026-10-21T22:55:15.855108700Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Spark lee las cinco tablas CSV del sistema de notas"}
+{"stage":"BRONZE","status":"COMPLETED","timestamp":"2026-10-21T22:55:29.091735600Z","rows":21735,"durationMs":13231,"sparkJobs":15,"detail":"Filas leídas: semestres 6, cursos 9, estudiantes 120, notas 4320, asistencia 17280"}
+{"stage":"VALIDATION","status":"RUNNING","timestamp":"2026-10-21T22:55:29.109316500Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Tipos de datos, reglas de calidad, duplicados e integridad entre tablas"}
+{"stage":"VALIDATION","status":"COMPLETED","timestamp":"2026-10-21T22:55:46.098045900Z","rows":21735,"durationMs":16988,"sparkJobs":21,"detail":"21735 filas válidas y 0 observadas"}
+{"stage":"QUARANTINE","status":"RUNNING","timestamp":"2026-10-21T22:55:46.135261900Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Las filas observadas se guardan con su tabla, fila y motivo"}
+{"stage":"QUARANTINE","status":"COMPLETED","timestamp":"2026-10-21T22:55:48.987136900Z","rows":0,"durationMs":2852,"sparkJobs":1,"detail":"Sin filas observadas"}
+{"stage":"SILVER","status":"RUNNING","timestamp":"2026-10-21T22:55:48.996186800Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Las filas válidas se guardan tipadas en CSV y Parquet"}
+{"stage":"SILVER","status":"COMPLETED","timestamp":"2026-10-21T22:55:52.595083Z","rows":21735,"durationMs":3599,"sparkJobs":5,"detail":"21735 filas limpias en 5 tablas"}
+{"stage":"QUALITY_GATE","status":"RUNNING","timestamp":"2026-10-21T22:55:52.609151300Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Se comparan los rechazos de cada tabla con la tolerancia del job"}
+{"stage":"QUALITY_GATE","status":"COMPLETED","timestamp":"2026-10-21T22:55:52.642328500Z","rows":21735,"durationMs":34,"sparkJobs":0,"detail":"Publicado: las filas válidas pasan a Gold y las observadas quedan en cuarentena"}
+{"stage":"GOLD","status":"RUNNING","timestamp":"2026-10-21T22:55:52.657901700Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Faltas por estudiante y curso comparadas con el 30 % de inasistencia permitido"}
+{"stage":"GOLD","status":"COMPLETED","timestamp":"2026-10-21T22:55:59.061799900Z","rows":1080,"durationMs":6394,"sparkJobs":8,"detail":"1080 matrículas evaluadas por inasistencia"}
+{"stage":"EXPORT","status":"RUNNING","timestamp":"2026-10-21T22:55:59.283508300Z","rows":null,"durationMs":null,"sparkJobs":null,"detail":"Publicación de tablas Gold en CSV, Parquet y resumen JSON"}
+{"stage":"EXPORT","status":"COMPLETED","timestamp":"2026-10-21T22:56:01.774129500Z","rows":5,"durationMs":2491,"sparkJobs":5,"detail":"5 archivos publicados"}

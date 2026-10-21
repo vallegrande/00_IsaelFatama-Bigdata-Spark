@@ -1,0 +1,17 @@
+{
+  "estudiantes" : 119,
+  "cursos" : 9,
+  "matriculas" : 1071,
+  "aprobados" : 645,
+  "desaprobados" : 154,
+  "inhabilitados" : 22,
+  "pendientes" : 250,
+  "promedio_general" : 14.94,
+  "asistencia_promedio" : 0.9275,
+  "requieren_atencion" : 242,
+  "correlacion_asistencia_nota" : 0.4336,
+  "periodo" : "2026-II",
+  "tasa_aprobacion" : 0.7856,
+  "nota_aprobatoria" : 13,
+  "maximo_inasistencia" : 0.3
+}

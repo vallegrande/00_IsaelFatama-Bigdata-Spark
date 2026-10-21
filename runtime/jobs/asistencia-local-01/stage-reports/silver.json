@@ -1,0 +1,24 @@
+{
+  "schemaVersion" : 1,
+  "runId" : "asistencia-local-01",
+  "stage" : "SILVER",
+  "status" : "COMPLETED",
+  "startedAt" : "2026-10-21T22:55:48.996186800Z",
+  "completedAt" : "2026-10-21T22:55:52.595083Z",
+  "durationMs" : 3599,
+  "sparkJobs" : 5,
+  "rows" : 21735,
+  "detail" : "21735 filas limpias en 5 tablas",
+  "metrics" : {
+    "rowsByTable" : {
+      "semestres" : 6,
+      "cursos" : 9,
+      "estudiantes" : 120,
+      "notas" : 4320,
+      "asistencia" : 17280
+    },
+    "formats" : [ "csv", "parquet" ],
+    "totalRowsWritten" : 21735,
+    "tableCount" : 5
+  }
+}
