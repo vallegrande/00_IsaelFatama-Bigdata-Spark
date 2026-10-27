@@ -19,6 +19,8 @@ public final class PipelineContext {
     private ValidationResult validation;
     private QualityReport quality;
     private GoldTables gold;
+    private long processedRows;
+    private long discrepancyRows;
 
     public PipelineContext(SparkSession spark, Path input, Path output, double maxRejectedRatio, TablePublisher publisher) {
         this.spark = spark;
@@ -78,6 +80,19 @@ public final class PipelineContext {
 
     public void gold(GoldTables value) {
         this.gold = value;
+    }
+
+    public void counts(long processed, long discrepancies) {
+        this.processedRows = processed;
+        this.discrepancyRows = discrepancies;
+    }
+
+    public long processedRows() {
+        return processedRows;
+    }
+
+    public long discrepancyRows() {
+        return discrepancyRows;
     }
 
     public void release() {

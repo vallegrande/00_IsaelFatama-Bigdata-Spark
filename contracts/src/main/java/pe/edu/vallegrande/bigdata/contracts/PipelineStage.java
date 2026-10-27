@@ -2,6 +2,13 @@ package pe.edu.vallegrande.bigdata.contracts;
 
 public enum PipelineStage {
 
-    BRONZE, VALIDATION, QUARANTINE, SILVER, QUALITY_GATE, GOLD, EXPORT
+    BRONZE, VALIDATION, QUARANTINE, SILVER, QUALITY_GATE, GOLD, EXPORT,
+
+    INGEST,
+    EXTRACT,
+
+    LOAD_CORE, LOAD_SERVING,
+
+    RECONCILE
 
 }

@@ -1,0 +1,29 @@
+# Oracle local para desarrollo. Lee sus valores de ".env" (ver .env.example).
+#
+#   docker compose up -d        # primer arranque: tarda unos minutos mientras crea la base
+#   docker compose ps           # "healthy" cuando está lista
+#   docker compose down         # detiene el contenedor y conserva los datos
+#   docker compose down -v      # además borra los datos
+#
+# La imagen gvenzl/oracle-free crea el usuario DB_USER (con DB_PASSWORD) con permiso para crear tablas.
+services:
+  oracle:
+    image: gvenzl/oracle-free:23-slim-faststart
+    container_name: bigdata-oracle
+    ports:
+      - "1521:1521"
+    environment:
+      ORACLE_PASSWORD: ${ORACLE_PASSWORD:?defina ORACLE_PASSWORD en .env}
+      APP_USER: ${DB_USER:-bigdata}
+      APP_USER_PASSWORD: ${DB_PASSWORD:?defina DB_PASSWORD en .env}
+    volumes:
+      - oracle-data:/opt/oracle/oradata
+    healthcheck:
+      test: ["CMD", "healthcheck.sh"]
+      interval: 10s
+      timeout: 5s
+      retries: 30
+      start_period: 60s
+
+volumes:
+  oracle-data:

@@ -1,3 +1,64 @@
 spring:
   application:
     name: backend-api
+  webflux:
+    problemdetails:
+      enabled: true
+  datasource:
+    url: ${DB_URL:jdbc:oracle:thin:@//localhost:1521/FREEPDB1}
+    username: ${DB_USER:bigdata}
+    password: ${DB_PASSWORD:}
+    hikari:
+      minimum-idle: 0
+      maximum-pool-size: 5
+      connection-timeout: 5000
+      initialization-fail-timeout: -1
+      data-source-properties:
+        oracle.jdbc.mapDateToTimestamp: "false"
+
+server:
+  port: 8080
+
+management:
+  health:
+    db:
+      enabled: false
+  endpoints:
+    web:
+      exposure:
+        include: health,info
+
+bigdata:
+  database:
+    schema: ${DB_SCHEMA:}
+
+  workspace:
+    jobs-directory: runtime/jobs
+    datasets-directory: data
+
+  worker:
+    modules-directory: spark
+    java-command: java
+    max-concurrent: 2
+    timeout: 30m
+    jvm-options:
+      - --add-opens=java.base/java.lang=ALL-UNNAMED
+      - --add-opens=java.base/java.lang.invoke=ALL-UNNAMED
+      - --add-opens=java.base/java.lang.reflect=ALL-UNNAMED
+      - --add-opens=java.base/java.io=ALL-UNNAMED
+      - --add-opens=java.base/java.net=ALL-UNNAMED
+      - --add-opens=java.base/java.nio=ALL-UNNAMED
+      - --add-opens=java.base/java.util=ALL-UNNAMED
+      - --add-opens=java.base/java.util.concurrent=ALL-UNNAMED
+      - --add-opens=java.base/java.util.concurrent.atomic=ALL-UNNAMED
+      - --add-opens=java.base/sun.nio.ch=ALL-UNNAMED
+      - --add-opens=java.base/sun.nio.cs=ALL-UNNAMED
+      - --add-opens=java.base/sun.security.action=ALL-UNNAMED
+      - --add-opens=java.base/sun.util.calendar=ALL-UNNAMED
+      - -Djdk.reflect.useDirectMethodHandle=false
+      - -Dio.netty.tryReflectionSetAccessible=true
+
+  cors:
+    allowed-origins:
+      - http://localhost:3000
+      - http://localhost:5173

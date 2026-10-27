@@ -34,5 +34,11 @@ public final class WorkerProtocol {
 
     public static final String REJECTED_TABLE = "rechazados";
 
+    public static final String LANDING = "landing";
+
+    public static final String RECONCILIATION_FILE = "reconciliation.json";
+
+    public static final String EXECUTION_FILE = "execution.json";
+
     private WorkerProtocol() {}
 }

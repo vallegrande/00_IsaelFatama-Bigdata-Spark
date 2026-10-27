@@ -33,3 +33,5 @@ build/
 .vscode/
 
 .env
+# Codigo privado del trabajo: no subir
+jobs_banco/

@@ -4,6 +4,96 @@ Todos los cambios relevantes de este proyecto se documentan en este archivo.
 
 El formato se basa en [Keep a Changelog](https://keepachangelog.com/es-ES/1.1.0/) y el proyecto sigue [Versionado Semántico](https://semver.org/lang/es/).
 
+## [2.2.0] - 2026-11-15
+
+El backend deja de recibir archivos y de escribir en la base de datos: solo decide qué job ejecutar y sirve la salida. La ingesta queda a cargo de `StagingSeeder` y de los jobs de extracción y carga.
+
+### Cambiado
+
+- **Las tablas ya no se crean desde Spark ni son temporales.** Se crean con los scripts de `db/oracle/` (`SchemaInstaller`). Cada tabla de carga tiene una gemela permanente `_LOAD` que conserva el lote para consultarlo; `OracleDatabase` solo escribe y falla con un mensaje claro si falta una tabla.
+- El SQL pasa a ser constantes (`SqlStatements`) en lugar de generarse por código; `OracleSql` se elimina.
+- `POST /api/executions` recibe un cuerpo JSON (`jobType`, `dataset` o `sourceExecutionId`, `threshold`) en lugar de `multipart/form-data`.
+- Los datasets de entrada se leen de `bigdata.workspace.datasets-directory` (por defecto `data`).
+
+### Agregado
+
+- **`DATA_INGESTION`** (`job-data-ingestion`): carga los CSV de un dataset en las tablas `STG_*`. El flujo completo ya se maneja desde el backend: ingestar, extraer, transformar, cargar y conciliar. Nueva familia `INGESTION` con entrada `DATASET`.
+- **El dashboard lee de la base de datos.** `JdbcServingRepository` hace `SELECT` de solo lectura sobre `SERVING_*` del último lote cargado; `SERVING_RESUMEN` guarda el resumen JSON de cada lote. El job de carga publica ahora todas las tablas gold (9) y el resumen; cada fila lleva `ROW_NO` (orden) y `LOADED_AT`. Si la base no responde, el API devuelve `503`.
+- `GET /api/datasets`: carpetas de `data/` que traen los 5 CSV.
+- `DatasetService` y `DatasetServiceImpl`, con sus pruebas.
+
+### Eliminado
+
+- Carga de CSV: `ExecutionFormReader`, `CsvStructureValidator`, `InputFileRepository`, `UploadedFile` y el error 413.
+- Los repositorios de base de datos del backend (`DatabaseExecutionRepository`, `DatabaseGoldTableRepository`) y `bigdata.storage.mode`.
+- Los archivos que dependen del esquema al portar el proyecto bajan de 8 a 5.
+
+## [2.1.0] - 2026-11-14
+
+Tres jobs nuevos (extracción, carga y conciliación) con el adaptador de Oracle y su configuración local, el backend completo y los jobs renombrados a inglés. La lógica de los jobs de transformación existentes no cambia.
+
+### Agregado
+
+#### Contratos (`contracts`)
+
+- `JobKind` (`TRANSFORMATION`, `EXTRACTION`, `LOAD`, `RECONCILIATION`) y `JobInput` (`CSV_FILES`, `NONE`, `PREVIOUS_EXECUTION`): permiten al backend saber qué necesita cada job sin conocerlo.
+- `DatabaseLayer` (`STAGING`, `CORE`, `SERVING`, `CONTROL`) con su prefijo de tabla y la columna `batch_id`.
+- `JobType`: tres entradas nuevas (`DATA_EXTRACTION`, `DATA_LOAD`, `DATA_RECONCILIATION`) y la familia de cada job.
+- `PipelineStage`: `EXTRACT`, `LOAD_CORE`, `LOAD_SERVING` y `RECONCILE`.
+- `WorkerProtocol`: `LANDING`, `RECONCILIATION_FILE` y `EXECUTION_FILE`.
+
+#### Spark
+
+- Módulo `spark-database`: interfaz `Database` (`read` y `write`), `DatabaseConfig` (variables de entorno `DB_URL`, `DB_USER`, `DB_PASSWORD`, `DB_SCHEMA`; por defecto un Oracle local, solo `DB_PASSWORD` es obligatoria), `DatabaseNaming` (minúsculas del lago a mayúsculas de la base) y `RunOutputs`.
+- `OracleDatabase`, la implementación de Oracle sobre JDBC: escribe siempre por una tabla temporal y una única transacción (`MERGE` o reemplazo de lote), elimina la temporal aunque falle, crea las tablas que faltan con tipos explícitos y mapea los `DATE` como fecha. Validado contra H2 en modo Oracle; **no se ha probado contra un Oracle real**.
+- `StagingSeeder`: carga un lote de CSV en las tablas `STG_*` para preparar una base local.
+- `docker-compose.yml` (Oracle Free) y `.env.example` para un Oracle local; las credenciales viven en `.env`, que Git ignora.
+- `job-data-extraction`: lee las cinco tablas de la capa `STAGING` y las publica en `landing/`, con el mismo formato que la entrada CSV.
+- `job-data-load`: silver a `CORE` con `MERGE` por clave natural (maestras primero), cuarentena a `CONTROL` y gold a `SERVING` con `batch_id` (`REPLACE_BATCH`, idempotente). No carga nada de una ejecución sin Gold.
+- `job-data-reconciliation`: comprueba que silver existe en `CORE` y que cada tabla gold coincide exactamente en `SERVING` para el lote; escribe `reconciliation.json`.
+- `PipelineContext.counts(...)`: los jobs sin validación informan sus conteos en `result.json`.
+- 57 pruebas nuevas: con una base simulada en memoria y con el adaptador de Oracle contra H2 en modo Oracle.
+
+#### Backend (`backend-api`)
+
+- API WebFlux en capas (controlador, servicio, puertos y adaptadores): `/api/jobs`, `/api/executions` (con subida `multipart`, avance, calidad, conciliación, cuarentena y Gold) y `/api/dashboard/{job}` (siempre la última ejecución publicada).
+- Cola de ejecuciones con límite de concurrencia (`bigdata.worker.max-concurrent`) y estados `PENDING`, `RUNNING`, `PUBLISHED`, `BLOCKED` y `FAILED`; las ejecuciones interrumpidas por un reinicio se marcan `FAILED` al arrancar.
+- Lanzamiento del worker como proceso independiente (`ProcessWorkerLauncher`) con tiempo máximo y salida en `worker.log`.
+- Una transformación puede tomar como entrada el `landing/` de una extracción publicada (`sourceExecutionId`) en lugar de archivos subidos.
+- Validación de la estructura de los CSV (encabezado exacto y en orden, tamaño, filas) y subida en *streaming* con límite de tamaño.
+- Errores en formato `ProblemDetail`; CORS configurable para el dashboard.
+- Repositorios de archivos funcionales y marcadores de base de datos (`DatabaseExecutionRepository`, `DatabaseGoldTableRepository`) activos con `bigdata.storage.mode=database`.
+- 110 pruebas, incluida una de la API completa con un worker simulado.
+
+### Cambiado
+
+- **Los jobs y la API pasan a inglés** (cambio incompatible para quien los invocaba por nombre). Los datos del dominio académico (tablas, columnas y archivos CSV) conservan sus nombres en español.
+
+  | Antes | Ahora |
+  |-------|-------|
+  | `RENDIMIENTO_ACADEMICO`, `job-rendimiento-academico`, `RendimientoAcademicoJob` | `ACADEMIC_PERFORMANCE`, `job-academic-performance`, `AcademicPerformanceJob` |
+  | `ALERTA_ASISTENCIA`, `job-alerta-asistencia`, `AlertaAsistenciaJob` | `ATTENDANCE_ALERT`, `job-attendance-alert`, `AttendanceAlertJob` |
+  | `spark-academico` (paquete `spark.academico`) | `spark-academic` (paquete `spark.academic`) |
+  | `/api/ejecuciones`, `/eventos`, `/calidad`, `/rechazados`, `/conciliacion` | `/api/executions`, `/events`, `/quality`, `/rejected`, `/reconciliation` |
+  | `/api/dashboard/{job}/tablas`, `/resumen` | `/api/dashboard/{job}/tables`, `/summary` |
+
+  Los paquetes de los jobs pasan de `job.rendimiento` y `job.asistencia` a `job.performance` y `job.attendance`. Las etiquetas visibles de cada job (`JobType.label()`, `JobKind.label()`) también están en inglés.
+- **El backend se reorganiza en una arquitectura MVC estándar**, sin cambiar su comportamiento (las mismas rutas y respuestas, y la misma prueba de flujo completo):
+
+  | Antes | Ahora |
+  |-------|-------|
+  | `web.controller` (`*Controller`) | `rest` (`JobRest`, `ExecutionRest`, `DashboardRest`) |
+  | `web.dto`, `web.request`, `model.PageQuery`, `model.PageResult` | `dto.request` (`CreateExecutionRequest`, `PageQuery`) y `dto.response` (`ExecutionResponse`, `PageResponse`, `DashboardResponse`…) |
+  | Clases de servicio concretas | Interfaz en `service` e implementación `*Impl` en `service.impl` |
+  | `repository.file`, `repository.database`, `ExecutionOutputReader`, `InputStorage` | `repository.impl` (`File*` y `Database*`), `ExecutionOutputRepository`, `InputFileRepository` |
+  | `ExecutionRunner`, `ExecutionRecovery`, `CsvStructureValidator`, `workspace.ExecutionWorkspace` | `component` |
+  | `web.error.ApiExceptionHandler` | `exception.GlobalExceptionHandler` |
+  | Conversión modelo a DTO dentro de los DTO | `mapper` (`ExecutionMapper`, `JobMapper`) |
+
+  Se adopta Lombok (`@RequiredArgsConstructor`, `@Slf4j`, `@Builder`) y se eliminan los comentarios del código del backend. `POST` sin `jobType` responde `400` (antes respondía `404`). 110 pruebas.
+- `BigDataApplication` ahora habilita `@ConfigurationPropertiesScan`.
+- La prueba de contexto del backend pasó a un paquete que Spring sí encuentra (`pe.edu.vallegrande.bigdata.api`), con lo que `mvn verify` vuelve a funcionar en todo el proyecto.
+
 ## [2.0.0] - 2026-10-02
 
 Reestructuración del servicio Spark en un motor de pipeline reutilizable con dos jobs analíticos, más la documentación completa del proyecto.

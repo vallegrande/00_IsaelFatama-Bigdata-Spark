@@ -12,9 +12,14 @@
 
     <modules>
         <module>spark-core</module>
-        <module>spark-academico</module>
-        <module>job-rendimiento-academico</module>
-        <module>job-alerta-asistencia</module>
+        <module>spark-academic</module>
+        <module>spark-database</module>
+        <module>job-academic-performance</module>
+        <module>job-attendance-alert</module>
+        <module>job-data-ingestion</module>
+        <module>job-data-extraction</module>
+        <module>job-data-load</module>
+        <module>job-data-reconciliation</module>
     </modules>
 
     <dependencyManagement>
@@ -26,8 +31,23 @@
             </dependency>
             <dependency>
                 <groupId>pe.edu.vallegrande</groupId>
-                <artifactId>spark-academico</artifactId>
+                <artifactId>spark-academic</artifactId>
                 <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>pe.edu.vallegrande</groupId>
+                <artifactId>spark-database</artifactId>
+                <version>${project.version}</version>
+            </dependency>
+            <dependency>
+                <groupId>com.oracle.database.jdbc</groupId>
+                <artifactId>ojdbc11</artifactId>
+                <version>23.6.0.24.10</version>
+            </dependency>
+            <dependency>
+                <groupId>com.h2database</groupId>
+                <artifactId>h2</artifactId>
+                <version>2.3.232</version>
             </dependency>
             <dependency>
                 <groupId>org.apache.spark</groupId>
