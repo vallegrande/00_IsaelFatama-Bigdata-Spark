@@ -355,15 +355,19 @@ Aplicación Spring Boot (WebFlux, Validation, Actuator) que depende únicamente 
 
 ### 5.1 Resumen de etapas
 
+Cuando la publicación en S3 está habilitada, las salidas persistidas de cada etapa siguen los prefijos numerados del estándar de carpetas:
+
 | # | Etapa | Clase | Módulo | Entrada | Salida | Puede bloquear |
 |---|-------|-------|--------|---------|--------|----------------|
-| 1 | `BRONZE` | `BronzeStep` | spark-academico | `<input>/*.csv` | `BronzeTables` en memoria (cacheadas) | No |
-| 2 | `VALIDATION` | `ValidationStep` | spark-academico | `BronzeTables` | `ValidationResult` (válidas, rechazadas, conteos) | No |
-| 3 | `QUARANTINE` | `QuarantineStep` | spark-core | Filas rechazadas | `quarantine/rechazados.{csv,parquet}` | No |
-| 4 | `SILVER` | `SilverStep` | spark-core | Filas válidas tipadas | `silver/<tabla>.{csv,parquet}` | No |
-| 5 | `QUALITY_GATE` | `QualityGateStep` | spark-core | `ValidationResult` + tolerancia | `quality.json` | **Sí** |
-| 6 | `GOLD` | `GoldStep` | spark-core + job | Tablas Silver | `GoldTables` en memoria | No |
-| 7 | `EXPORT` | `ExportStep` | spark-core | `GoldTables` | `gold/<tabla>.{csv,parquet}` y `gold/resumen.json` | No |
+| 1 | `BRONZE` | `BronzeStep` | spark-academico | `<input>/*.csv` | `BronzeTables` en memoria; CSV originales en `01-bronze/` | No |
+| 2 | `VALIDATION` | `ValidationStep` | spark-academico | `BronzeTables` | `ValidationResult`; `02-validation/validation.json` | No |
+| 3 | `QUARANTINE` | `QuarantineStep` | spark-core | Filas rechazadas | `03-quarantine/rechazados.{csv,parquet}` | No |
+| 4 | `SILVER` | `SilverStep` | spark-core | Filas válidas tipadas | `04-silver/<tabla>.{csv,parquet}` | No |
+| 5 | `QUALITY_GATE` | `QualityGateStep` | spark-core | `ValidationResult` + tolerancia | `05-quality-gate/quality.json` | **Sí** |
+| 6 | `GOLD` | `GoldStep` | spark-core + job | Tablas Silver | `GoldTables` en memoria; `06-gold/<tabla>.{csv,parquet}` y `resumen.json` si se publica | No |
+| 7 | `EXPORT` | `ExportStep` | spark-core | `GoldTables` | `07-export/manifest.json` (índice de artefactos y etapas) | No |
+
+Cada carpeta numerada incluye además `stage.json` con el estado y las métricas de la etapa. La estructura completa, incluida `metadata/`, se muestra en [Publicación opcional en Amazon S3](#125-publicación-opcional-en-amazon-s3).
 
 > [!IMPORTANT]
 > Cuarentena y Silver se publican **antes** de la puerta de calidad. Aunque el lote quede bloqueado, siempre quedan disponibles los rechazados (para corregirlos) y las filas válidas (para inspección). Lo único que la puerta impide es publicar indicadores Gold sobre un lote de mala calidad.
@@ -983,21 +987,21 @@ Para desactivar la UI y el event log (por ejemplo en servidores o pruebas): `-Dw
 
 ### 12.5 Publicación opcional en Amazon S3
 
-El job siempre procesa y publica primero en el directorio local indicado. Si `S3_UPLOAD_ENABLED=true`, al terminar copia los artefactos a un prefijo único por tipo de job y corrida:
+El estándar de salida en S3 organiza cada corrida en una carpeta raíz con siete carpetas numeradas por etapa y una carpeta `metadata/`, como en la consola de Amazon S3. El job siempre procesa y publica primero en el directorio local indicado. Si `S3_UPLOAD_ENABLED=true`, al terminar copia los artefactos a un prefijo único por tipo de job y corrida. Por ejemplo, para el job `alerta_asistencia` con ID `asistencia-local-01`:
 
 ```text
-s3://<bucket>/<S3_PREFIX>/jobs/<job-type>/<job-id>/
-├── 01-bronze/       # CSV originales del input
-├── 02-validation/   # validation.json con conteos y motivos
-├── 03-quarantine/   # rechazados.csv y rechazados.parquet
-├── 04-silver/       # tablas tipadas CSV/Parquet
-├── 05-quality-gate/ # quality.json
-├── 06-gold/         # tablas analíticas y resumen.json, si se publicó
-├── 07-export/       # manifest.json con las salidas y estados de etapa
-└── metadata/        # events.jsonl, spark.json, result.json y worker.log disponibles
+s3://<bucket>/<S3_PREFIX>/jobs/alerta_asistencia/asistencia-local-01/
+├── 01-bronze/       # CSV originales del input y stage.json
+├── 02-validation/   # validation.json y stage.json
+├── 03-quarantine/   # rechazados.csv, rechazados.parquet y stage.json
+├── 04-silver/       # tablas tipadas CSV/Parquet y stage.json
+├── 05-quality-gate/ # quality.json y stage.json
+├── 06-gold/         # tablas analíticas, resumen.json y stage.json si se publicó
+├── 07-export/       # manifest.json y stage.json
+└── metadata/        # events.jsonl, spark.json, result.json y worker.log, cuando estén disponibles
 ```
 
-Cada prefijo de etapa contiene `stage.json`, generado por el pipeline, con un esquema común (`runId`, `stage`, estado, marcas de tiempo, duración, jobs Spark, detalle y `metrics`) y métricas específicas. BRONZE incluye conteos por tabla; VALIDATION, conteos y motivos; QUARANTINE, rechazos por tabla; SILVER y GOLD, filas por tabla y formatos; QUALITY_GATE, tolerancia, checks y decisión; EXPORT, tablas, filas, formatos y resumen. Los mismos informes también quedan en `stage-reports/` en la salida local. Si la puerta de calidad bloquea, GOLD y EXPORT aparecen como `SKIPPED` con el motivo, sin salidas analíticas.
+Los nombres y el orden de estas ocho carpetas son el estándar para cada corrida. Cada prefijo de etapa contiene `stage.json`, generado por el pipeline, con un esquema común (`runId`, `stage`, estado, marcas de tiempo, duración, jobs Spark, detalle y `metrics`) y métricas específicas. BRONZE incluye conteos por tabla; VALIDATION, conteos y motivos; QUARANTINE, rechazos por tabla; SILVER y GOLD, filas por tabla y formatos; QUALITY_GATE, tolerancia, checks y decisión; EXPORT, tablas, filas, formatos y resumen. Los mismos informes también quedan en `stage-reports/` en la salida local. Si la puerta de calidad bloquea, `06-gold/` y `07-export/` se conservan como carpetas de etapa con estado `SKIPPED` y sin salidas analíticas.
 
 El upload es **posterior** a la ejecución local; Spark todavía lee CSV locales y escribe los resultados locales. No requiere modificar el job para usar `s3a://`. La publicación es opt-in: sin `S3_UPLOAD_ENABLED=true`, pruebas y ejecuciones locales no contactan AWS.
 
