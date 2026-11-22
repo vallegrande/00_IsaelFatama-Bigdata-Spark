@@ -16,6 +16,20 @@ public enum JobType {
             "pe.edu.vallegrande.bigdata.job.asistencia.AlertaAsistenciaJob",
             "Alerta de Asistencia",
             List.of("alertas_asistencia", "alertas_por_curso")
+    ),
+
+    CARGA_ORACLE(
+            "job-carga-oracle",
+            "pe.edu.vallegrande.bigdata.job.carga.CargaOracleJob",
+            "Carga a Oracle (insertar y actualizar)",
+            List.of()
+    ),
+
+    LECTURA_ORACLE(
+            "job-lectura-oracle",
+            "pe.edu.vallegrande.bigdata.lectura.LecturaOracleJob",
+            "Lectura desde Oracle",
+            List.of()
     );
 
     public static final JobType DEFAULT = RENDIMIENTO_ACADEMICO;
