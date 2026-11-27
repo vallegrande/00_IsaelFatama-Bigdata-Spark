@@ -11,9 +11,6 @@
         <module>contracts</module>
         <module>spark</module>
         <module>backend-api</module>
-        <module>spark/job-carga-oracle</module>
-        <module>spark/job-carga-oracle</module>
-        <module>spark/job-lectura-oracle</module>
     </modules>
 
     <properties>

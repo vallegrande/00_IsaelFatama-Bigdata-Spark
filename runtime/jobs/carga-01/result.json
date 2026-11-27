@@ -1,0 +1,45 @@
+{
+  "published" : true,
+  "rowsByTable" : {
+    "SEMESTRES" : 6,
+    "CURSOS" : 9,
+    "ESTUDIANTES" : 119,
+    "NOTAS" : 4265,
+    "ASISTENCIA" : 17115,
+    "RENDIMIENTO" : 1071,
+    "CURSOS_RESUMEN" : 9
+  },
+  "loads" : [ {
+    "table" : "SEMESTRES",
+    "inserted" : 6,
+    "updated" : 0
+  }, {
+    "table" : "CURSOS",
+    "inserted" : 9,
+    "updated" : 0
+  }, {
+    "table" : "ESTUDIANTES",
+    "inserted" : 119,
+    "updated" : 0
+  }, {
+    "table" : "NOTAS",
+    "inserted" : 4265,
+    "updated" : 0
+  }, {
+    "table" : "ASISTENCIA",
+    "inserted" : 17115,
+    "updated" : 0
+  }, {
+    "table" : "RENDIMIENTO",
+    "inserted" : 1071,
+    "updated" : 0
+  }, {
+    "table" : "CURSOS_RESUMEN",
+    "inserted" : 9,
+    "updated" : 0
+  } ],
+  "totalRows" : 22594,
+  "insertedRows" : 22594,
+  "updatedRows" : 0,
+  "durationMs" : 9856
+}

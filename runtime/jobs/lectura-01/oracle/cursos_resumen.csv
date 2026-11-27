@@ -1,0 +1,10 @@
+﻿curso_id,periodo,curso,docente,matriculados,aprobados,desaprobados,promedio,asistencia_promedio,tasa_aprobacion
+APS,2026-II,Administración de Proyectos de Sistemas,Mg. Carla Rojas Palomino,119,100,19,15.26,0.93,0.84
+CII,2026-II,Comunicación Interpersonal en Inglés,Lic. Karen Ortiz Aguilar,119,106,8,15.79,0.93,0.91
+EFSRT5,2026-II,Exp. Formativas en Sit. Reales de Trabajo 5,Ing. Rosa Castillo Villanueva,119,0,0,15.78,0.92,
+EIA,2026-II,Estadística Inferencial Aplicada,Lic. Martín Chávez Ramos,119,79,35,13.97,0.92,0.68
+EIT,2026-II,Emprendimiento de Innovación Tecnológica,Mg. Diego Espinoza Cruz,119,0,0,15.38,0.92,
+FCS,2026-II,Fundamentos de Calidad de Software,Mg. Patricia Vargas Luna,119,94,16,15.21,0.93,0.82
+FIA,2026-II,Fundamentos de Inteligencia Artificial,Mg. Lucía Paredes Soto,119,95,22,14.45,0.93,0.81
+SDE,2026-II,Sistemas Distribuidos y Escalables,Ing. Raúl Medina Cárdenas,119,81,32,13.99,0.92,0.69
+TBD,2026-II,Talleres de Big Data,Ing. Jorge Huamán Salazar,119,90,22,14.6,0.93,0.78

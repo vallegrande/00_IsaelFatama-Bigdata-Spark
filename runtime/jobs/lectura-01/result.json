@@ -1,0 +1,15 @@
+{
+  "published" : true,
+  "rowsByTable" : {
+    "SEMESTRES" : 6,
+    "CURSOS" : 9,
+    "ESTUDIANTES" : 119,
+    "NOTAS" : 4265,
+    "ASISTENCIA" : 17115,
+    "RENDIMIENTO" : 1071,
+    "CURSOS_RESUMEN" : 9
+  },
+  "totalRows" : 22594,
+  "outputFolder" : "oracle",
+  "durationMs" : 7686
+}
